@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Playground</title>
+  <meta name="description" content="Dual-model AI playground generator — scrape banking UIs, generate interactive HTML with local LLMs, fine-tune on your own data. All on one RTX 4090.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #13161f;
+      color: #d1dae8;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    a { color: #60a5fa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .hero {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #f3f5f9;
+      margin-bottom: 0.75rem;
+    }
+    .hero .subtitle {
+      font-size: 1.15rem;
+      color: #9ba8c0;
+      max-width: 640px;
+      margin: 0 auto 2rem;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .tag {
+      background: #212638;
+      border: 1px solid #2f3549;
+      border-radius: 6px;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.8rem;
+      color: #9ba8c0;
+      font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', monospace;
+    }
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #3b82f6;
+      color: #fff;
+      padding: 0.75rem 2rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background 0.2s;
+      margin-bottom: 3rem;
+    }
+    .cta:hover { background: #2563eb; text-decoration: none; }
+
+    .screenshot {
+      max-width: 900px;
+      margin: 0 auto 3rem;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #2f3549;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+    .screenshot img { width: 100%; display: block; }
+
+    .section {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 2rem 3rem;
+    }
+    .section h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #f3f5f9;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #2f3549;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .feature-card {
+      background: #1a1d2b;
+      border: 1px solid #2f3549;
+      border-radius: 10px;
+      padding: 1.25rem;
+    }
+    .feature-card h3 {
+      color: #e8ecf4;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+    .feature-card p {
+      color: #9ba8c0;
+      font-size: 0.85rem;
+      line-height: 1.5;
+    }
+
+    .arch {
+      background: #1a1d2b;
+      border: 1px solid #2f3549;
+      border-radius: 10px;
+      padding: 1.5rem;
+      overflow-x: auto;
+    }
+    .arch pre {
+      font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', monospace;
+      font-size: 0.8rem;
+      color: #b8c3d6;
+      line-height: 1.5;
+    }
+
+    .model-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    .model-table th, .model-table td {
+      text-align: left;
+      padding: 0.6rem 1rem;
+      border-bottom: 1px solid #2f3549;
+      font-size: 0.85rem;
+    }
+    .model-table th {
+      color: #9ba8c0;
+      font-weight: 500;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .model-table td { color: #d1dae8; }
+    .model-table code {
+      background: #212638;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+
+    .tabs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.75rem;
+    }
+    .tab-card {
+      background: #1a1d2b;
+      border: 1px solid #2f3549;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    .tab-card .num {
+      display: inline-block;
+      background: #3b82f6;
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      border-radius: 4px;
+      margin-right: 0.4rem;
+    }
+    .tab-card h3 {
+      display: inline;
+      font-size: 0.9rem;
+      color: #e8ecf4;
+    }
+    .tab-card p {
+      color: #9ba8c0;
+      font-size: 0.8rem;
+      margin-top: 0.4rem;
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .result-card {
+      background: #1a1d2b;
+      border: 1px solid #2f3549;
+      border-radius: 10px;
+      padding: 1.25rem;
+      text-align: center;
+    }
+    .result-card .value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #60a5fa;
+    }
+    .result-card .label {
+      font-size: 0.8rem;
+      color: #9ba8c0;
+      margin-top: 0.25rem;
+    }
+
+    footer {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+      color: #6b7a94;
+      font-size: 0.8rem;
+      border-top: 1px solid #2f3549;
+    }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 1.75rem; }
+      .hero .subtitle { font-size: 1rem; }
+      .features, .tabs-grid, .results-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Enterprise Playground</h1>
+  <p class="subtitle">Dual-model AI playground generator &mdash; scrape banking UIs, generate interactive HTML with local LLMs, fine-tune on your own data. All on one RTX 4090.</p>
+
+  <div class="tags">
+    <span class="tag">Python</span>
+    <span class="tag">TypeScript</span>
+    <span class="tag">FastAPI</span>
+    <span class="tag">Next.js</span>
+    <span class="tag">Ollama</span>
+    <span class="tag">ChromaDB</span>
+    <span class="tag">UMAP</span>
+    <span class="tag">Plotly</span>
+    <span class="tag">QLoRA</span>
+    <span class="tag">Playwright</span>
+    <span class="tag">RTX 4090</span>
+  </div>
+
+  <a href="https://github.com/aptsalt/enterprise-playground" class="cta">View on GitHub</a>
+</div>
+
+<div class="screenshot">
+  <img src="screenshots/dark-generate-tab.png" alt="Enterprise Playground Dashboard">
+</div>
+
+<div class="section">
+  <h2>Features</h2>
+  <div class="features">
+    <div class="feature-card">
+      <h3>Dual-Model Inference</h3>
+      <p>14B code generator + 3B router running simultaneously on one GPU (10.5 GB VRAM)</p>
+    </div>
+    <div class="feature-card">
+      <h3>SSE Streaming</h3>
+      <p>Real-time HTML generation streamed token-by-token to the browser</p>
+    </div>
+    <div class="feature-card">
+      <h3>RAG Pipeline</h3>
+      <p>ChromaDB + nomic-embed-text embeddings (CPU-only, zero VRAM) enrich prompts with domain context</p>
+    </div>
+    <div class="feature-card">
+      <h3>Semantic Caching</h3>
+      <p>SequenceMatcher-based dedup &mdash; identical prompts return instantly, saving 100% of tokens</p>
+    </div>
+    <div class="feature-card">
+      <h3>Smart Routing</h3>
+      <p>Keyword + LLM classifier routes requests to the optimal model (3B for text, 14B for code)</p>
+    </div>
+    <div class="feature-card">
+      <h3>Embedding Visualizer</h3>
+      <p>Interactive 2D/3D UMAP projections of RAG embeddings via Plotly.js with click-to-inspect</p>
+    </div>
+    <div class="feature-card">
+      <h3>ChromaDB Inspector</h3>
+      <p>Chunk browser, type distributions, per-workflow analytics, similarity search</p>
+    </div>
+    <div class="feature-card">
+      <h3>QLoRA Fine-Tuning</h3>
+      <p>LoRA r=32 training pipeline with dataset preparation, training, and Ollama deployment</p>
+    </div>
+    <div class="feature-card">
+      <h3>Web Scraper</h3>
+      <p>Playwright-based capture of banking workflow UIs with full-page screenshots</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Architecture</h2>
+  <div class="arch">
+    <pre>User Prompt
+     |
+     v
++--------------+
+| Smart Router | &lt;-- qwen2.5:3b (keyword + LLM classification)
+|   (3B)       |
++------+-------+
+       |
+  +----+----+
+  |         |
+Code      Text
+  |         |
+  v         v
++------+  +------+
+|Cache |  | 3B   |
+|Check |  |Direct|
++--+---+  +------+
+   |
+HIT| MISS
+   |    |
+   |    v
+   | +----------+
+   | |RAG Query | &lt;-- ChromaDB + nomic-embed-text (CPU)
+   | +----+-----+
+   |      v
+   | +----------+
+   | |3B Compress| &lt;-- Saves 30-50% input tokens
+   | +----+-----+
+   |      v
+   | +----------+
+   | |14B Gen   | &lt;-- qwen2.5-coder:14b (SSE streaming)
+   | +----+-----+
+   |      v
+   | +----------+
+   | |Cache Store|
+   +&gt;|+ Save HTML|
+     +----------+</pre>
+  </div>
+
+  <table class="model-table">
+    <thead>
+      <tr><th>Model</th><th>Role</th><th>VRAM</th><th>Context</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><code>qwen2.5-coder:14b</code></td><td>HTML/CSS/JS generation</td><td>~8.5 GB</td><td>8192 tokens</td></tr>
+      <tr><td><code>qwen2.5:3b</code></td><td>Routing, chat, compression</td><td>~2.0 GB</td><td>2048 tokens</td></tr>
+      <tr><td><code>nomic-embed-text</code></td><td>RAG embeddings</td><td>0 GB (CPU)</td><td>&mdash;</td></tr>
+      <tr><td><strong>Total</strong></td><td></td><td><strong>~10.5 GB</strong></td><td>Leaves 5.5 GB for KV cache</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <h2>8-Tab Dashboard</h2>
+  <div class="tabs-grid">
+    <div class="tab-card"><span class="num">1</span><h3>Generate</h3><p>SSE streaming, prompt input, style selector, RAG context panel</p></div>
+    <div class="tab-card"><span class="num">2</span><h3>Gallery</h3><p>Live iframe previews, search/filter/sort, CACHE and RAG badges</p></div>
+    <div class="tab-card"><span class="num">3</span><h3>Pipeline</h3><p>7-phase ML pipeline: Scrape &gt; Map &gt; Store &gt; Route &gt; Generate &gt; Cache &gt; Train</p></div>
+    <div class="tab-card"><span class="num">4</span><h3>Data &amp; RAG</h3><p>RAG ingest/clear/query tester, workflow browser, dataset prep</p></div>
+    <div class="tab-card"><span class="num">5</span><h3>ML Metrics</h3><p>Model comparison (14B vs 3B), VRAM gauge, cache rate, activity log</p></div>
+    <div class="tab-card"><span class="num">6</span><h3>Observatory</h3><p>RAG chunking, training lifecycle, adapter registry, pipeline diagram</p></div>
+    <div class="tab-card"><span class="num">7</span><h3>Agent</h3><p>Trace timeline, model distribution, router methods, token economy</p></div>
+    <div class="tab-card"><span class="num">8</span><h3>Embeddings</h3><p>UMAP 2D/3D scatter (Plotly.js), ChromaDB inspector, storage map</p></div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Results</h2>
+  <div class="results-grid">
+    <div class="result-card"><div class="value">95.8%</div><div class="label">Router Accuracy</div></div>
+    <div class="result-card"><div class="value">85%</div><div class="label">Training Loss Reduction</div></div>
+    <div class="result-card"><div class="value">10.5 GB</div><div class="label">VRAM Budget (65.6%)</div></div>
+    <div class="result-card"><div class="value">~35%</div><div class="label">Cache Hit Rate</div></div>
+    <div class="result-card"><div class="value">2-4s</div><div class="label">Generation Speed</div></div>
+    <div class="result-card"><div class="value">30+</div><div class="label">API Endpoints</div></div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Tech Stack</h2>
+  <div class="features">
+    <div class="feature-card">
+      <h3>Backend</h3>
+      <p>Python 3.11+ / FastAPI / Ollama / ChromaDB / UMAP / Plotly.js / Playwright / PyTorch + PEFT / SQLite</p>
+    </div>
+    <div class="feature-card">
+      <h3>Frontend</h3>
+      <p>Next.js 15 / TypeScript strict / Tailwind CSS + shadcn/ui / Zustand / TanStack Query / Zod</p>
+    </div>
+    <div class="feature-card">
+      <h3>Testing</h3>
+      <p>Vitest for unit tests / Playwright for E2E / Storybook for component development</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>MIT License &middot; <a href="https://github.com/aptsalt/enterprise-playground">GitHub</a></p>
+</footer>
+
+</body>
+</html>
