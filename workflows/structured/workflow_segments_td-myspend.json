@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-segments_td-myspend-20260208",
+  "name": "Segments Td-Myspend Workflow",
+  "category": "segments_td-myspend",
+  "description": "User journey through TD segments td-myspend section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/solutions/ways-to-bank/td-myspend",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/ways-to-bank/td-myspend",
+      "title": "Ways to Bank | TD MySpend",
+      "content_summary": "Track your spending, create savings goals and get helpful insights for your finances all from your mobile device with the TD MySpend app. | Online Services | Bank with TD apps | Track spending and saving with TD MySpend | Track your expenses | Save for your goals | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/solutions/ways-to-bank/td-myspend",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\segments_ca-en-personal-banking-solutions-ways-to-bank-td-myspend.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "segments_td-myspend",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:52:46.546874"
+}

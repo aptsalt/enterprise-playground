@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-mortgages_calculators-tools-20260208",
+  "name": "Mortgages Calculators-Tools Workflow",
+  "category": "mortgages_calculators-tools",
+  "description": "User journey through TD mortgages calculators-tools section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/mortgages/calculators-tools",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/mortgages/calculators-tools",
+      "title": "Mortgage Calculators - TD Canada Trust",
+      "content_summary": "Use our TD mortgage calculators to calculate your mortgage payments. Use our tools to find the best mortgage solution that works for you and compare options. Our mortgage calculators can help you discover the estimated amount for your monthly mortgage payments based on the mortgage option you choose. | Online Services | Explore your payment and affordability options. | Mortgage Calculators and Tools | Mortgage Payment Calculator | Mortgage Affordability Calculator | 1 product/feature cards | 1 f",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/mortgages/calculators-tools",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\mortgages_ca-en-personal-banking-products-mortgages-calculators-tools.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "mortgages_calculators-tools",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:40:56.382697"
+}

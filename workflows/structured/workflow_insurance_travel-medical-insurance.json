@@ -1,0 +1,321 @@
+{
+  "workflow_id": "wf-insurance_travel-medical-insurance-20260208",
+  "name": "Insurance Travel-Medical-Insurance Workflow",
+  "category": "insurance_travel-medical-insurance",
+  "description": "User journey through TD insurance travel-medical-insurance section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/insurance/travel-medical-insurance",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/insurance/travel-medical-insurance",
+      "title": "Travel Insurance Plans for Canadians",
+      "content_summary": "Planning an international or domestic trip outside of your province or territory of residence? Explore single trip and annual trip travel medical plans from TD. | Online Services | TD Travel Insurance for TD Bank Group Customers | Why consider travel insurance? | Why choose TD Travel Insurance? | Explore our Travel Insurance Plans | 1 product/feature cards",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Browse and compare 1 options, select one to proceed",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\insurance_ca-en-personal-banking-products-insurance-travel-medical-insurance.png"
+    },
+    {
+      "step_number": 2,
+      "url": "https://www.td.com/ca/en/personal-banking/products/insurance/travel-medical-insurance/annual-plan",
+      "title": "Annual Plan",
+      "content_summary": "Purchasing the Annual Plan could be more cost-effective than purchasing a single trip plan each time you travel. Explore this plan. | Online Services | TD Annual Plan | Coverage Highlights | Eligibility | Exclusions and Limitations",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\insurance_ca-en-personal-banking-products-insurance-travel-medical-insurance-annual-plan.png"
+    },
+    {
+      "step_number": 3,
+      "url": "https://www.td.com/ca/en/personal-banking/products/insurance/travel-medical-insurance/single-trip-plan",
+      "title": "Single Trip Plan for Canadians",
+      "content_summary": "Help protect your next trip in the event of an eligible medical emergency with the Single Trip Plan.   | Online Services | TD Single Trip Plan | Coverage Highlights | Eligibility | Exclusions and Limitations",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\insurance_ca-en-personal-banking-products-insurance-travel-medical-insurance-single-trip-p.png"
+    },
+    {
+      "step_number": 4,
+      "url": "https://www.td.com/ca/en/personal-banking/products/insurance/travel-medical-insurance/topup-extension",
+      "title": "Top-up or Extension Insurance from TD",
+      "content_summary": "Need to add extra days of coverage or increase the coverage amount for your existing travel insurance plan? Consider Top-up or Extension Insurance from TD. | Online Services | What is Top-up or Extension of coverage1? | When can Top-up or Extension of coverage be useful? | How does Top-up or Extension of coverage work? | Coverage Highlights",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\insurance_ca-en-personal-banking-products-insurance-travel-medical-insurance-topup-extensi.png"
+    },
+    {
+      "step_number": 5,
+      "url": "https://www.td.com/ca/en/personal-banking/products/insurance/travel-medical-insurance/trip-cancellation-interruption-plan",
+      "title": "TD Trip Cancellation & Interruption Insurance",
+      "content_summary": "TD Trip Cancellation & Trip Interruption Insurance can help provide financial protection for your eligible trip expenses in case an unexpected, covered event occurs. | Online Services | TD Trip Cancellation & Trip Interruption Insurance | Coverage Highlights | Eligibility | Exclusions and Limitations",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\insurance_ca-en-personal-banking-products-insurance-travel-medical-insurance-trip-cancella.png"
+    }
+  ],
+  "total_pages": 5,
+  "tags": [
+    "insurance_travel-medical-insurance",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:33:12.969358"
+}

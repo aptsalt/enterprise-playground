@@ -1,0 +1,80 @@
+{
+  "workflow_id": "wf-credit_cards_credit-cards-for-newcomers-20260208",
+  "name": "Credit Card Journey",
+  "category": "credit_cards_credit-cards-for-newcomers",
+  "description": "Customer journey for understanding how they can start using a new, simple Credit Cards.",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/solutions/new-to-canada/credit-cards-for-newcomers",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/new-to-canada/credit-cards-for-newcomers",
+      "title": "Credit made simple: Credit Cards for Newcomers | TD Canada Trust",
+      "content_summary": "Learn about our special TD Credit Card offers for newcomers and how using a credit card can help you build your credit in Canada. | Online Services | Special credit card offers await | We speak many languages | Credit Cards 101 for newcomers | Credit card basics | 14 product/feature cards",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Fill out the form to confirm transaction",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-solutions-new-to-canada-credit-cards-for-newcomers.png",
+      "expected_outcome": "",
+      "next_step_trigger": ""
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "credit_cards_credit-cards-for-newcomers",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:32:25.512385",
+  "llm_enhanced": true
+}

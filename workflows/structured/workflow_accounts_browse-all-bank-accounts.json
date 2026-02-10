@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-accounts_browse-all-bank-accounts-20260208",
+  "name": "Accounts Browse-All-Bank-Accounts Workflow",
+  "category": "accounts_browse-all-bank-accounts",
+  "description": "User journey through TD accounts browse-all-bank-accounts section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/browse-all-bank-accounts",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/browse-all-bank-accounts",
+      "title": "Types of Bank Accounts | Chequing and Savings | TD Canada Trust",
+      "content_summary": "Find the type of bank account that can help you with your day-to-day banking so you can manage your cash flow effectively. Visit TD to browse through the different bank accounts available to you. | Online Services | Open a Bank Account Online in Canada | Choose an account type | TD All-Inclusive Banking Plan | TD Unlimited Chequing Account | 51 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/browse-all-bank-accounts",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\accounts_ca-en-personal-banking-products-bank-accounts-browse-all-bank-accounts.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "accounts_browse-all-bank-accounts",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:17:15.635172"
+}

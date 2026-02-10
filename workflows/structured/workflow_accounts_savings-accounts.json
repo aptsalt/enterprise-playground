@@ -1,0 +1,344 @@
+{
+  "workflow_id": "wf-accounts_savings-accounts-20260208",
+  "name": "Accounts Savings-Accounts Workflow",
+  "category": "accounts_savings-accounts",
+  "description": "User journey through TD accounts savings-accounts section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/savings-accounts",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/savings-accounts",
+      "title": "TD Savings Accounts | TD Canada Trust",
+      "content_summary": "TD helps you choose a personal savings account that's right for you. It\u2019s fast, convenient and easy. Open your TD savings account today! | Online Services | Savings Accounts | How a TD Savings Account can help meet your needs | Help you reach your goals | Automate your savings | 38 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/savings-accounts",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\accounts_ca-en-personal-banking-products-bank-accounts-savings-accounts.png"
+    },
+    {
+      "step_number": 2,
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/savings-accounts/epremium-savings-account",
+      "title": "Get a TD ePremium Online banking Account | TD Canada Trust",
+      "content_summary": "Saving more is easy with an online savings account. Sign up for a TD ePremium Savings Account to get a higher interest rate and free online transfers. | Online Services | TD ePremium Savings Account | Plan Highlights | Account Fees | Our savings account interest rates | 31 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/savings-accounts/epremium-savings-account",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\accounts_ca-en-personal-banking-products-bank-accounts-savings-accounts-epremium-savings-.png"
+    },
+    {
+      "step_number": 3,
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/savings-accounts/every-day-savings-account",
+      "title": "Apply for a TD Every Day Savings Account | TD Canada Trust",
+      "content_summary": "The TD Every Day Savings Account with no minimum balance helps you build your savings. Sign up and start getting interest on every dollar you save today. | Online Services | TD Every Day\u00a0Savings Account | Plan Highlights | Account Fees | Our savings account interest rates | 31 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/savings-accounts/every-day-savings-account",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\accounts_ca-en-personal-banking-products-bank-accounts-savings-accounts-every-day-savings.png"
+    },
+    {
+      "step_number": 4,
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/savings-accounts/growth-savings-account",
+      "title": "TD Growth Savings Account| Savings Accounts | TD Canada Trust",
+      "content_summary": "Open a TD Growth Savings account and enjoy tiered  interest rates \u2013 helping you earn more as you save. We offer a variety of savings benefits to help you reach your goals. | Online Services | TD Growth\u2122 Savings Account | Plan Highlights | Boosted Rate Eligibility | Account Fees | 31 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/savings-accounts/growth-savings-account",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\accounts_ca-en-personal-banking-products-bank-accounts-savings-accounts-growth-savings-ac.png"
+    }
+  ],
+  "total_pages": 4,
+  "tags": [
+    "accounts_savings-accounts",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:24:23.103005"
+}

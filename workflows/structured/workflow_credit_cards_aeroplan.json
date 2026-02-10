@@ -1,0 +1,214 @@
+{
+  "workflow_id": "wf-credit_cards_aeroplan-20260208",
+  "name": "Credit Cards Aeroplan Workflow",
+  "category": "credit_cards_aeroplan",
+  "description": "User journey through TD credit cards aeroplan section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/credit-cards/aeroplan",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/aeroplan",
+      "title": "Apply Online for Aeroplan Credit Cards in Canada | TD Canada Trust",
+      "content_summary": "Our best TD Aeroplan Credit Cards come with a wide range of benefits. TD Aeroplan Credit Cards earn Aeroplan points to use towards flights and offer Canadians travel flexibility and rewards. Visit TD to apply online today! | Online Services | TD\u00ae Aeroplan\u00ae Visa* Credit Cards in Canada | What is a TD Aeroplan credit card? | TD\u00ae Aeroplan\u00ae Visa Infinite*\u00a0Card | TD\u00ae Aeroplan\u00ae Visa Platinum* Credit Card | 9 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/aeroplan",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-aeroplan.png"
+    },
+    {
+      "step_number": 2,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/aeroplan/aeroplan-visa-infinite-card",
+      "title": "TD Aeroplan Visa Infinite Credit Card | TD Canada Trust",
+      "content_summary": "With TD Aeroplan Visa Infinite Credit Card, in Canada, you can earn Aeroplan points as welcome bonus. Conditions apply. Earn Aeroplan points to use towards flights and rewards. Apply Online today! | Online Services | TD\u00ae Aeroplan\u00ae Visa Infinite*\u00a0Card | Special Offer | Earn Points. Share the Journey. | Award winning TD Credit Card | 1 product/feature cards | 2 form(s) with 6 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/aeroplan/aeroplan-visa-infinite-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "slider1",
+              "type": "text",
+              "label": "Gas, electric vehicle charging, grocery and direct through Air Canada\u00ae purchases (including Air Canada Vacations\u00ae).",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider2",
+              "type": "text",
+              "label": "All Other Purchases",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        },
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/aeroplan/aeroplan-visa-infinite-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Gas, electric vehicle charging, grocery and direct through Air Canada\u00ae purchases (including Air Canada Vacations\u00ae)., , All Other Purchases, , Yes",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-aeroplan-aeroplan-visa-infinite-car.png"
+    }
+  ],
+  "total_pages": 2,
+  "tags": [
+    "credit_cards_aeroplan",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:24:32.906023"
+}

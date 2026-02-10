@@ -1,0 +1,77 @@
+{
+  "workflow_id": "wf-accounts_cdic-20260208",
+  "name": "Accounts Cdic Workflow",
+  "category": "accounts_cdic",
+  "description": "User journey through TD accounts cdic section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/cdic",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/cdic",
+      "title": "CDIC | TD Canada Trust",
+      "content_summary": "The Canada Deposit Insurance Corporation (CDIC) is a federal Crown corporation created to protect Canadian deposits made with financial institutions in case of their failure. | Online Services | Canada Deposit Insurance Corporation (CDIC) -\u00a0Protecting Your Deposits | What is the CDIC? | To be eligible for deposit insurance, a deposit must be: | Eligible deposits include: | 1 product/feature cards",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Browse and compare 1 options, select one to proceed",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\accounts_ca-en-personal-banking-products-bank-accounts-cdic.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "accounts_cdic",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:24:08.986573"
+}

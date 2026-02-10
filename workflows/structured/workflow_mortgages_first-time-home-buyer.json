@@ -1,0 +1,185 @@
+{
+  "workflow_id": "wf-mortgages_first-time-home-buyer-20260208",
+  "name": "TD Bank Mortgage Pre-Approval Workflow",
+  "category": "mortgages_first-time-home-buyer",
+  "description": "A user journey for mortgage preapprovals from TD Canada Trust.",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/mortgages/first-time-home-buyer",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/mortgages/first-time-home-buyer",
+      "title": "TD First-Time Home Buyer - TD Canada Trust",
+      "content_summary": "Are you buying your first home? Get ready for home ownership by letting us guide you through your home buying journey with helpful information and tools. | Online Services | Step confidently into homeownership with personalized mortgage advice. | Buying your first home? | Understand the basics | Tips for first-time home buyers | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/mortgages/first-time-home-buyer",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Reads the terms and conditions for a mortgage preapproval.",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\mortgages_ca-en-personal-banking-products-mortgages-first-time-home-buyer.png",
+      "expected_outcome": "'TD Canada Trust' page is displayed with information about their rates. The user reads this from 'Online Services', then to specific details on 120-day hold in return",
+      "next_step_trigger": "User clicks the button named View offer Details."
+    },
+    {
+      "step_number": 2,
+      "url": "https://www.td.com/ca/en/personal-banking/products/mortgages/first-time-home-buyer/pre-approval",
+      "title": "Mortgage Pre-Approval - TD Canada Trust",
+      "content_summary": "A mortgage pre-approval will help you determine how much you may be able to borrow for your home.  Connect with a TD Mortgage Specialist to learn more. | Online Services | Mortgage Pre-Approval | Why apply for a mortgage pre-approval? | Online Mortgage Pre-Approval | The TD 120-day rate hold | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/mortgages/first-time-home-buyer/pre-approval",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Reads the terms of online mortgage preapprovals.",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\mortgages_ca-en-personal-banking-products-mortgages-first-time-home-buyer-pre-approval.png",
+      "expected_outcome": "'TD Canada Trust' page is displayed with information about their rates. User reads this from 'Online Services', then to specific details on Online Mortgage Pre-Approval and 120 day hold in return",
+      "next_step_trigger": "User clicks the button named View offer Details."
+    }
+  ],
+  "total_pages": 2,
+  "tags": [
+    "mortgages_first-time-home-buyer",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:41:01.994083",
+  "llm_enhanced": true
+}

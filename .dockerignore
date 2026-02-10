@@ -1,0 +1,47 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+.eggs
+dist
+build
+
+# Virtual environments
+.venv
+venv
+env
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Environment secrets
+.env
+
+# Generated data (mounted as volumes instead)
+playground/generated/*
+workflows/raw/*
+workflows/structured/*
+workflows/screenshots/*
+.cache/*
+fine_tuning/data/*
+fine_tuning/adapters/*
+
+# Docs (not needed in container)
+*.md
+!requirements.txt
+
+# Deployment configs (not needed inside container)
+deployment/

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# Environment
+.env
+.env.local
+
+# Data (large/generated files)
+workflows/raw/*.html
+workflows/screenshots/*.png
+fine_tuning/adapters/
+fine_tuning/data/*.jsonl
+playground/generated/
+
+# ChromaDB & Cache
+.chroma/
+.cache/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/coverage/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Temporary
+tmp_*
+*.tmp
+
+# Playwright
+.playwright-mcp/
+
+# Logs
+*.log

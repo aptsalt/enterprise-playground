@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-loans_overdraft-protection-20260208",
+  "name": "Loans Overdraft-Protection Workflow",
+  "category": "loans_overdraft-protection",
+  "description": "User journey through TD loans overdraft-protection section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/borrowing/overdraft-protection",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/borrowing/overdraft-protection",
+      "title": "Overdraft Protection | TD Canada Trust",
+      "content_summary": "Overdraft protection is your financial safety net. If you run short of funds, it will cover you up to your approved limit, up to $5,000. Learn more today at TD!  | Online Services | What is Overdraft Protection? | Benefits of Overdraft Protection | Two Types of Overdraft Protection | Pay As You Go Overdraft Protection | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/borrowing/overdraft-protection",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\loans_ca-en-personal-banking-products-borrowing-overdraft-protection.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "loans_overdraft-protection",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:40:42.576195"
+}

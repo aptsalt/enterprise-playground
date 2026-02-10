@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-insurance_credit-protection-20260208",
+  "name": "Insurance Credit-Protection Workflow",
+  "category": "insurance_credit-protection",
+  "description": "User journey through TD insurance credit-protection section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/insurance/credit-protection/claims",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/insurance/credit-protection/claims",
+      "title": "How to file a TD Protection Plans Claim | TD Canada Trust",
+      "content_summary": "Looking to file a TD Protection Plans insurance claim? TD can help guide you in submitting your claim. See the following steps here. | Online Services | How to file a TD Protection Plans Claim | TD Protection Plans Claims Forms | Mortgage, Line of Credit and Loan Protection | TD Business Credit Protection | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/insurance/credit-protection/claims",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\insurance_ca-en-personal-banking-products-insurance-credit-protection-claims.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "insurance_credit-protection",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:32:48.016572"
+}

@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-mortgages_td-home-equity-flexline-20260208",
+  "name": "Mortgages Td-Home-Equity-Flexline Workflow",
+  "category": "mortgages_td-home-equity-flexline",
+  "description": "User journey through TD mortgages td-home-equity-flexline section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/mortgages/td-home-equity-flexline",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/mortgages/td-home-equity-flexline",
+      "title": "TD Home Equity FlexLine (HELOC) \u2013 TD Canada Trust",
+      "content_summary": "Unlock the potential of your home's value with a home equity line of credit. TD\u2019s Home Equity FlexLine (HELOC) offers competitive rates and is an effective way to leverage your home\u2019s value. | Online Services | What is a TD Home Equity FlexLine (HELOC) and how to use it? | What is Revolving Portion? | What is Term Portion? | Special Term Portion Rates | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/mortgages/td-home-equity-flexline",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\mortgages_ca-en-personal-banking-products-mortgages-td-home-equity-flexline.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "mortgages_td-home-equity-flexline",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:48:29.765111"
+}

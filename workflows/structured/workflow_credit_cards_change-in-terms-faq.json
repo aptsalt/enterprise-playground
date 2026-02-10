@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-credit_cards_change-in-terms-faq-20260208",
+  "name": "Credit Cards Change-In-Terms-Faq Workflow",
+  "category": "credit_cards_change-in-terms-faq",
+  "description": "User journey through TD credit cards change-in-terms-faq section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/credit-cards/change-in-terms-faq",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/change-in-terms-faq",
+      "title": "TD Credit Cards Changes",
+      "content_summary": "Online Services | Starting April 30, 2025, changes are coming to our products. | TD First Class Travel\u00ae Visa Infinite*\u00a0Card | TD Platinum Travel Visa*\u00a0Card | TD Rewards Visa*\u00a0Card | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/change-in-terms-faq",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-change-in-terms-faq.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "credit_cards_change-in-terms-faq",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:28:11.942729"
+}

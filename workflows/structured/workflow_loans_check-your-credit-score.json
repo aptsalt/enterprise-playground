@@ -1,0 +1,77 @@
+{
+  "workflow_id": "wf-loans_check-your-credit-score-20260208",
+  "name": "Loans Check-Your-Credit-Score Workflow",
+  "category": "loans_check-your-credit-score",
+  "description": "User journey through TD loans check-your-credit-score section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/borrowing/check-your-credit-score",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/borrowing/check-your-credit-score",
+      "title": "How to check your credit score for free | TD Canada Trust",
+      "content_summary": "Check your credit score for free with the TD app. Understanding and learning about your credit score is an important part of your overall financial health. | Online Services | Check your credit score for free1 with the TransUnion CreditView\u00ae Dashboard in the TD app. | How to check your Credit Score with the TD app | Features of the TransUnion CreditView\u00ae Dashboard | Stay informed with Alerts",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\loans_ca-en-personal-banking-products-borrowing-check-your-credit-score.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "loans_check-your-credit-score",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:36:56.397446"
+}

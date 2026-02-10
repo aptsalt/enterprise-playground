@@ -1,0 +1,132 @@
+{
+  "workflow_id": "wf-loans_auto-finance-20260208",
+  "name": "Loans Auto-Finance Workflow",
+  "category": "loans_auto-finance",
+  "description": "User journey through TD loans auto-finance section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/borrowing/auto-finance",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/borrowing/auto-finance",
+      "title": "Auto Finance and Loans - TD Canada Trust",
+      "content_summary": "TD Auto Finance offers solutions for your car financing needs. Visit TD to learn about flexible financing options for most types of vehicles, RVs, & boats. | Online Services | EasyWeb Online Banking | I am a Dealer | Auto Financing Options to Suit Your Needs | I'm buying my first\u00a0vehicle | 1 product/feature cards | 2 form(s) with 6 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/borrowing/auto-finance",
+          "method": "get",
+          "fields": [
+            {
+              "name": "amount",
+              "type": "text",
+              "label": "Net Amount to Finance",
+              "required": false,
+              "placeholder": "0"
+            },
+            {
+              "name": "interestRate",
+              "type": "text",
+              "label": "Interest Rate*",
+              "required": false,
+              "placeholder": "0.00"
+            },
+            {
+              "name": "slider1",
+              "type": "text",
+              "label": "Pay it off in",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        },
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/borrowing/auto-finance",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Net Amount to Finance, Interest Rate*, Pay it off in, , Yes",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\loans_ca-en-personal-banking-products-borrowing-auto-finance.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "loans_auto-finance",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:36:48.020677"
+}

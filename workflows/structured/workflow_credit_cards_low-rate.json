@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-credit_cards_low-rate-20260208",
+  "name": "Credit Cards Low-Rate Workflow",
+  "category": "credit_cards_low-rate",
+  "description": "User journey through TD credit cards low-rate section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/credit-cards/low-rate",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/low-rate",
+      "title": "Apply Online for Low interest rate Credit Cards in Canada | TD Canada Trust",
+      "content_summary": "TD Visa Low interest credit cards give you credit flexibility with a low interest rate for purchases, balance transfers and cash advances in Canada. Apply online today! | Online Services | TD Credit Cards with a Low Interest Rate | What is a low interest rate credit card? | TD Low Rate Visa* Card | TD Business Select RateTM Visa* Card | 7 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/low-rate",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-low-rate.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "credit_cards_low-rate",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:28:16.514729"
+}

@@ -1,0 +1,159 @@
+{
+  "workflow_id": "wf-credit_cards_browse-all-20260208",
+  "name": "Credit Cards Browse-All Workflow",
+  "category": "credit_cards_browse-all",
+  "description": "User journey through TD credit cards browse-all section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/credit-cards/browse-all",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/browse-all",
+      "title": "Best TD Credit Cards in Canada | TD Canada Trust",
+      "content_summary": "Compare TD Credit Cards in Canada to find the right one for you. Browse to learn more about travel rewards, cash back and more. Visit us online and apply today. | Online Services | Compare TD Credit Cards to find what is right for you | What type of card do you want? | What features do you want in your card (select multiple) | TD Cash Back Visa Infinite*\u00a0Card | 28 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/browse-all",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-browse-all.png"
+    },
+    {
+      "step_number": 2,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/browse-all/trademark-legal",
+      "title": "Trade-marks for the TD Aeroplan Credit Cards | TD Canada Trust",
+      "content_summary": "Trademark Legal | Online Services | Trade-marks for the TD Aeroplan Credit Cards | See you in a bit | Site Index | TD Personal Banking",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-browse-all-trademark-legal.png"
+    }
+  ],
+  "total_pages": 2,
+  "tags": [
+    "credit_cards_browse-all",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:28:03.085539"
+}

@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-mortgages_second-home-mortgage-20260208",
+  "name": "Mortgages Second-Home-Mortgage Workflow",
+  "category": "mortgages_second-home-mortgage",
+  "description": "User journey through TD mortgages second-home-mortgage section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/mortgages/second-home-mortgage",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/mortgages/second-home-mortgage",
+      "title": "Second Home Mortgage - TD Canada Trust",
+      "content_summary": "Learn how to buy your second or next home and let TD help you determine what you can afford. No matter what your goals are, TD Canada Trust can help you find a convenient and affordable mortgage solution for your second home. Find out how we can help you with the process of finding your second home. | Online Services | Get ready to make your next property purchase. | Your guide to your next phase in home ownership. | Financing Between\u00a0Homes | Multi-Unit Residential\u00a0Mortgage | 1 product/feature c",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/mortgages/second-home-mortgage",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\mortgages_ca-en-personal-banking-products-mortgages-second-home-mortgage.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "mortgages_second-home-mortgage",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:44:55.030465"
+}

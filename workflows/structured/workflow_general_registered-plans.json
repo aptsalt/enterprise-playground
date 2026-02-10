@@ -1,0 +1,180 @@
+{
+  "workflow_id": "wf-general_registered-plans-20260208",
+  "name": "General Registered-Plans Workflow",
+  "category": "general_registered-plans",
+  "description": "User journey through TD general registered-plans section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/rif",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/rif",
+      "title": "Registered Retirement Income Fund (RRIF) | TD Canada Trust",
+      "content_summary": "A Registered Retirement Income Fund (RRIF) provides you with income during your retirement by utilizing the savings from your RRSP. | Online Services | Manage your savings and defer taxes in a RRIF | Registered Retirement Income Fund (RRIF) | Benefits of RRIFs | Grow your savings tax-deferred | 1 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/rif",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-personal-investing-products-registered-plans-rif.png"
+    },
+    {
+      "step_number": 2,
+      "url": "https://www.td.com/ca/en/personal-banking/products/personal-investing/registered-plans/rdsp",
+      "title": "Registered Disability Savings Plan (RDSP) | TD Direct Investing",
+      "content_summary": "A Registered Disability Savings Plan (RDSP) is an investment vehicle for persons with disabilities and their families to save for long-term financial needs. | Online Services | Self-Directed Registered Disability Savings Plan (RDSP) | Investing with the Registered Disability Savings Plan (RDSP) | Things to consider when opening an RDSP | Investment choices | 1 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/investing/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/investing/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/rdsp",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-products-personal-investing-registered-plans-rdsp.png"
+    }
+  ],
+  "total_pages": 2,
+  "tags": [
+    "general_registered-plans",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:32:38.293429"
+}

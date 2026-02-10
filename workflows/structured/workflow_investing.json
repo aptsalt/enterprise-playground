@@ -1,0 +1,665 @@
+{
+  "workflow_id": "wf-investing-20260208",
+  "name": "Investing Workflow",
+  "category": "investing",
+  "description": "User journey through TD investing section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/personal-investing/resp-calculator",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/resp-calculator",
+      "title": "RESP Calculator | TD Canada Trust",
+      "content_summary": "Use our RESP calculator to see how much you'll need to save for your child's post-secondary education. | Online Services | Ready to open an RESP? | Assumptions | Tips and advice to help you get started with RESP | RESP Rules & Contribution\u00a0Limits",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\investing_ca-en-personal-banking-personal-investing-resp-calculator.png"
+    },
+    {
+      "step_number": 2,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/tfsa-calculator",
+      "title": "TFSA Calculator | Saving & Investing | TD Canada Trust",
+      "content_summary": "A TFSA at TD can help you reach your savings goals sooner. Find out how your TFSA contributions could grow, over time, with our TFSA Calculator. | Online Services | TFSA Calculator | Ready to start saving with a TD TFSA? | Tips & advice to help you get started | What is a TFSA (Tax-Free Savings\u00a0Account)? | 1 form(s) with 7 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/personal-investing/tfsa-calculator",
+          "method": "get",
+          "fields": [
+            {
+              "name": "provinceCode",
+              "type": "select-one",
+              "label": "My province of residence",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "income",
+              "type": "text",
+              "label": "My current annual income",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "upfrontContrib",
+              "type": "text",
+              "label": "Amount I wish to contribute now",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "frequency",
+              "type": "select-one",
+              "label": "You can contribute every",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "regularContrib",
+              "type": "text",
+              "label": "Amount I will regularly contribute",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "rate",
+              "type": "text",
+              "label": "Enter an annual rate of return",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "termYear",
+              "type": "text",
+              "label": "Years I expect to save",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: My province of residence, My current annual income, Amount I wish to contribute now, You can contribute every, Amount I will regularly contribute",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\investing_ca-en-personal-banking-personal-investing-tfsa-calculator.png"
+    },
+    {
+      "step_number": 3,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/gic",
+      "title": "Guaranteed Investment Certificates (GICs) | TD Canada Trust",
+      "content_summary": "Invest in Guaranteed Investment Certificates (GICs) and protect 100% of your original investment. Visit TD Canada Trust to explore our GIC products. | Online Services | Guaranteed Investment Certificates (GICs) | Benefits of investing in a GIC | Safe and Secure | Competitive Rates | 10 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/personal-investing/products/gic",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\investing_ca-en-personal-banking-personal-investing-products-gic.png"
+    },
+    {
+      "step_number": 4,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/mutual-funds",
+      "title": "Mutual Funds | TD Canada Trust",
+      "content_summary": "A Mutual Fund is an investment that consists of stocks, bonds, or assets that are professionally managed to maximize potential investment returns. | Online Services | Mutual Funds | Benefits of Mutual Funds | Professional Management | Diversification | 7 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/personal-investing/products/mutual-funds",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\investing_ca-en-personal-banking-personal-investing-products-mutual-funds.png"
+    },
+    {
+      "step_number": 5,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/investment-plans/tfsa",
+      "title": "Tax-Free Savings Account (TFSA) | TD Canada Trust",
+      "content_summary": "A Tax-Free Savings Account (TFSA) provides you with a flexible way to save for a financial goal, while growing your money tax-free. | Online Services | Grow your money, tax-free | Tax-Free Savings Account (TFSA) | Benefits of TFSAs | Tax-free growth and withdrawals | 20 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/personal-investing/products/investment-plans/tfsa",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\investing_ca-en-personal-banking-personal-investing-products-investment-plans-tfsa.png"
+    },
+    {
+      "step_number": 6,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/fhsa",
+      "title": "First Home Savings Account (FHSA) | TD Canada Trust",
+      "content_summary": "Discover how the FHSA can help Canadians save for their first home, tax-free. Learn about eligibility, contribution limits, and key benefits. Speak to a TD Personal Banker today! | Online Services | First Home Savings Account (FHSA) | What is an FHSA? | Am I eligible to open an FHSA? | How does an FHSA work? | 1 product/feature cards",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Browse and compare 1 options, select one to proceed",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\investing_ca-en-personal-banking-personal-investing-products-registered-plans-fhsa.png"
+    },
+    {
+      "step_number": 7,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/resp",
+      "title": "Registered Education Savings Plan (RESP) | TD Canada Trust",
+      "content_summary": "The Registered Education Savings Plan (RESP) helps you save for a child's education. Invest in a tax-deferred account today to achieve your financial goals. | Online Services | Invest in your child's education | Registered Education Savings Plan (RESP) | Benefits of an RESP | Tax-deferred growth potential | 1 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/resp",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\investing_ca-en-personal-banking-personal-investing-products-registered-plans-resp.png"
+    },
+    {
+      "step_number": 8,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/rrsp",
+      "title": "Registered Retirement Savings Plan (RRSP) | TD Canada Trust",
+      "content_summary": "A TD RRSP can help you save for retirement, while paying less tax today. Find out how contributing to an RRSP at TD can help you meet your retirement goals. | Online Services | Registered Retirement Savings Plan (RRSP) | What is an RRSP? | Benefits of RRSPs | How does an RRSP work? | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/rrsp",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\investing_ca-en-personal-banking-personal-investing-products-registered-plans-rrsp.png"
+    }
+  ],
+  "total_pages": 8,
+  "tags": [
+    "investing",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:33:21.354981"
+}

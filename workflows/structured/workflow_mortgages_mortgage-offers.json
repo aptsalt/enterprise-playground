@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-mortgages_mortgage-offers-20260208",
+  "name": "Mortgages Mortgage-Offers Workflow",
+  "category": "mortgages_mortgage-offers",
+  "description": "User journey through TD mortgages mortgage-offers section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-offers",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-offers",
+      "title": "Mortgage Offers | TD Canada Trust",
+      "content_summary": "Learn about our mortgage offers and find the mortgage that's right for you. | Online Services | Take advantage of our special TD mortgage offer1 | Here\u2019s how much you can get | Here\u2019s how much you can get | Here's how you can get your cash offer | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-offers",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\mortgages_ca-en-personal-banking-products-mortgages-mortgage-offers.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "mortgages_mortgage-offers",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:41:11.029844"
+}

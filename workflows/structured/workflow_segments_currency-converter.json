@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-segments_currency-converter-20260208",
+  "name": "Segments Currency-Converter Workflow",
+  "category": "segments_currency-converter",
+  "description": "User journey through TD segments currency-converter section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/solutions/exchange/currency-converter",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/exchange/currency-converter",
+      "title": "Currency Converter & Live Exchange Rates | TD Canada Trust",
+      "content_summary": "Get live exchange rates, use our currency converter, exchange foreign currency cash, transfer funds, send money abroad, and more!  | Online Services | Currency Converter | Foreign exchange meets convenience | Send and transfer money | Exchanging money for travel | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/solutions/exchange/currency-converter",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\segments_ca-en-personal-banking-solutions-exchange-currency-converter.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "segments_currency-converter",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:48:51.533142"
+}

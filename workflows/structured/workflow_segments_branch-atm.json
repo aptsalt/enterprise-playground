@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-segments_branch-atm-20260208",
+  "name": "Segments Branch-Atm Workflow",
+  "category": "segments_branch-atm",
+  "description": "User journey through TD segments branch-atm section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/solutions/ways-to-bank/branch-atm",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/ways-to-bank/branch-atm",
+      "title": "Ways to Bank | TD Branch Banking and ATM",
+      "content_summary": "Looking for an ATM? TD offers an extensive network of branch and ATM locations across Canada so you can bank with more ease and convenience. | Online Services | Branch Banking and ATM | TD Branch | Benefits of banking at a TD Branch ATM | Convenient locations | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/solutions/ways-to-bank/branch-atm",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\segments_ca-en-personal-banking-solutions-ways-to-bank-branch-atm.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "segments_branch-atm",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:52:32.299578"
+}

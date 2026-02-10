@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-insurance_td-line-of-credit-protection-20260208",
+  "name": "Insurance Td-Line-Of-Credit-Protection Workflow",
+  "category": "insurance_td-line-of-credit-protection",
+  "description": "User journey through TD insurance td-line-of-credit-protection section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/insurance/td-line-of-credit-protection",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/insurance/td-line-of-credit-protection",
+      "title": "TD Line of Credit Protection",
+      "content_summary": "TD Line of Credit Critical Illness and Line of Credit Life Insurance can pay toward the outstanding balance on your TD Line of Credit in case you experience an unexpected, covered event.  | Online Services | What is TD Line of Credit Protection? | Highlights and benefits of TD Line of Credit Protection | Explore TD Line of Credit Protection | Multi-insured discount1 | 1 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/insurance/td-line-of-credit-protection",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\insurance_ca-en-personal-banking-products-insurance-td-line-of-credit-protection.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "insurance_td-line-of-credit-protection",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:32:59.393850"
+}

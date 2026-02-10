@@ -1,0 +1,330 @@
+{
+  "workflow_id": "wf-credit_cards_cash-back-20260208",
+  "name": "Credit Cards Cash-Back Workflow",
+  "category": "credit_cards_cash-back",
+  "description": "User journey through TD credit cards cash-back section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back",
+      "title": "Apply Online for Cash Back Credit Cards in Canada | TD Canada Trust",
+      "content_summary": "With a TD Cash Back Credit Card, you earn cash back that you can redeem when you want. Find the best TD Cash Back Credit Card in Canada that meets your needs and Apply Online. | Online Services | Cash Back Credit Cards in Canada | Find the best TD Credit Cards for Cash Back in Canada | TD Cash Back Visa Infinite*\u00a0Card | TD Cash Back Visa*\u00a0Card | 7 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-cash-back.png"
+    },
+    {
+      "step_number": 2,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-card",
+      "title": "Apply for a TD Cash Back Visa* Card | TD Canada Trust",
+      "content_summary": "Looking for a credit card that lets you earn and redeem Cash Back Dollars? Learn more about the TD Cash Back Visa and see if it may be the best TD Credit Card for you. | Online Services | TD Cash Back Visa*\u00a0Card | At a glance | How do I earn Cash Back Dollars? | How do I use my earned Cash Back Dollars? | 2 form(s) with 6 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "slider1",
+              "type": "text",
+              "label": "Grocery, Gas & Electric Vehicle Charging, Public Transit, Recurring Bill Payments, and Streaming, Digital Gaming & Media Purchases2",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider2",
+              "type": "text",
+              "label": "All Other Purchases",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        },
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Grocery, Gas & Electric Vehicle Charging, Public Transit, Recurring Bill Payments, and Streaming, Digital Gaming & Media Purchases2, , All Other Purchases, , Yes",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-cash-back-cash-back-visa-card.png"
+    },
+    {
+      "step_number": 3,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-infinite-card",
+      "title": "TD Cash Back Visa Infinite* Card | TD Canada Trust",
+      "content_summary": "Find the Best Cash Back Credit Cards from TD. Get a credit card that lets you earn Cash Back Dollars easily. Learn more about TD Cash Back Visa Infinite and see if it is the best Cash Back Credit Card for you in Canada. Apply Online today! | Online Services | TD Cash Back Visa Infinite*\u00a0Card | Special Offer | At a glance | It's easy to earn and redeem Cash Back Dollars | 1 product/feature cards | 2 form(s) with 6 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-infinite-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "slider1",
+              "type": "text",
+              "label": "Grocery, Gas & Electric Vehicle Charging, Public Transit, Recurring Bill Payments, and Streaming, Digital Gaming & Media Purchases3",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider2",
+              "type": "text",
+              "label": "All Other Purchases",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        },
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/cash-back/cash-back-visa-infinite-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Grocery, Gas & Electric Vehicle Charging, Public Transit, Recurring Bill Payments, and Streaming, Digital Gaming & Media Purchases3, , All Other Purchases, , Yes",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-cash-back-cash-back-visa-infinite-c.png"
+    }
+  ],
+  "total_pages": 3,
+  "tags": [
+    "credit_cards_cash-back",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:28:07.769759"
+}

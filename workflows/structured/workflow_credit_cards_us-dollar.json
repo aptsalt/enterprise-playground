@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-credit_cards_us-dollar-20260208",
+  "name": "Credit Cards Us-Dollar Workflow",
+  "category": "credit_cards_us-dollar",
+  "description": "User journey through TD credit cards us-dollar section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/credit-cards/us-dollar/us-dollar-visa-card",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/us-dollar/us-dollar-visa-card",
+      "title": "Apply for a TD U.S. Dollar Visa* Card | TD Canada Trust",
+      "content_summary": "Want freedom and flexibility when making cross-border purchases or buying online from the U.S.? Use the TD U.S. Dollar Visa* Card and pay in U.S. dollars! | Online Services | TD U.S. Dollar Visa* Card | Make purchases in U.S. Dollars without credit card foreign currency conversion fees | At a glance | More Card Benefits and Features | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/us-dollar/us-dollar-visa-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-us-dollar-us-dollar-visa-card.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "credit_cards_us-dollar",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:32:14.620420"
+}

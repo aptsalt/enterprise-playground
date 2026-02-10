@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-segments_student-credit-cards-20260208",
+  "name": "Segments Student-Credit-Cards Workflow",
+  "category": "segments_student-credit-cards",
+  "description": "User journey through TD segments student-credit-cards section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/solutions/student-banking/student-credit-cards",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/student-banking/student-credit-cards",
+      "title": "TD Credit Cards for Students - TD Canada Trust",
+      "content_summary": "TD Credit Cards for students can help build your credit history and collect rewards. Whether you want rewards or low interest, TD has a card that's right for you.  | Online Services | Credit cards for students | Our recommended credit card for students | TD Cash Back Visa* Card | Find the TD Credit Card that meets your needs | 18 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/solutions/student-banking/student-credit-cards",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\segments_ca-en-personal-banking-solutions-student-banking-student-credit-cards.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "segments_student-credit-cards",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:52:26.137187"
+}

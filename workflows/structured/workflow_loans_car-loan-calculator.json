@@ -1,0 +1,132 @@
+{
+  "workflow_id": "wf-loans_car-loan-calculator-20260208",
+  "name": "Loans Car-Loan-Calculator Workflow",
+  "category": "loans_car-loan-calculator",
+  "description": "User journey through TD loans car-loan-calculator section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/borrowing/car-loan-calculator",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/borrowing/car-loan-calculator",
+      "title": "Car Loan Calculator | TD Canada Trust",
+      "content_summary": "Use our car loan calculator to estimate what your monthly loan payment could be. Try our Car Loan Calculator today! | Online Services | Book an appointment | Find a dealership | Apply online | Vehicle Loan Calculator | 2 form(s) with 6 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/borrowing/car-loan-calculator",
+          "method": "get",
+          "fields": [
+            {
+              "name": "amount",
+              "type": "text",
+              "label": "Vehicle loan amount",
+              "required": false,
+              "placeholder": "0"
+            },
+            {
+              "name": "interestRate",
+              "type": "text",
+              "label": "Interest Rate1",
+              "required": false,
+              "placeholder": "0.00"
+            },
+            {
+              "name": "slider1",
+              "type": "text",
+              "label": "Pay it off in...",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        },
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/borrowing/car-loan-calculator",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Vehicle loan amount, Interest Rate1, Pay it off in..., , Yes",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\loans_ca-en-personal-banking-products-borrowing-car-loan-calculator.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "loans_car-loan-calculator",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:36:52.603384"
+}

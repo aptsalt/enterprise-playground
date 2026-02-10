@@ -1,0 +1,77 @@
+{
+  "workflow_id": "wf-loans_personal-loan-line-of-credit-calculator-20260208",
+  "name": "Loans Personal-Loan-Line-Of-Credit-Calculator Workflow",
+  "category": "loans_personal-loan-line-of-credit-calculator",
+  "description": "User journey through TD loans personal-loan-line-of-credit-calculator section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/borrowing/personal-loan-line-of-credit-calculator",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/borrowing/personal-loan-line-of-credit-calculator",
+      "title": "Loans and Line of Credit Payment Calculator | TD Canada Trust",
+      "content_summary": "Not sure what your payments would be for a loan or line of credit? TD's Loans & Line of Credit Payment Calculator can help you estimate what your payments could be. | Online Services | Personal Loan | Unsecured Personal Line of\u00a0Credit | Your how-to guide to borrowing | You may also be interested in: | 1 product/feature cards",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Browse and compare 1 options, select one to proceed",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\loans_ca-en-personal-banking-products-borrowing-personal-loan-line-of-credit-calculato.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "loans_personal-loan-line-of-credit-calculator",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:40:47.353999"
+}

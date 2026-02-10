@@ -1,0 +1,77 @@
+{
+  "workflow_id": "wf-mortgages_mortgages-for-newcomers-20260208",
+  "name": "Mortgages Mortgages-For-Newcomers Workflow",
+  "category": "mortgages_mortgages-for-newcomers",
+  "description": "User journey through TD mortgages mortgages-for-newcomers section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/solutions/new-to-canada/mortgages-for-newcomers",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/new-to-canada/mortgages-for-newcomers",
+      "title": "Mortgages for Newcomers: A Complete Guide | TD Canada Trust",
+      "content_summary": "Buying your first home as a newcomer? Learn about TD mortgage solutions for newcomers and get insight and advice on the mortgage process. | Online Services | Switch to a TD mortgage and get up to $5,100.5 | We speak many languages | Buying a home in Canada | TD Mortgage Specialists are here to help",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\mortgages_ca-en-personal-banking-solutions-new-to-canada-mortgages-for-newcomers.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "mortgages_mortgages-for-newcomers",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:48:39.297596"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "TD Canada Trust - Personal Banking",
+  "base_url": "https://www.td.com/ca/en/personal-banking",
+  "categories": {
+    "general": 10,
+    "tools": 1,
+    "investing": 8,
+    "accounts": 23,
+    "loans": 15,
+    "credit_cards": 21,
+    "insurance": 12,
+    "mortgages": 14,
+    "segments": 16
+  },
+  "total_pages": 120,
+  "errors": [],
+  "captured_at": "2026-02-08T14:16:19.269786"
+}

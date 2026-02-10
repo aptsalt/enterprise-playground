@@ -1,0 +1,77 @@
+{
+  "workflow_id": "wf-general_precious-metals-gold-silver-platinum-20260208",
+  "name": "General Precious-Metals-Gold-Silver-Platinum Workflow",
+  "category": "general_precious-metals-gold-silver-platinum",
+  "description": "User journey through TD general precious-metals-gold-silver-platinum section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/personal-investing/precious-metals-gold-silver-platinum",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/personal-investing/precious-metals-gold-silver-platinum",
+      "title": "Precious Metals: Buy Gold, Silver & Platinum | TD Canada Trust",
+      "content_summary": "Buy physical gold, silver and platinum bullion, coins and bars online through TD Precious Metals Digital Store. Convenient delivery to your front door or a TD branch. | Online Services | Precious Metals | Why Buy Gold, Silver & Platinum Bullion, Coins and Bars | Solid Investment | International Appeal",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-products-personal-investing-precious-metals-gold-silver-p.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "general_precious-metals-gold-silver-platinum",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:32:44.296519"
+}

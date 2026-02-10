@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-mortgages_flexible-mortgage-payment-features-20260208",
+  "name": "Mortgages Flexible-Mortgage-Payment-Features Workflow",
+  "category": "mortgages_flexible-mortgage-payment-features",
+  "description": "User journey through TD mortgages flexible-mortgage-payment-features section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/mortgages/flexible-mortgage-payment-features",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/mortgages/flexible-mortgage-payment-features",
+      "title": "Flexible Mortgage Payment Features - TD Canada Trust",
+      "content_summary": "Use our Flexible Mortgage Payment Features Calculator to explore your options and try different payment features for managing your mortgage. Take a mortgage payment vacation or reduction to slow down your mortgage payment. Learn more. | Online Services | Flexible Mortgage Payment Features | Speed it up | Increase your payment | Make a lump sum payment | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/mortgages/flexible-mortgage-payment-features",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\mortgages_ca-en-personal-banking-products-mortgages-flexible-mortgage-payment-features.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "mortgages_flexible-mortgage-payment-features",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:41:07.130364"
+}

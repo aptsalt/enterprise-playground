@@ -1,0 +1,530 @@
+{
+  "workflow_id": "wf-credit_cards_travel-rewards-20260208",
+  "name": "Credit Cards Travel-Rewards Workflow",
+  "category": "credit_cards_travel-rewards",
+  "description": "User journey through TD credit cards travel-rewards section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards",
+      "title": "Apply Online for Travel Credit Cards in Canada | TD Canada Trust",
+      "content_summary": "Let us help you choose the best TD travel credit card for you in Canada. TD travel credit cards have been designed to offer flexibility and fit your rewards needs. Apply online today and start earning TD Rewards Points. | Online Services | Travel Rewards Credit Cards in Canada | What is a Travel Credit Card? | Compare the Best TD Credit Cards for Travel Rewards points | TD First Class Travel\u00ae Visa Infinite* Card | 9 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-travel-rewards.png"
+    },
+    {
+      "step_number": 2,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards/first-class-travel-visa-infinite-card",
+      "title": "TD First Class Travel Visa Infinite* Card | TD Canada Trust",
+      "content_summary": "Enjoy travel rewards and more with the TD First Class Travel Visa Infinite* Card. It may be the best travel Card for you in Canada. Apply Online today! | Online Services | TD First Class Travel\u00ae Visa Infinite* Card | Special Offer | At a glance | Award winning TD Credit Card | 2 form(s) with 10 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards/first-class-travel-visa-infinite-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "slider1_v2",
+              "type": "text",
+              "label": "Recurring Bill Payments and Streaming, Digital Gaming & Media (per month)",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider2_v2",
+              "type": "text",
+              "label": "Groceries, Dining, and Public Transit (per month)",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider3_v2",
+              "type": "text",
+              "label": "Expedia for TD Purchases (per month)",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider4_v2",
+              "type": "text",
+              "label": "Other monthly purchases",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        },
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards/first-class-travel-visa-infinite-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Recurring Bill Payments and Streaming, Digital Gaming & Media (per month), , Groceries, Dining, and Public Transit (per month), , Expedia for TD Purchases (per month)",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-travel-rewards-first-class-travel-v.png"
+    },
+    {
+      "step_number": 3,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards/platinum-travel-visa-card",
+      "title": "TD Platinum Travel Visa* Card | TD Canada Trust",
+      "content_summary": "Get a travel credit card that lets you earn and redeem Reward Points on flights, hotels and more! Learn more about TD Platinum Travel Visa and see if it is the best TD Travel Credit Card in Canada for you. Apply Online today! | Online Services | TD Platinum Travel Visa* Card | Special Offer | At a glance | Every Purchase counts | 2 form(s) with 10 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards/platinum-travel-visa-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "slider1_v2",
+              "type": "text",
+              "label": "Recurring Bill Payments and Streaming, Digital Gaming & Media (per month)",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider2_v2",
+              "type": "text",
+              "label": "Groceries, Dining, and Public Transit (per month)",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider3_v2",
+              "type": "text",
+              "label": "Expedia for TD Purchases (per month)",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider4_v2",
+              "type": "text",
+              "label": "Other monthly purchases",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        },
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards/platinum-travel-visa-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Recurring Bill Payments and Streaming, Digital Gaming & Media (per month), , Groceries, Dining, and Public Transit (per month), , Expedia for TD Purchases (per month)",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-travel-rewards-platinum-travel-visa.png"
+    },
+    {
+      "step_number": 4,
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards/rewards-visa-card",
+      "title": "TD Rewards Visa* Credit Card | TD Canada Trust",
+      "content_summary": "Earn TD Reward Points on all the things you normally do. Whether you use your card for groceries, dining or paying bills, the rewards will add up quickly. | Online Services | TD Rewards Visa* Card | Special Offer | At a glance | Every Purchase Counts | 1 product/feature cards | 2 form(s) with 10 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards/rewards-visa-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "slider1_v2",
+              "type": "text",
+              "label": "Recurring Bill Payments and Streaming, Digital Gaming & Media (per month)",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider2_v2",
+              "type": "text",
+              "label": "Groceries, Dining and Public Transit (per month)",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider3_v2",
+              "type": "text",
+              "label": "Expedia for TD Purchases (per month)",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "slider4_v2",
+              "type": "text",
+              "label": "Other monthly purchases",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "",
+              "type": "text",
+              "label": "",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        },
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/credit-cards/travel-rewards/rewards-visa-card",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Recurring Bill Payments and Streaming, Digital Gaming & Media (per month), , Groceries, Dining and Public Transit (per month), , Expedia for TD Purchases (per month)",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\credit_cards_ca-en-personal-banking-products-credit-cards-travel-rewards-rewards-visa-card.png"
+    }
+  ],
+  "total_pages": 4,
+  "tags": [
+    "credit_cards_travel-rewards",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:28:42.411355"
+}

@@ -1,0 +1,35 @@
+# === Core ===
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+python-dotenv==1.0.1
+httpx==0.28.1
+
+# === Scraping ===
+playwright==1.49.1
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# === LLM Integration ===
+ollama==0.4.7
+
+# === RAG / Embeddings ===
+chromadb==0.5.23
+
+# === Utilities ===
+aiofiles==24.1.0
+rich==13.9.4
+click==8.1.8
+pyyaml==6.0.2
+
+# === Testing ===
+pytest==8.3.4
+pytest-asyncio==0.24.0
+
+# === Observability ===
+opentelemetry-api==1.29.0
+opentelemetry-sdk==1.29.0
+opentelemetry-instrumentation-fastapi==0.50b0
+
+# === Fine-Tuning (install on GPU machine only) ===
+# pip install -r requirements-gpu.txt

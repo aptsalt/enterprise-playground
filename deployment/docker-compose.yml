@@ -1,0 +1,87 @@
+# Enterprise Playground v2 — Dual-Model Stack
+# Optimized for RTX 4090 16GB VRAM
+#
+# Usage:
+#   docker compose -f deployment/docker-compose.yml up -d
+#   docker compose -f deployment/docker-compose.yml logs -f webapp
+#   docker compose -f deployment/docker-compose.yml down
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ep-ollama
+    ports:
+      - "${OLLAMA_PORT:-11434}:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "50m"
+        max-file: "3"
+
+  model-setup:
+    image: curlimages/curl:latest
+    container_name: ep-model-setup
+    depends_on:
+      ollama:
+        condition: service_healthy
+    restart: "no"
+    entrypoint: >
+      sh -c "
+        echo 'Pulling router model (3B)...' &&
+        curl -sf http://ollama:11434/api/pull -d '{\"name\":\"${ROUTER_MODEL:-qwen2.5:3b}\"}' &&
+        echo '' && echo 'Router model ready.' &&
+        echo 'Pulling generator model (14B)...' &&
+        curl -sf http://ollama:11434/api/pull -d '{\"name\":\"${GENERATOR_MODEL:-qwen2.5-coder:14b}\"}' &&
+        echo '' && echo 'Both models ready!'
+      "
+
+  webapp:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    container_name: ep-webapp
+    ports:
+      - "${APP_PORT:-8000}:8000"
+    env_file:
+      - ../.env
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+      - APP_ENV=production
+    volumes:
+      - ../workflows:/app/workflows
+      - ../playground/generated:/app/playground/generated
+      - ../.cache:/app/.cache
+    depends_on:
+      ollama:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "50m"
+        max-file: "3"
+
+volumes:
+  ollama_data:

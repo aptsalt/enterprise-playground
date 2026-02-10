@@ -1,0 +1,77 @@
+{
+  "workflow_id": "wf-mortgages_overview-20260208",
+  "name": "Mortgages Overview Workflow",
+  "category": "mortgages_overview",
+  "description": "User journey through TD mortgages overview section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/products/mortgages",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/products/mortgages",
+      "title": "Mortgages - TD Canada Trust",
+      "content_summary": "TD Mortgages. Get personalized advice whether you're looking to buy a home, use your home equity, renew or refinance. Connect with a TD Mortgage Specialist today.\n\nMortgage interest rates Canada (74,000 MSV)\nMortgage calculator (450,000 MSV)\nMortgage Affordability calculator (27,100 MSV)\nHELOC (9,900 MSV)\nCurrent mortgage rates (12,000 MSV)\nFirst time home buyer Canada (8,100 MSV)\nMortgage renewal (2,900 MSV)\nMortgage refinance (880 MSV) | Online Services | Mortgages | Our Special Mortgage Rates",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\mortgages_ca-en-personal-banking-products-mortgages.png"
+    }
+  ],
+  "total_pages": 1,
+  "tags": [
+    "mortgages_overview",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:48:34.530395"
+}

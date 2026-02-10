@@ -1,0 +1,548 @@
+{
+  "workflow_id": "wf-general_overview-20260208",
+  "name": "General Overview Workflow",
+  "category": "general_overview",
+  "description": "User journey through TD general overview section",
+  "entry_point": "https://www.td.com/ca/en/personal-banking/personal-investing/compound-interest-calculator",
+  "steps": [
+    {
+      "step_number": 1,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/compound-interest-calculator",
+      "title": "Compound Interest Calculator | Saving & Investing | TD Canada Trust",
+      "content_summary": "Realize the power of saving and investing with the TD Compound Interest Calculator and discover how your investments could grow over time. Get started inside. | Online Services | Compound Interest Calculator |  | Tips and advice to help you get started | TFSA vs RSP | 1 form(s) with 5 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/personal-investing/compound-interest-calculator",
+          "method": "get",
+          "fields": [
+            {
+              "name": "upfrontContribution",
+              "type": "text",
+              "label": "I can currently contribute:",
+              "required": false,
+              "placeholder": "0"
+            },
+            {
+              "name": "contributiondropdown",
+              "type": "select-one",
+              "label": "I can contribute every:",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "regularContribution",
+              "type": "text",
+              "label": "I can regularly contribute:",
+              "required": false,
+              "placeholder": "0"
+            },
+            {
+              "name": "interestRateInvestment",
+              "type": "text",
+              "label": "Annual rate of return",
+              "required": false,
+              "placeholder": "0.01"
+            },
+            {
+              "name": "termYear",
+              "type": "text",
+              "label": "Years I want to save",
+              "required": false,
+              "placeholder": "1"
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: I can currently contribute:, I can contribute every:, I can regularly contribute:, Annual rate of return, Years I want to save",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-personal-investing-compound-interest-calculator.png"
+    },
+    {
+      "step_number": 2,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/learn",
+      "title": "Learn to Invest | Personal Investing Learning Centre | TD Canada Trust",
+      "content_summary": "Understand the basics of investing, how investment products and registered plans work, and maximize your investments with TD`s personal finance tips. | Online Services | Personal Investing Learning Centre | Investing 101: Investing\u00a0Basics | Saving vs. Investing: What's the\u00a0difference? | What is a Mutual\u00a0Fund? | 1 product/feature cards",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Browse and compare 1 options, select one to proceed",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-personal-investing-learn.png"
+    },
+    {
+      "step_number": 3,
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/special-investing-offer",
+      "title": "TD Personal Investing Offer - Get up to $3,000",
+      "content_summary": "Transfer and invest in an eligible account and you could get up to $3,000\u2020 | Online Services | Here's how you could get up to $3,000\u2020 | TD Goal Builder | Ready to invest? | Have a question? Find answers here | 1 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/personal-investing/special-investing-offer",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-personal-investing-special-investing-offer.png"
+    },
+    {
+      "step_number": 4,
+      "url": "https://www.td.com/ca/en/personal-banking/products/banking-offers-for-newcomers",
+      "title": "Banking Offers for Newcomers to Canada | TD Canada Trust",
+      "content_summary": "Newcomers to Canada can get a great start with the TD New to Canada Banking Package while receiving up to $1,890 in value1. Learn more at TD and apply today! | Online Services | Get up to $18901\u00a0in value with the New to Canada Banking Package | Explore the TD New to Canada Banking Package | Your journey starts here - discover the possibilities | TD Unlimited Chequing Account",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Review information and click CTA: Find Us",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-products-banking-offers-for-newcomers.png"
+    },
+    {
+      "step_number": 5,
+      "url": "https://www.td.com/ca/en/personal-banking/products/investment-accounts-plans-products-canada-gic-mutual-funds",
+      "title": "Investment products | TD Canada Trust",
+      "content_summary": "TD Auto Finance offers car loans and financing for newcomers to Canada. Learn about our flexible options for most types of new and used cars. | Online Services | Make progress towards your financial goals | Investment accounts and products | Discover the investment products that we offer. | Guaranteed Investment Certificates (GICs) | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/investment-accounts-plans-products-canada-gic-mutual-funds",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-products-investment-accounts-plans-products-canada-gic-mu.png"
+    },
+    {
+      "step_number": 6,
+      "url": "https://www.td.com/ca/en/personal-banking/products/special-offers",
+      "title": "Banking offers | TD Canada Trust",
+      "content_summary": "Browse all current TD bank offers and choose the right one for you. | Online Services | Celebrate with TD Precious Metals | Explore TD Special Offers & Promotions | TD New to Chequing Offer | TD New to Canada Banking Package | 95 product/feature cards | 1 form(s) with 2 fields",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.td.com/ca/en/personal-banking/products/special-offers",
+          "method": "get",
+          "fields": [
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "Yes",
+              "required": false,
+              "placeholder": ""
+            },
+            {
+              "name": "yes-no",
+              "type": "radio",
+              "label": "No",
+              "required": false,
+              "placeholder": ""
+            }
+          ]
+        }
+      ],
+      "user_action": "Fill out form: Yes, No",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-products-special-offers.png"
+    },
+    {
+      "step_number": 7,
+      "url": "https://www.td.com/ca/en/personal-banking/products/switch-to-td",
+      "title": "Switch To TD | Personal Banking | TD Canada Trust",
+      "content_summary": "Thinking about switching to TD? You\u2019re in good company \u2013 we proudly serve over 15 million Canadians and offer a wide range of financial products and services to cover your banking needs. | Online Services | Switch to TD for better banking | How to switch to TD | Step 1: Choose a TD bank account | Step 2: Open the account | 1 product/feature cards",
+      "interactive_elements": [
+        {
+          "type": "button",
+          "label": "Search"
+        },
+        {
+          "type": "button",
+          "label": "Find Us"
+        },
+        {
+          "type": "button",
+          "label": "Help"
+        },
+        {
+          "type": "button",
+          "label": "Canada"
+        },
+        {
+          "type": "button",
+          "label": "English"
+        },
+        {
+          "type": "button",
+          "label": "Login"
+        },
+        {
+          "type": "button",
+          "label": "My Accounts"
+        },
+        {
+          "type": "button",
+          "label": "query"
+        },
+        {
+          "type": "button",
+          "label": "Close"
+        },
+        {
+          "type": "button",
+          "label": "Carousel Page 1 (Current Slide)"
+        },
+        {
+          "type": "cta_link",
+          "label": "Find Us",
+          "url": "https://www.td.com/ca/en/personal-banking/branch-locator"
+        },
+        {
+          "type": "cta_link",
+          "label": "Help",
+          "url": "https://www.td.com/ca/en/personal-banking/help-centre"
+        }
+      ],
+      "forms": [],
+      "user_action": "Browse and compare 1 options, select one to proceed",
+      "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-products-switch-to-td.png"
+    }
+  ],
+  "total_pages": 7,
+  "tags": [
+    "general_overview",
+    "td-bank",
+    "personal-banking"
+  ],
+  "created_at": "2026-02-08T14:32:34.777449"
+}

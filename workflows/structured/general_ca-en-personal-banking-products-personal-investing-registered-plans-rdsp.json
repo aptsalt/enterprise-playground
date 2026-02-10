@@ -1,0 +1,2310 @@
+{
+  "title": "Registered Disability Savings Plan (RDSP) | TD Direct Investing",
+  "meta_description": "A Registered Disability Savings Plan (RDSP) is an investment vehicle for persons with disabilities and their families to save for long-term financial needs.",
+  "breadcrumbs": [],
+  "headings": [
+    {
+      "level": 3,
+      "text": "Online Services"
+    },
+    {
+      "level": 2,
+      "text": "Self-Directed Registered Disability Savings Plan (RDSP)"
+    },
+    {
+      "level": 2,
+      "text": "Investing with the Registered Disability Savings Plan (RDSP)"
+    },
+    {
+      "level": 2,
+      "text": "Things to consider when opening an RDSP"
+    },
+    {
+      "level": 2,
+      "text": "Investment choices"
+    },
+    {
+      "level": 2,
+      "text": "Explore an affordable way to start saving for your future"
+    },
+    {
+      "level": 2,
+      "text": "Got questions? We have answers."
+    },
+    {
+      "level": 3,
+      "text": "How do I contribute to an RDSP?"
+    },
+    {
+      "level": 3,
+      "text": "Does my Federal Government (CDSG/CDSB) grant dollars get returned to the Government if I withdraw any money prior to the 10-year rule?"
+    },
+    {
+      "level": 3,
+      "text": "What is Assistance Holdback Amount (AHA)?"
+    },
+    {
+      "level": 3,
+      "text": "What is a Disability Allowance Payment (DAP)?"
+    },
+    {
+      "level": 3,
+      "text": "What types of withdrawals can be made from an RDSP?"
+    },
+    {
+      "level": 3,
+      "text": "Are there limitations to the amount of payments that can be made in a calendar year?"
+    },
+    {
+      "level": 2,
+      "text": "Related article"
+    },
+    {
+      "level": 3,
+      "text": "Understanding how a RDSP could help you and your family"
+    },
+    {
+      "level": 3,
+      "text": "Retirement Planning - Steps and Things to Consider"
+    },
+    {
+      "level": 2,
+      "text": "Open an account online \u2013 it's fast and easy"
+    },
+    {
+      "level": 3,
+      "text": "Apply online"
+    },
+    {
+      "level": 3,
+      "text": "Call us"
+    },
+    {
+      "level": 3,
+      "text": "Book an appointment"
+    },
+    {
+      "level": 2,
+      "text": "Have a question? Find answers here"
+    },
+    {
+      "level": 2,
+      "text": ""
+    },
+    {
+      "level": 2,
+      "text": "Popular Questions"
+    },
+    {
+      "level": 3,
+      "text": "Helpful Related Questions"
+    },
+    {
+      "level": 3,
+      "text": "Did you find what you were looking for?"
+    },
+    {
+      "level": 2,
+      "text": "See you in a bit"
+    },
+    {
+      "level": 2,
+      "text": "Site Index"
+    },
+    {
+      "level": 3,
+      "text": "TD Personal Banking"
+    },
+    {
+      "level": 3,
+      "text": "TD Small Business Banking"
+    },
+    {
+      "level": 3,
+      "text": "TD Investing"
+    },
+    {
+      "level": 3,
+      "text": "TD Corporate"
+    },
+    {
+      "level": 3,
+      "text": "Other TD Businesses"
+    },
+    {
+      "level": 3,
+      "text": "U.S. Banking"
+    },
+    {
+      "level": 2,
+      "text": "Are you already a TD or TD Wealth Client?"
+    },
+    {
+      "level": 3,
+      "text": "Transcript"
+    },
+    {
+      "level": 2,
+      "text": "Manage Preferences"
+    },
+    {
+      "level": 3,
+      "text": "Manage Consent Preferences"
+    },
+    {
+      "level": 3,
+      "text": "Vendors List"
+    }
+  ],
+  "links": [
+    {
+      "label": "Personal",
+      "url": "https://www.td.com/ca/en/personal-banking",
+      "is_cta": false
+    },
+    {
+      "label": "Small Business",
+      "url": "https://www.td.com/ca/en/business-banking/small-business",
+      "is_cta": false
+    },
+    {
+      "label": "Commercial",
+      "url": "https://www.td.com/ca/en/commercial-banking",
+      "is_cta": false
+    },
+    {
+      "label": "InvestingSelected",
+      "url": "https://www.td.com/ca/en/investing",
+      "is_cta": false
+    },
+    {
+      "label": "About TD",
+      "url": "https://www.td.com/ca/en/about-td",
+      "is_cta": false
+    },
+    {
+      "label": "Find Us",
+      "url": "https://www.td.com/ca/en/investing/branch-locator",
+      "is_cta": true
+    },
+    {
+      "label": "Help",
+      "url": "https://www.td.com/ca/en/investing/help-centre",
+      "is_cta": true
+    },
+    {
+      "label": "United States",
+      "url": "https://www.td.com/us/en/investing",
+      "is_cta": false
+    },
+    {
+      "label": "Fran\u00e7ais",
+      "url": "https://www.td.com/ca/fr/investir/placement-en-direct/regimes-enregistres/reei",
+      "is_cta": false
+    },
+    {
+      "label": "\u7b80\u4f53\u4e2d\u6587",
+      "url": "https://zh.td.com/ca/en/investing/direct-investing/registered-accounts/rdsp",
+      "is_cta": false
+    },
+    {
+      "label": "\u7e41\u9ad4\u4e2d\u6587",
+      "url": "https://zt.td.com/ca/en/investing/direct-investing/registered-accounts/rdsp",
+      "is_cta": false
+    },
+    {
+      "label": "EasyWeb",
+      "url": "https://easyweb.td.com/",
+      "is_cta": false
+    },
+    {
+      "label": "WebBroker",
+      "url": "https://webbroker.td.com/",
+      "is_cta": false
+    },
+    {
+      "label": "U.S. Banking",
+      "url": "https://www.td.com/us/en/investing",
+      "is_cta": false
+    },
+    {
+      "label": "My Accounts",
+      "url": "https://www.td.com/ca/en/investing/my-accounts",
+      "is_cta": false
+    },
+    {
+      "label": "EasyWeb",
+      "url": "https://www.td.com/bin/easyweb/transfer?RequestedPage=PFS",
+      "is_cta": false
+    },
+    {
+      "label": "WebBroker",
+      "url": "https://www.td.com/bin/easyweb/transfer?RequestedPage=WBK",
+      "is_cta": false
+    },
+    {
+      "label": "U.S. Banking",
+      "url": "https://www.td.com/us/en/investing",
+      "is_cta": false
+    },
+    {
+      "label": "Logout",
+      "url": "https://www.td.com/bin/easyweb/transfer?RequestedPage=OUT",
+      "is_cta": false
+    },
+    {
+      "label": "Explore TD Direct Investing",
+      "url": "https://www.td.com/ca/en/investing/direct-investing",
+      "is_cta": false
+    },
+    {
+      "label": "Explore TD Easy TradeTM",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/services/easytrade",
+      "is_cta": false
+    },
+    {
+      "label": "Compare self-directed investing services",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/direct-investing-vs-easytrade",
+      "is_cta": false
+    },
+    {
+      "label": "Pricing",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/pricing",
+      "is_cta": false
+    },
+    {
+      "label": "Forms and applications",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/why-us/getting-started/forms",
+      "is_cta": false
+    },
+    {
+      "label": "Managing your money",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/services/managing-your-money",
+      "is_cta": false
+    },
+    {
+      "label": "Explore TD Wealth Financial Planning",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-planning",
+      "is_cta": false
+    },
+    {
+      "label": "Explore TD Wealth Private Wealth Management",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-wealth-management",
+      "is_cta": false
+    },
+    {
+      "label": "Discover investment options",
+      "url": "https://www.td.com/ca/en/investing/wealth",
+      "is_cta": false
+    },
+    {
+      "label": "Find an advisor",
+      "url": "https://advisor-match.td.com/find-an-advisor/",
+      "is_cta": false
+    },
+    {
+      "label": "Request a call",
+      "url": "https://contactme.td.com/ldca/selfserve?originatingId=wealth-request&lng=en&form=wealth-call-request&campaignID=6076&originatingUrl=https://www.td.com/ca/en/investing/wealth",
+      "is_cta": false
+    },
+    {
+      "label": "Watch now",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-priorities",
+      "is_cta": true
+    },
+    {
+      "label": "Explore all account types",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/accounts",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Cash Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/cash",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed First Home Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/fhsa",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Tax-Free Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/tfsa-accounts",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Registered Retirement Savings Plan",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/rrsp",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Margin Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/margin",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Active Trader Margin Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/active-trader-margin-account",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed Cash Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/easytrade-cash",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed Tax-Free Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/easytrade-tfsa",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed Registered Retirement Savings Plan",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/easytrade-rrsp",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed First Home Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/easytrade-fhsa",
+      "is_cta": false
+    },
+    {
+      "label": "Explore all trading platforms",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading",
+      "is_cta": false
+    },
+    {
+      "label": "WebBroker",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading/webbroker",
+      "is_cta": false
+    },
+    {
+      "label": "TD app",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading/td-app",
+      "is_cta": false
+    },
+    {
+      "label": "Advanced Dashboard",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading/advanced-dashboard",
+      "is_cta": false
+    },
+    {
+      "label": "TD Active Trader",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading/active-trader",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy TradeTM\u202fapp",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/services/easytrade",
+      "is_cta": false
+    },
+    {
+      "label": "Telephone Services",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading/telephoneservices",
+      "is_cta": false
+    },
+    {
+      "label": "Explore all investment types",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types",
+      "is_cta": false
+    },
+    {
+      "label": "Stocks or Equities",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/stocks",
+      "is_cta": false
+    },
+    {
+      "label": "Exchange Traded Funds",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/etfs",
+      "is_cta": false
+    },
+    {
+      "label": "Cryptocurrency ETF",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/crypto-etfs",
+      "is_cta": false
+    },
+    {
+      "label": "Mutual Funds for self-directed investors",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/mutual-funds",
+      "is_cta": false
+    },
+    {
+      "label": "Fixed Income Investments",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/fixed-income",
+      "is_cta": false
+    },
+    {
+      "label": "Options",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/options",
+      "is_cta": false
+    },
+    {
+      "label": "Start Now",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/direct-investing-offer",
+      "is_cta": true
+    },
+    {
+      "label": "Start now",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/services/easytrade-offer",
+      "is_cta": true
+    },
+    {
+      "label": "TD Wealth Financial Planning",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-planning",
+      "is_cta": false
+    },
+    {
+      "label": "TD Wealth Private Wealth Management",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-wealth-management",
+      "is_cta": false
+    },
+    {
+      "label": "Investment Management",
+      "url": "https://www.td.com/ca/en/investing/wealth/investment-management",
+      "is_cta": false
+    },
+    {
+      "label": "Estate and Will Planning",
+      "url": "https://www.td.com/ca/en/investing/wealth/estate-and-will-planning",
+      "is_cta": false
+    },
+    {
+      "label": "TD Wealth Private Banking",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-banking",
+      "is_cta": false
+    },
+    {
+      "label": "Private Giving Foundation",
+      "url": "https://www.td.com/ca/en/investing/private-giving",
+      "is_cta": false
+    },
+    {
+      "label": "Business Owners",
+      "url": "https://www.td.com/ca/en/investing/wealth/business-owners-entrepreneurs",
+      "is_cta": false
+    },
+    {
+      "label": "Healthcare Professionals",
+      "url": "https://www.td.com/ca/en/investing/wealth/healthcare-professionals/dentists-and-practising-physicians",
+      "is_cta": false
+    },
+    {
+      "label": "2SLGBTQ+",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/2slgbtq2-entrepreneurs#tab2",
+      "is_cta": false
+    },
+    {
+      "label": "Women",
+      "url": "https://www.td.com/ca/en/investing/td-wealth-advice-for-women",
+      "is_cta": false
+    },
+    {
+      "label": "What is Private Wealth Management?",
+      "url": "https://www.td.com/ca/en/investing/search?query=What%20is%20Private%20Wealth%20Management?&source=1",
+      "is_cta": false
+    },
+    {
+      "label": "What does a financial planner do?",
+      "url": "https://www.td.com/ca/en/investing/search?query=What%20does%20a%20financial%20planner%20do?&source=1",
+      "is_cta": false
+    },
+    {
+      "label": "How is private banking different from wealth management?",
+      "url": "https://www.td.com/ca/en/investing/search?query=How%20is%20private%20banking%20different%20from%20wealth%20management?&source=1",
+      "is_cta": false
+    },
+    {
+      "label": "Read now",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-planning/everyday-tax-strategies-for-canadians",
+      "is_cta": true
+    },
+    {
+      "label": "Invest with a Personal Banker",
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing",
+      "is_cta": false
+    },
+    {
+      "label": "TD Direct Investing Articles",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/learning-resources",
+      "is_cta": false
+    },
+    {
+      "label": "TD Direct Investing Education",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/education",
+      "is_cta": false
+    },
+    {
+      "label": "TD Direct Investing Index",
+      "url": "https://www.td.com/ca/en/investing/directinvestingindex",
+      "is_cta": false
+    },
+    {
+      "label": "Markets and research",
+      "url": "https://www.td.com/ca/en/investing/markets-research",
+      "is_cta": false
+    },
+    {
+      "label": "Moneytalk news and views",
+      "url": "https://www.moneytalkgo.com/",
+      "is_cta": false
+    },
+    {
+      "label": "Explore all resources",
+      "url": "https://www.td.com/ca/en/investing/wealth/learning-resources",
+      "is_cta": false
+    },
+    {
+      "label": "How to be retirement ready at any age",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-planning/how-to-be-retirement-ready-at-any-age",
+      "is_cta": false
+    },
+    {
+      "label": "Considerations when updating or creating a will",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-wealth-management/creating-or-updating-your-will",
+      "is_cta": false
+    },
+    {
+      "label": "What is a trust?",
+      "url": "https://www.td.com/ca/en/investing/wealth/estate-and-will-planning/what-is-a-trust",
+      "is_cta": false
+    },
+    {
+      "label": "What is a probate?",
+      "url": "https://www.td.com/ca/en/investing/wealth/estate-and-will-planning/what-is-probate",
+      "is_cta": false
+    },
+    {
+      "label": "A guide to understand an executor\u2019s responsibilities",
+      "url": "https://www.td.com/ca/en/investing/wealth/estate-and-will-planning/executor-responsibilities",
+      "is_cta": false
+    },
+    {
+      "label": "Watch now",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-priorities",
+      "is_cta": true
+    },
+    {
+      "label": "Logout",
+      "url": "https://www.td.com/bin/easyweb/transfer?RequestedPage=OUT",
+      "is_cta": false
+    },
+    {
+      "label": "Personal",
+      "url": "https://www.td.com/ca/en/personal-banking",
+      "is_cta": false
+    },
+    {
+      "label": "Small Business",
+      "url": "https://www.td.com/ca/en/business-banking/small-business",
+      "is_cta": false
+    },
+    {
+      "label": "Commercial",
+      "url": "https://www.td.com/ca/en/commercial-banking",
+      "is_cta": false
+    },
+    {
+      "label": "Investing\n                            \n                                Selected",
+      "url": "https://www.td.com/ca/en/investing",
+      "is_cta": false
+    },
+    {
+      "label": "About TD",
+      "url": "https://www.td.com/ca/en/about-td",
+      "is_cta": false
+    },
+    {
+      "label": "Explore TD Direct Investing",
+      "url": "https://www.td.com/ca/en/investing/direct-investing",
+      "is_cta": false
+    },
+    {
+      "label": "Explore TD Easy TradeTM",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/services/easytrade",
+      "is_cta": false
+    },
+    {
+      "label": "Compare self-directed investing services",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/direct-investing-vs-easytrade",
+      "is_cta": false
+    },
+    {
+      "label": "Pricing",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/pricing",
+      "is_cta": false
+    },
+    {
+      "label": "Forms and applications",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/why-us/getting-started/forms",
+      "is_cta": false
+    },
+    {
+      "label": "Managing your money",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/services/managing-your-money",
+      "is_cta": false
+    },
+    {
+      "label": "Explore TD Wealth Financial Planning",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-planning",
+      "is_cta": false
+    },
+    {
+      "label": "Explore TD Wealth Private Wealth Management",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-wealth-management",
+      "is_cta": false
+    },
+    {
+      "label": "Discover investment options",
+      "url": "https://www.td.com/ca/en/investing/wealth",
+      "is_cta": false
+    },
+    {
+      "label": "Find an advisor",
+      "url": "https://advisor-match.td.com/find-an-advisor/",
+      "is_cta": false
+    },
+    {
+      "label": "Request a call",
+      "url": "https://contactme.td.com/ldca/selfserve?originatingId=wealth-request&lng=en&form=wealth-call-request&campaignID=6076&originatingUrl=https://www.td.com/ca/en/investing/wealth",
+      "is_cta": false
+    },
+    {
+      "label": "Watch now",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-priorities",
+      "is_cta": true
+    },
+    {
+      "label": "Explore all account types",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/accounts",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Cash Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/cash",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed First Home Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/fhsa",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Tax-Free Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/tfsa-accounts",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Registered Retirement Savings Plan",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/rrsp",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Margin Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/margin",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Active Trader Margin Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/active-trader-margin-account",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed Cash Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/easytrade-cash",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed Tax-Free Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/easytrade-tfsa",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed Registered Retirement Savings Plan",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/easytrade-rrsp",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed First Home Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/easytrade-fhsa",
+      "is_cta": false
+    },
+    {
+      "label": "Explore all trading platforms",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading",
+      "is_cta": false
+    },
+    {
+      "label": "WebBroker",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading/webbroker",
+      "is_cta": false
+    },
+    {
+      "label": "TD app",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading/td-app",
+      "is_cta": false
+    },
+    {
+      "label": "Advanced Dashboard",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading/advanced-dashboard",
+      "is_cta": false
+    },
+    {
+      "label": "TD Active Trader",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading/active-trader",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy TradeTM\u202fapp",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/services/easytrade",
+      "is_cta": false
+    },
+    {
+      "label": "Telephone Services",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading/telephoneservices",
+      "is_cta": false
+    },
+    {
+      "label": "Explore all investment types",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types",
+      "is_cta": false
+    },
+    {
+      "label": "Stocks or Equities",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/stocks",
+      "is_cta": false
+    },
+    {
+      "label": "Exchange Traded Funds",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/etfs",
+      "is_cta": false
+    },
+    {
+      "label": "Cryptocurrency ETF",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/crypto-etfs",
+      "is_cta": false
+    },
+    {
+      "label": "Mutual Funds for self-directed investors",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/mutual-funds",
+      "is_cta": false
+    },
+    {
+      "label": "Fixed Income Investments",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/fixed-income",
+      "is_cta": false
+    },
+    {
+      "label": "Options",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/options",
+      "is_cta": false
+    },
+    {
+      "label": "Start Now",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/direct-investing-offer",
+      "is_cta": true
+    },
+    {
+      "label": "Start now",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/services/easytrade-offer",
+      "is_cta": true
+    },
+    {
+      "label": "TD Wealth Financial Planning",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-planning",
+      "is_cta": false
+    },
+    {
+      "label": "TD Wealth Private Wealth Management",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-wealth-management",
+      "is_cta": false
+    },
+    {
+      "label": "Investment Management",
+      "url": "https://www.td.com/ca/en/investing/wealth/investment-management",
+      "is_cta": false
+    },
+    {
+      "label": "Estate and Will Planning",
+      "url": "https://www.td.com/ca/en/investing/wealth/estate-and-will-planning",
+      "is_cta": false
+    },
+    {
+      "label": "TD Wealth Private Banking",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-banking",
+      "is_cta": false
+    },
+    {
+      "label": "Private Giving Foundation",
+      "url": "https://www.td.com/ca/en/investing/private-giving",
+      "is_cta": false
+    },
+    {
+      "label": "Business Owners",
+      "url": "https://www.td.com/ca/en/investing/wealth/business-owners-entrepreneurs",
+      "is_cta": false
+    },
+    {
+      "label": "Healthcare Professionals",
+      "url": "https://www.td.com/ca/en/investing/wealth/healthcare-professionals/dentists-and-practising-physicians",
+      "is_cta": false
+    },
+    {
+      "label": "2SLGBTQ+",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/2slgbtq2-entrepreneurs#tab2",
+      "is_cta": false
+    },
+    {
+      "label": "Women",
+      "url": "https://www.td.com/ca/en/investing/td-wealth-advice-for-women",
+      "is_cta": false
+    },
+    {
+      "label": "What is Private Wealth Management?",
+      "url": "https://www.td.com/ca/en/investing/search?query=What%20is%20Private%20Wealth%20Management?&source=1",
+      "is_cta": false
+    },
+    {
+      "label": "What does a financial planner do?",
+      "url": "https://www.td.com/ca/en/investing/search?query=What%20does%20a%20financial%20planner%20do?&source=1",
+      "is_cta": false
+    },
+    {
+      "label": "How is private banking different from wealth management?",
+      "url": "https://www.td.com/ca/en/investing/search?query=How%20is%20private%20banking%20different%20from%20wealth%20management?&source=1",
+      "is_cta": false
+    },
+    {
+      "label": "Read now",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-planning/everyday-tax-strategies-for-canadians",
+      "is_cta": true
+    },
+    {
+      "label": "Invest with a Personal Banker",
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing",
+      "is_cta": false
+    },
+    {
+      "label": "TD Direct Investing Articles",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/learning-resources",
+      "is_cta": false
+    },
+    {
+      "label": "TD Direct Investing Education",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/education",
+      "is_cta": false
+    },
+    {
+      "label": "TD Direct Investing Index",
+      "url": "https://www.td.com/ca/en/investing/directinvestingindex",
+      "is_cta": false
+    },
+    {
+      "label": "Markets and research",
+      "url": "https://www.td.com/ca/en/investing/markets-research",
+      "is_cta": false
+    },
+    {
+      "label": "Moneytalk news and views",
+      "url": "https://www.moneytalkgo.com/",
+      "is_cta": false
+    },
+    {
+      "label": "Explore all resources",
+      "url": "https://www.td.com/ca/en/investing/wealth/learning-resources",
+      "is_cta": false
+    },
+    {
+      "label": "How to be retirement ready at any age",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-planning/how-to-be-retirement-ready-at-any-age",
+      "is_cta": false
+    },
+    {
+      "label": "Considerations when updating or creating a will",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-wealth-management/creating-or-updating-your-will",
+      "is_cta": false
+    },
+    {
+      "label": "What is a trust?",
+      "url": "https://www.td.com/ca/en/investing/wealth/estate-and-will-planning/what-is-a-trust",
+      "is_cta": false
+    },
+    {
+      "label": "What is a probate?",
+      "url": "https://www.td.com/ca/en/investing/wealth/estate-and-will-planning/what-is-probate",
+      "is_cta": false
+    },
+    {
+      "label": "A guide to understand an executor\u2019s responsibilities",
+      "url": "https://www.td.com/ca/en/investing/wealth/estate-and-will-planning/executor-responsibilities",
+      "is_cta": false
+    },
+    {
+      "label": "Watch now",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-priorities",
+      "is_cta": true
+    },
+    {
+      "label": "Find Us",
+      "url": "https://www.td.com/ca/en/investing/branch-locator",
+      "is_cta": false
+    },
+    {
+      "label": "Help",
+      "url": "https://www.td.com/ca/en/investing/help-centre",
+      "is_cta": false
+    },
+    {
+      "label": "United States",
+      "url": "https://www.td.com/us/en/investing",
+      "is_cta": false
+    },
+    {
+      "label": "Fran\u00e7ais",
+      "url": "https://www.td.com/ca/fr/investir/placement-en-direct/regimes-enregistres/reei",
+      "is_cta": false
+    },
+    {
+      "label": "\u7b80\u4f53\u4e2d\u6587",
+      "url": "https://zh.td.com/ca/en/investing/direct-investing/registered-accounts/rdsp",
+      "is_cta": false
+    },
+    {
+      "label": "\u7e41\u9ad4\u4e2d\u6587",
+      "url": "https://zt.td.com/ca/en/investing/direct-investing/registered-accounts/rdsp",
+      "is_cta": false
+    },
+    {
+      "label": "EasyWeb",
+      "url": "https://easyweb.td.com/",
+      "is_cta": false
+    },
+    {
+      "label": "WebBroker",
+      "url": "https://webbroker.td.com/",
+      "is_cta": false
+    },
+    {
+      "label": "U.S. Banking",
+      "url": "https://www.td.com/us/en/investing",
+      "is_cta": false
+    },
+    {
+      "label": "My Accounts",
+      "url": "https://www.td.com/ca/en/investing/my-accounts",
+      "is_cta": false
+    },
+    {
+      "label": "Logout",
+      "url": "https://www.td.com/bin/easyweb/transfer?RequestedPage=OUT",
+      "is_cta": false
+    },
+    {
+      "label": "EasyWeb",
+      "url": "https://www.td.com/bin/easyweb/transfer?RequestedPage=PFS",
+      "is_cta": false
+    },
+    {
+      "label": "WebBroker",
+      "url": "https://www.td.com/bin/easyweb/transfer?RequestedPage=WBK",
+      "is_cta": false
+    },
+    {
+      "label": "U.S. Banking",
+      "url": "https://www.td.com/us/en/investing",
+      "is_cta": false
+    },
+    {
+      "label": "Apply Online",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/accounts/selection?acc=RDSP",
+      "is_cta": false
+    },
+    {
+      "label": "Apply Online",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/accounts/selection?acc=RDSP",
+      "is_cta": false
+    },
+    {
+      "label": "Stocks",
+      "url": "https://www.td.com/content/tdcom/ca/en/investing/direct-investing/investment-types/stocks",
+      "is_cta": false
+    },
+    {
+      "label": "Options",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/options",
+      "is_cta": false
+    },
+    {
+      "label": "Mutual Funds",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/mutual-funds",
+      "is_cta": false
+    },
+    {
+      "label": "Fixed Income",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/fixed-income",
+      "is_cta": false
+    },
+    {
+      "label": "ETFs",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/etfs",
+      "is_cta": false
+    },
+    {
+      "label": "GICs",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types/gics",
+      "is_cta": false
+    },
+    {
+      "label": "Find out more",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/partial-shares",
+      "is_cta": true
+    },
+    {
+      "label": "Proportional Repayment Rule on the CRA site",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-disability-savings-plan-rdsp/canada-disability-savings-grant-canada-disability-savings-bond.html",
+      "is_cta": false
+    },
+    {
+      "label": "CRA site.",
+      "url": "https://www.canada.ca/en/employment-social-development/programs/disability/savings/issuers/infocapsules/holdback-amount.html",
+      "is_cta": false
+    },
+    {
+      "label": "Visit our online Help Centre",
+      "url": "https://www.td.com/ca/en/investing/help-centre",
+      "is_cta": false
+    },
+    {
+      "label": "Understanding how a RDSP could help you and your family",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/articles/rdsp",
+      "is_cta": false
+    },
+    {
+      "label": "Retirement Planning - Steps and Things to Consider",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/articles/retirement-planning",
+      "is_cta": false
+    },
+    {
+      "label": "Find more articles",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/learning-resources",
+      "is_cta": true
+    },
+    {
+      "label": "Secure\n\t\t\t\t\t\tApply now",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/accounts/selection?acc=RDSP",
+      "is_cta": true
+    },
+    {
+      "label": "1-800-465-5463",
+      "url": "tel:+1-800-465-5463",
+      "is_cta": true
+    },
+    {
+      "label": "Book now",
+      "url": "https://www.td.com/ca/en/personal-banking/book-appointment/#/appointment-type?topicid=INV07",
+      "is_cta": true
+    },
+    {
+      "label": "Find Us",
+      "url": "https://www.td.com/ca/en/investing/branch-locator",
+      "is_cta": false
+    },
+    {
+      "label": "Help",
+      "url": "https://www.td.com/ca/en/investing/help-centre",
+      "is_cta": false
+    },
+    {
+      "label": "Call us",
+      "url": "https://www.td.com/ca/en/investing/contact-us",
+      "is_cta": false
+    },
+    {
+      "label": "Request a call from TD Wealth",
+      "url": "https://contactme.td.com/ldca/selfserve?originatingId=wealth-request&lng=en&form=wealth-call-request&campaignID=6076&originatingUrl=https://www.td.com/ca/en/investing/wealth",
+      "is_cta": false
+    },
+    {
+      "label": "Find a Wealth Advisor",
+      "url": "https://advisor-match.td.com/find-an-advisor/index.htm?selectedInvst=FP&utm_source=publicsite&utm_medium=advisormatch&utm_campaign=Wealth&utm_id=Wealth",
+      "is_cta": false
+    },
+    {
+      "label": "Give feedback",
+      "url": "https://www.td.com/ca/en/personal-banking/contact-us/feedback-form",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Cash Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/cash",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed First Home Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/fhsa",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Tax-Free Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/tfsa-accounts",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Registered Retirement Savings Plan",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/rrsp",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Margin Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/margin",
+      "is_cta": false
+    },
+    {
+      "label": "Self-Directed Active Trader Margin Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/active-trader-margin-account",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed Cash Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading-accounts/easytrade-cash",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed Tax-Free Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/easytrade-tfsa",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed Registered Retirement Savings Plan",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/easytrade-rrsp",
+      "is_cta": false
+    },
+    {
+      "label": "TD Easy Trade Self-Directed First Home Savings Account",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/easytrade-fhsa",
+      "is_cta": false
+    },
+    {
+      "label": "TD Wealth Financial Planning",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-planning",
+      "is_cta": false
+    },
+    {
+      "label": "TD Wealth Private Wealth Management",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-wealth-management",
+      "is_cta": false
+    },
+    {
+      "label": "Investment Management",
+      "url": "https://www.td.com/ca/en/investing/wealth/investment-management",
+      "is_cta": false
+    },
+    {
+      "label": "Estate and Will Planning",
+      "url": "https://www.td.com/ca/en/investing/wealth/estate-and-will-planning",
+      "is_cta": false
+    },
+    {
+      "label": "TD Wealth Private Banking",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-banking",
+      "is_cta": false
+    },
+    {
+      "label": "Private Giving Foundation",
+      "url": "https://www.td.com/ca/en/investing/private-giving",
+      "is_cta": false
+    },
+    {
+      "label": "Business Owners",
+      "url": "https://www.td.com/ca/en/investing/wealth/business-owners-entrepreneurs",
+      "is_cta": false
+    },
+    {
+      "label": "Healthcare Professionals",
+      "url": "https://www.td.com/ca/en/investing/wealth/healthcare-professionals/dentists-and-practising-physicians",
+      "is_cta": false
+    },
+    {
+      "label": "2SLGBTQ+",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/2slgbtq2-entrepreneurs#tab2",
+      "is_cta": false
+    },
+    {
+      "label": "Women",
+      "url": "https://www.td.com/ca/en/investing/td-wealth-advice-for-women",
+      "is_cta": false
+    },
+    {
+      "label": "Privacy and Security",
+      "url": "https://www.td.com/ca/en/about-td/privacy-and-security",
+      "is_cta": false
+    },
+    {
+      "label": "Legal",
+      "url": "https://www.td.com/ca/en/about-td/customer-care/legal-notices-and-disclaimers",
+      "is_cta": false
+    },
+    {
+      "label": "Accessibility",
+      "url": "https://www.td.com/ca/en/about-td/accessibility",
+      "is_cta": false
+    },
+    {
+      "label": "CDIC Member",
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/cdic",
+      "is_cta": false
+    },
+    {
+      "label": "About Us",
+      "url": "https://www.td.com/ca/en/about-td",
+      "is_cta": false
+    },
+    {
+      "label": "Careers",
+      "url": "https://careers.td.com/",
+      "is_cta": false
+    },
+    {
+      "label": "CIRO Advisor Report",
+      "url": "https://www.ciro.ca/office-investor/know-your-advisor-advisor-report",
+      "is_cta": false
+    },
+    {
+      "label": "Personal Home",
+      "url": "https://www.td.com/ca/en/personal-banking/",
+      "is_cta": false
+    },
+    {
+      "label": "My Accounts",
+      "url": "https://www.td.com/ca/en/investing/my-accounts",
+      "is_cta": false
+    },
+    {
+      "label": "How To",
+      "url": "https://www.td.com/ca/en/personal-banking/how-to",
+      "is_cta": false
+    },
+    {
+      "label": "Today's Rates",
+      "url": "https://www.td.com/ca/en/personal-banking/products/mortgages/mortgage-rates",
+      "is_cta": false
+    },
+    {
+      "label": "Accounts (Personal)",
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/",
+      "is_cta": false
+    },
+    {
+      "label": "Chequing Accounts",
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/chequing-accounts/",
+      "is_cta": false
+    },
+    {
+      "label": "Savings Accounts",
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/savings-accounts/",
+      "is_cta": false
+    },
+    {
+      "label": "Youth Account",
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/chequing-accounts/student-chequing-account",
+      "is_cta": false
+    },
+    {
+      "label": "Student Account",
+      "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/chequing-accounts/student-chequing-account",
+      "is_cta": false
+    },
+    {
+      "label": "Credit Cards",
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/",
+      "is_cta": false
+    },
+    {
+      "label": "Aeroplan Miles",
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/",
+      "is_cta": false
+    },
+    {
+      "label": "Travel Rewards",
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/",
+      "is_cta": false
+    },
+    {
+      "label": "Cash Back",
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/",
+      "is_cta": false
+    },
+    {
+      "label": "No Annual Fee",
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/",
+      "is_cta": false
+    },
+    {
+      "label": "Low Rate",
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/",
+      "is_cta": false
+    },
+    {
+      "label": "U.S. Dollar",
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/",
+      "is_cta": false
+    },
+    {
+      "label": "Mortgages",
+      "url": "https://www.td.com/ca/en/personal-banking/products/mortgages",
+      "is_cta": false
+    },
+    {
+      "label": "Borrowing",
+      "url": "https://www.td.com/ca/en/personal-banking/how-to/borrowing/types-of-loans-and-lines-of-credit/",
+      "is_cta": false
+    },
+    {
+      "label": "Saving and Investing",
+      "url": "https://www.td.com/ca/en/personal-banking/products/investment-accounts-plans-products-canada",
+      "is_cta": false
+    },
+    {
+      "label": "GIC & Term Deposits",
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/gic",
+      "is_cta": false
+    },
+    {
+      "label": "Mutual Funds",
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/mutual-funds/td-mutual-funds",
+      "is_cta": false
+    },
+    {
+      "label": "TFSA - Tax-Free Savings Account",
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/investment-plans/tfsa",
+      "is_cta": false
+    },
+    {
+      "label": "RSP - Retirement Savings Plan",
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/rrsp",
+      "is_cta": false
+    },
+    {
+      "label": "RIF - Retirement Income Options",
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/rif",
+      "is_cta": false
+    },
+    {
+      "label": "RESP - Education Savings Plan",
+      "url": "https://www.td.com/ca/en/personal-banking/personal-investing/products/registered-plans/resp",
+      "is_cta": false
+    },
+    {
+      "label": "RDSP - Disability Savings Plan",
+      "url": "https://www.td.com/ca/en/personal-banking/products/personal-investing/registered-plans/rdsp",
+      "is_cta": false
+    },
+    {
+      "label": "Precious Metals",
+      "url": "https://www.td.com/ca/en/personal-banking/products/personal-investing/precious-metals-gold-silver-platinum",
+      "is_cta": false
+    },
+    {
+      "label": "Insurance",
+      "url": "https://www.td.com/ca/en/personal-banking/products/insurance/credit-protection/",
+      "is_cta": false
+    },
+    {
+      "label": "Travel Medical Insurance",
+      "url": "https://www.td.com/ca/en/personal-banking/products/insurance/travel-medical-insurance/",
+      "is_cta": false
+    },
+    {
+      "label": "All Products",
+      "url": "https://www.td.com/ca/en/personal-banking/",
+      "is_cta": false
+    },
+    {
+      "label": "Students",
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/student-banking/",
+      "is_cta": false
+    },
+    {
+      "label": "New To Canada",
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/new-to-canada/",
+      "is_cta": false
+    },
+    {
+      "label": "Cross Border Banking",
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/cross-border-banking/",
+      "is_cta": false
+    },
+    {
+      "label": "Foreign Exchange Services",
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/exchange/currency-converter",
+      "is_cta": false
+    },
+    {
+      "label": "Ways to Pay",
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/ways-to-pay-and-send-money/",
+      "is_cta": false
+    },
+    {
+      "label": "Ways to Bank",
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/ways-to-bank/",
+      "is_cta": false
+    },
+    {
+      "label": "Green Banking",
+      "url": "https://www.td.com/ca/en/personal-banking/solutions/green-banking/",
+      "is_cta": false
+    },
+    {
+      "label": "Small Business Home",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/",
+      "is_cta": false
+    },
+    {
+      "label": "Accounts (Business)",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/bank-accounts/",
+      "is_cta": false
+    },
+    {
+      "label": "Chequing Account",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/bank-accounts/",
+      "is_cta": false
+    },
+    {
+      "label": "Savings Account",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/bank-accounts/business-savings-account/",
+      "is_cta": false
+    },
+    {
+      "label": "U.S. Dollar Account",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/bank-accounts/",
+      "is_cta": false
+    },
+    {
+      "label": "AgriInvest Account",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/bank-accounts/agriinvest-account/",
+      "is_cta": false
+    },
+    {
+      "label": "Cheque Services",
+      "url": "https://www.td.com/ca/en/business-banking/solutions/small-business/cheque-services/",
+      "is_cta": false
+    },
+    {
+      "label": "Credit",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/credit/borrowing/",
+      "is_cta": false
+    },
+    {
+      "label": "Overdraft Protection",
+      "url": "https://www.tdcanadatrust.com/products-services/small-business/credit/overdraft-protection/cred-overdraft.jsp",
+      "is_cta": false
+    },
+    {
+      "label": "Line of Credit",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/credit/line-of-credit/",
+      "is_cta": false
+    },
+    {
+      "label": "Business Credit Cards (Filtered)",
+      "url": "https://www.td.com/ca/en/personal-banking/products/credit-cards/",
+      "is_cta": false
+    },
+    {
+      "label": "Loan",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/credit/business-loan/",
+      "is_cta": false
+    },
+    {
+      "label": "Business Mortgage",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/credit/business-mortgage/",
+      "is_cta": false
+    },
+    {
+      "label": "Canada Small Business Financial Loan",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/credit/business-loan/",
+      "is_cta": false
+    },
+    {
+      "label": "Agriculture Credit Solutions",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/credit/agricultural-solutions/",
+      "is_cta": false
+    },
+    {
+      "label": "TD Auto Finance Small Business Vehicle Lending",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/credit/auto-finance-small-business-vehicle-lending/",
+      "is_cta": false
+    },
+    {
+      "label": "Invest for your Business",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/investment/",
+      "is_cta": false
+    },
+    {
+      "label": "Advice for your Profession or Industry",
+      "url": "https://www.td.com/ca/en/business-banking/solutions/small-business/small-business-banking-advice/industry-expertise",
+      "is_cta": false
+    },
+    {
+      "label": "TD Merchant Solutions",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/payment-options/processing-solutions",
+      "is_cta": false
+    },
+    {
+      "label": "Foreign Currency Services",
+      "url": "https://www.td.com/ca/en/business-banking/solutions/small-business/currency-exchange",
+      "is_cta": false
+    },
+    {
+      "label": "Payroll Services",
+      "url": "https://www.td.com/ca/en/business-banking/solutions/small-business/small-business-banking-advice/industry-expertise",
+      "is_cta": false
+    },
+    {
+      "label": "Employer Services",
+      "url": "https://www.td.com/ca/en/business-banking/how-to/small-business/tools-and-resources/",
+      "is_cta": false
+    },
+    {
+      "label": "Investing Home",
+      "url": "https://www.td.com/ca/en/business-banking/small-business/investment/",
+      "is_cta": false
+    },
+    {
+      "label": "Direct Investing",
+      "url": "https://www.td.com/ca/en/investing/direct-investing",
+      "is_cta": false
+    },
+    {
+      "label": "Accounts",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/accounts",
+      "is_cta": false
+    },
+    {
+      "label": "Commissions and Fees",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/pricing",
+      "is_cta": false
+    },
+    {
+      "label": "Trading Platforms",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/trading",
+      "is_cta": false
+    },
+    {
+      "label": "Investment Types",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/investment-types",
+      "is_cta": false
+    },
+    {
+      "label": "Investor Education",
+      "url": "https://www.td.com/ca/en/investing/direct-investing/education",
+      "is_cta": false
+    },
+    {
+      "label": "TD Wealth",
+      "url": "https://www.td.com/ca/en/investing/wealth",
+      "is_cta": false
+    },
+    {
+      "label": "Financial Planning",
+      "url": "https://www.td.com/ca/en/investing/wealth/financial-planning",
+      "is_cta": false
+    },
+    {
+      "label": "Private Wealth Management",
+      "url": "https://www.td.com/ca/en/investing/wealth/private-wealth-management",
+      "is_cta": false
+    },
+    {
+      "label": "Markets and Research",
+      "url": "https://www.td.com/ca/markets-research/markets/",
+      "is_cta": false
+    },
+    {
+      "label": "About TD",
+      "url": "https://www.td.com/ca/en/about-td",
+      "is_cta": false
+    },
+    {
+      "label": "Investor Relations",
+      "url": "https://www.td.com/investor-relations/ir-homepage/ir-homepage/investor-index.jsp",
+      "is_cta": false
+    },
+    {
+      "label": "Economics",
+      "url": "https://www.td.com/economics/analysis/economics.jsp",
+      "is_cta": false
+    },
+    {
+      "label": "Community",
+      "url": "https://www.td.com/corporate-responsibility/community/index.jsp",
+      "is_cta": false
+    },
+    {
+      "label": "Environment",
+      "url": "https://www.td.com/corporate-responsibility/environment/index.jsp",
+      "is_cta": false
+    },
+    {
+      "label": "Diversity",
+      "url": "https://www.td.com/ca/en/about-td/who-we-are/diversity-and-inclusion/",
+      "is_cta": false
+    },
+    {
+      "label": "TD Newsroom",
+      "url": "https://www.td.com/about-tdbfg/media-room/overview/index.jsp",
+      "is_cta": false
+    },
+    {
+      "label": "Careers",
+      "url": "https://www.td.com/careers/why-td/index.jsp",
+      "is_cta": false
+    },
+    {
+      "label": "TD Commercial Banking",
+      "url": "https://www.tdcommercialbanking.com/home/index.jsp",
+      "is_cta": false
+    },
+    {
+      "label": "TD Asset Management",
+      "url": "https://www.td.com/ca/en/asset-management/",
+      "is_cta": false
+    },
+    {
+      "label": "TD Securities",
+      "url": "https://www.tdsecurities.com/ca/en/home-page",
+      "is_cta": false
+    },
+    {
+      "label": "TD Auto Finance",
+      "url": "https://www.td.com/ca/en/personal-banking/products/borrowing/auto-finance/",
+      "is_cta": false
+    },
+    {
+      "label": "TD Bank Personal Banking",
+      "url": "https://www.td.com/us/en/personal-banking/",
+      "is_cta": false
+    },
+    {
+      "label": "TD Bank Small Business Banking",
+      "url": "https://www.td.com/us/en/small-business/",
+      "is_cta": false
+    },
+    {
+      "label": "TD Bank Commercial Banking",
+      "url": "https://www.td.com/us/en/commercial-banking/",
+      "is_cta": false
+    },
+    {
+      "label": "TD Auto Finance",
+      "url": "https://www.tdautofinance.com/app/index.html",
+      "is_cta": false
+    },
+    {
+      "label": "TD Wealth Private Client Group",
+      "url": "https://www.td.com/us/en/investing/retirement-wealth-planning/",
+      "is_cta": false
+    },
+    {
+      "label": "TD Bank Personal Financial Services",
+      "url": "https://www.td.com/us/en/investing/start-investing/",
+      "is_cta": false
+    },
+    {
+      "label": "Yes",
+      "url": "https://www.td.com/ca/products-services/investing/td-direct-investing/accounts/byb.jsp?acc=CORE",
+      "is_cta": false
+    },
+    {
+      "label": "Not yet",
+      "url": "https://www.td.com/ca/products-services/investing/td-direct-investing/accounts/byb.jsp?user=N2B",
+      "is_cta": false
+    },
+    {
+      "label": "CRA site",
+      "url": "https://www.canada.ca/en/employment-social-development/programs/disability/savings/how-much.html",
+      "is_cta": false
+    },
+    {
+      "label": "TD Privacy Policy: Interacting with TD Online",
+      "url": "https://www.td.com/ca/en/about-td/privacy-and-security/our-privacy-commitments/how-we-use-your-information/personalize-your-online-experience",
+      "is_cta": false
+    }
+  ],
+  "buttons": [
+    {
+      "label": "Search",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Find Us",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Help",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Canada",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "English",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Login",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "My Accounts",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "query",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Close",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 1 (Current Slide)",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 2",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 1 (Current Slide)",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 2",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Close",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 1 (Current Slide)",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 2",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 1 (Current Slide)",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 2",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Close",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 1 (Current Slide)",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 2",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 1 (Current Slide)",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 2",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Close",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 1 (Current Slide)",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 2",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 1 (Current Slide)",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 2",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Open",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Login",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "My Accounts",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "query",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "TD: Investing",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Close",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Close",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Close",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Close",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Country: Canada",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Language: English",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Online Services",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 1 (Current Slide)",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 2",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 3",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "1",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Play video",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Play video",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "1",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "1",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "View More",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Find out more",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "How do I contribute to an RDSP?",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Does my Federal Government (CDSG/CDSB) grant dollars get returned to the Government if I withdraw an",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "What is Assistance Holdback Amount (AHA)?",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "What is a Disability Allowance Payment (DAP)?",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "What types of withdrawals can be made from an RDSP?",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Are there limitations to the amount of payments that can be made in a calendar year?",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Find more articles",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "7",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 1 (Current Slide)",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 2",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Carousel Page 3",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Secure\n\t\t\t\t\t\tApply now",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Book now",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Legal",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Ask Us",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "View morepopular questions",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "View morehelpful related questions",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Submit",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Site Index",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Continue to Site",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Back to TD Bank",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Restart",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Transcript",
+      "type": "button",
+      "disabled": false
+    },
+    {
+      "label": "Asset Class",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Themes",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Apply Filter",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Clear All",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Investment Style",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Duration Focus",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Apply Filter",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Clear All",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Close preference center",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "See our third party list\u200e",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "See our third party list\u200e",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "See our third party list\u200e",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Back Button",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Filter Icon",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Clear",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Apply",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Cancel",
+      "type": "submit",
+      "disabled": false
+    },
+    {
+      "label": "Confirm My Choices",
+      "type": "submit",
+      "disabled": false
+    }
+  ],
+  "forms": [
+    {
+      "action": "https://www.td.com/ca/en/investing/direct-investing/registered-accounts/rdsp",
+      "method": "get",
+      "fields": [
+        {
+          "name": "yes-no",
+          "type": "radio",
+          "label": "Yes",
+          "required": false,
+          "placeholder": ""
+        },
+        {
+          "name": "yes-no",
+          "type": "radio",
+          "label": "No",
+          "required": false,
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "section-2",
+      "title": "",
+      "content_preview": "My Accounts\n        \n        \n            Logout",
+      "has_cta": false
+    },
+    {
+      "id": "cmp-questions__chat",
+      "title": "Have a question? Find answers here",
+      "content_preview": "Have a question? Find answers here\n                    \n                \n                \n                    \n                        \n                        \n                            What's your question?\n                            \n                            \n                        \n      ",
+      "has_cta": false
+    },
+    {
+      "id": "section-4",
+      "title": "TD Personal Banking",
+      "content_preview": "TD Personal Banking\n            \n            \n            \n            \n            \n              Personal Home               \n                  \n\t        \n            \n            \n              My Accounts               \n                  \n\t        \n            \n            \n              How To ",
+      "has_cta": false
+    },
+    {
+      "id": "section-5",
+      "title": "TD Small Business Banking",
+      "content_preview": "TD Small Business Banking\n            \n              \n              \n              \n              \n\t\t\t\t Small Business Home               \n                     \n\t          \n              \n              \n\t\t\t\t Accounts (Business)               \n                     \n\t          \n              \n        ",
+      "has_cta": false
+    },
+    {
+      "id": "section-6",
+      "title": "TD Investing",
+      "content_preview": "TD Investing\n            \n              \n              \n              \n              \n\t\t\t\t Investing Home               \n                     \n\t          \n              \n              \n\t\t\t\t                \n                 Direct Investing    \n\t          \n              \n              \n\t\t\t\t          ",
+      "has_cta": false
+    },
+    {
+      "id": "section-7",
+      "title": "TD Corporate",
+      "content_preview": "TD Corporate\n            \n              \n              \n              \n              \n                 About TD\n                     \n\t          \n              \n              \n                 Investor Relations\n                     \n\t          \n              \n              \n                 Economi",
+      "has_cta": false
+    },
+    {
+      "id": "section-8",
+      "title": "Other TD Businesses",
+      "content_preview": "Other TD Businesses\n            \n              \n              \n              \n              \n                 TD Commercial Banking\n                     \n\t          \n              \n              \n                 TD Asset Management\n                     \n\t          \n              \n              \n   ",
+      "has_cta": false
+    },
+    {
+      "id": "section-9",
+      "title": "U.S. Banking",
+      "content_preview": "U.S. Banking\n            \n              \n              \n              \n              \n                 TD Bank Personal Banking\n                     \n\t          \n              \n              \n                 TD Bank Small Business Banking\n                     \n\t          \n              \n           ",
+      "has_cta": false
+    },
+    {
+      "id": "section-10",
+      "title": "Manage Consent Preferences",
+      "content_preview": "Manage Consent PreferencesEssentialAlways OnWe use these tools to provide the functionality and security of your online experience. For example, this allows us to provide a secure connection and remember your language preferences. We also use these tools to fulfill our commitments to you and to thir",
+      "has_cta": false
+    },
+    {
+      "id": "ot-pc-lst",
+      "title": "Vendors List",
+      "content_preview": "Back ButtonVendors List Search IconFilter IconClear checkbox label labelApply CancelConsent Leg.Interest checkbox label label checkbox label label checkbox label label",
+      "has_cta": false
+    },
+    {
+      "id": "ot-fltr-modal",
+      "title": "",
+      "content_preview": "Clear checkbox label labelApply Cancel",
+      "has_cta": false
+    },
+    {
+      "id": "ot-lst-cnt",
+      "title": "",
+      "content_preview": "Consent Leg.Interest checkbox label label checkbox label label checkbox label label",
+      "has_cta": false
+    }
+  ],
+  "images": [],
+  "navigation": [],
+  "tables": [
+    {
+      "id": "table-0",
+      "headers": [
+        "$200,000",
+        "While there is no annual contribution limit, there is lifetime contribution limit of $200,000 per beneficiary."
+      ],
+      "row_count": 5,
+      "caption": ""
+    }
+  ],
+  "cards": [
+    {
+      "title": "Explore an affordable way to start saving for your future\n\n            \n\n\n  \n \n\t  \n\t  \t\t\n\t \n\t\n\t\n    ",
+      "description": "Start building towards your goals by investing with partial shares trading.",
+      "link": "https://www.td.com/ca/en/investing/direct-investing/partial-shares"
+    }
+  ],
+  "url": "https://www.td.com/ca/en/personal-banking/products/personal-investing/registered-plans/rdsp",
+  "category": "general",
+  "captured_at": "2026-02-08T14:12:56.587861",
+  "raw_html_path": "D:\\enterprise playground\\workflows\\raw\\general_ca-en-personal-banking-products-personal-investing-registered-plans-rdsp.html",
+  "screenshot_path": "D:\\enterprise playground\\workflows\\screenshots\\general_ca-en-personal-banking-products-personal-investing-registered-plans-rdsp.png",
+  "url_path": "/ca/en/personal-banking/products/personal-investing/registered-plans/rdsp"
+}
