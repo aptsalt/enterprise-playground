@@ -18,8 +18,8 @@ export function SentimentBadge({ label, score }: Props) {
       className={cn(
         "text-[10px] font-mono gap-1",
         isPositive
-          ? "border-green-500/50 text-green-400"
-          : "border-orange-500/50 text-orange-400",
+          ? "border-green-500/50 text-green-600 dark:text-green-400"
+          : "border-orange-500/50 text-orange-600 dark:text-orange-400",
       )}
       aria-label={`Sentiment: ${label.toLowerCase()}, confidence ${pct}%`}
     >

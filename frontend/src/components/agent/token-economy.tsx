@@ -23,15 +23,15 @@ export function TokenEconomy({ economy }: { economy?: Economy | null }) {
         <div className="grid grid-cols-3 gap-3">
           <div>
             <p className="text-[10px] text-muted-foreground">Input</p>
-            <p className="text-lg font-bold text-indigo-400">{formatNumber(input)}</p>
+            <p className="text-lg font-bold text-indigo-600 dark:text-indigo-400">{formatNumber(input)}</p>
           </div>
           <div>
             <p className="text-[10px] text-muted-foreground">Output</p>
-            <p className="text-lg font-bold text-purple-400">{formatNumber(output)}</p>
+            <p className="text-lg font-bold text-purple-600 dark:text-purple-400">{formatNumber(output)}</p>
           </div>
           <div>
             <p className="text-[10px] text-muted-foreground">Saved</p>
-            <p className="text-lg font-bold text-green-400">{formatNumber(saved)}</p>
+            <p className="text-lg font-bold text-green-600 dark:text-green-400">{formatNumber(saved)}</p>
           </div>
         </div>
         <div>

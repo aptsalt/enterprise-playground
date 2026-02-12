@@ -4,6 +4,7 @@ import { useDashboardStore } from "@/lib/store/dashboard-store";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
+import { FeatureInfoDialog } from "@/components/ui/feature-info-dialog";
 import { cn } from "@/lib/utils";
 
 export function TopNav() {
@@ -44,19 +45,25 @@ export function TopNav() {
         </div>
 
         <div className="flex items-center gap-3" role="status" aria-label="Model status">
-          <ModelDot label="14B" ready={health?.generator_ready} />
-          <ModelDot label="3B" ready={health?.router_ready} />
-          <Badge
-            variant="outline"
-            className={cn(
-              "text-xs",
-              health?.ollama_available
-                ? "border-green-500/50 text-green-400"
-                : "border-red-500/50 text-red-400",
-            )}
-          >
-            {health?.ollama_available ? "Ollama" : "Offline"}
-          </Badge>
+          <FeatureInfoDialog featureId="dual-model" >
+            <ModelDot label="14B" ready={health?.generator_ready} />
+          </FeatureInfoDialog>
+          <FeatureInfoDialog featureId="smart-router" >
+            <ModelDot label="3B" ready={health?.router_ready} />
+          </FeatureInfoDialog>
+          <FeatureInfoDialog featureId="vram-orchestration" >
+            <Badge
+              variant="outline"
+              className={cn(
+                "text-xs",
+                health?.ollama_available
+                  ? "border-green-500/50 text-green-600 dark:text-green-400"
+                  : "border-red-500/50 text-red-600 dark:text-red-400",
+              )}
+            >
+              {health?.ollama_available ? "Ollama" : "Offline"}
+            </Badge>
+          </FeatureInfoDialog>
         </div>
 
         <ThemeToggle />

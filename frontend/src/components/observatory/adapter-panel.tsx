@@ -35,9 +35,9 @@ export function AdapterPanel() {
 
 function AdapterCard({ adapter }: { adapter: z.infer<typeof AdapterSchema> }) {
   const statusColor = adapter.status === "ready"
-    ? "text-green-400 border-green-500/50"
+    ? "text-green-600 dark:text-green-400 border-green-500/50"
     : adapter.status === "training"
-      ? "text-yellow-400 border-yellow-500/50"
+      ? "text-amber-600 dark:text-yellow-400 border-yellow-500/50"
       : "text-muted-foreground";
 
   const handleDeploy = async () => {

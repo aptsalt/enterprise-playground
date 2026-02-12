@@ -23,7 +23,7 @@ export function StreamPanel({ sse }: { sse: SSEData }) {
           <CardTitle className="text-sm">Output</CardTitle>
           <div className="flex items-center gap-2">
             {sse.state === "streaming" && (
-              <Badge variant="outline" className="animate-pulse border-indigo-500 text-indigo-400">
+              <Badge variant="outline" className="animate-pulse border-indigo-500 text-indigo-600 dark:text-indigo-400">
                 Streaming
               </Badge>
             )}
@@ -42,7 +42,7 @@ export function StreamPanel({ sse }: { sse: SSEData }) {
                   href={`/playground/${sse.playgroundId}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs text-indigo-400 underline"
+                  className="text-xs text-indigo-600 dark:text-indigo-400 underline"
                 >
                   Open Playground
                 </a>

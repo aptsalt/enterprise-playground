@@ -28,6 +28,7 @@ export const ChunkAnalyticsSchema = z.object({
   min_size: z.number(),
   max_size: z.number(),
   histogram: z.array(z.object({
+    label: z.string().optional(),
     range: z.string().optional(),
     min: z.number().optional(),
     max: z.number().optional(),

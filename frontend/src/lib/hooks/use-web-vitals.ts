@@ -31,9 +31,8 @@ export function useWebVitals() {
       }
     };
 
-    import("web-vitals").then(({ onCLS, onFID, onLCP, onFCP, onTTFB, onINP }) => {
+    import("web-vitals").then(({ onCLS, onLCP, onFCP, onTTFB, onINP }) => {
       onCLS(reportVital);
-      onFID(reportVital);
       onLCP(reportVital);
       onFCP(reportVital);
       onTTFB(reportVital);

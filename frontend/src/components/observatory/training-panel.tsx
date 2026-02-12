@@ -47,7 +47,7 @@ export function TrainingPanel() {
             Training Status
             <Badge
               variant="outline"
-              className={status?.status === "running" ? "border-green-500/50 text-green-400" : ""}
+              className={status?.status === "running" ? "border-green-500/50 text-green-600 dark:text-green-400" : ""}
             >
               {status?.status ?? "idle"}
             </Badge>

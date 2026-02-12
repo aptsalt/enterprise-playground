@@ -15,10 +15,10 @@ export function StatsRow() {
   });
 
   const cards = [
-    { label: "Playgrounds", value: stats?.playgrounds_count ?? 0, color: "text-indigo-400" },
-    { label: "Cache Entries", value: stats?.cache_entries ?? 0, color: "text-blue-400" },
-    { label: "RAG Chunks", value: rag?.total_chunks ?? 0, color: "text-cyan-400" },
-    { label: "Workflows", value: stats?.workflows_count ?? 0, color: "text-emerald-400" },
+    { label: "Playgrounds", value: stats?.total_playgrounds ?? stats?.playgrounds_count ?? 0, color: "text-indigo-600 dark:text-indigo-400" },
+    { label: "Cache Entries", value: stats?.cache?.entries ?? stats?.cache_entries ?? 0, color: "text-blue-600 dark:text-blue-400" },
+    { label: "RAG Chunks", value: rag?.total_chunks ?? 0, color: "text-cyan-600 dark:text-cyan-400" },
+    { label: "Workflows", value: stats?.workflows_count ?? 0, color: "text-emerald-600 dark:text-emerald-400" },
   ];
 
   return (

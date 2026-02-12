@@ -32,8 +32,8 @@ export function TokenCounter({ count, tokens }: Props) {
               key={i}
               className={`rounded px-0.5 text-[10px] font-mono ${
                 i % 2 === 0
-                  ? "bg-indigo-500/20 text-indigo-300"
-                  : "bg-cyan-500/20 text-cyan-300"
+                  ? "bg-indigo-500/10 text-indigo-600 dark:bg-indigo-500/20 dark:text-indigo-300"
+                  : "bg-cyan-500/10 text-cyan-600 dark:bg-cyan-500/20 dark:text-cyan-300"
               }`}
             >
               {token.replace(/ /g, "\u00B7")}

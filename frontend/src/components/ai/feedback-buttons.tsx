@@ -46,7 +46,7 @@ export function FeedbackButtons({ playgroundId, prompt }: Props) {
         variant="ghost"
         size="sm"
         onClick={() => submit("up")}
-        className={cn("h-7 w-7 p-0", rating === "up" && "text-green-400")}
+        className={cn("h-7 w-7 p-0", rating === "up" && "text-green-600 dark:text-green-400")}
         aria-label="Good generation - add to training data"
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden="true">
@@ -57,7 +57,7 @@ export function FeedbackButtons({ playgroundId, prompt }: Props) {
         variant="ghost"
         size="sm"
         onClick={() => submit("down")}
-        className={cn("h-7 w-7 p-0", rating === "down" && "text-red-400")}
+        className={cn("h-7 w-7 p-0", rating === "down" && "text-red-600 dark:text-red-400")}
         aria-label="Bad generation - flag for review"
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden="true">

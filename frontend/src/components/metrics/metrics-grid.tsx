@@ -4,10 +4,10 @@ import type { Metrics } from "@/lib/schemas/system";
 
 export function MetricsGrid({ data }: { data?: Metrics | null }) {
   const cards = [
-    { label: "Total Generations", value: data?.total_generations ?? 0, color: "text-indigo-400" },
-    { label: "Cache Hit Rate", value: data?.cache_hit_rate ?? "0%", color: "text-blue-400" },
-    { label: "Avg Latency", value: typeof data?.avg_latency_ms === "number" ? formatMs(data.avg_latency_ms) : "-", color: "text-yellow-400" },
-    { label: "RAG Generations", value: data?.rag_generations ?? 0, color: "text-cyan-400" },
+    { label: "Total Generations", value: data?.total_generations ?? 0, color: "text-indigo-600 dark:text-indigo-400" },
+    { label: "Cache Hit Rate", value: data?.cache_hit_rate ?? "0%", color: "text-blue-600 dark:text-blue-400" },
+    { label: "Avg Latency", value: typeof data?.avg_latency_ms === "number" ? formatMs(data.avg_latency_ms) : "-", color: "text-amber-600 dark:text-yellow-400" },
+    { label: "RAG Generations", value: data?.rag_generations ?? 0, color: "text-cyan-600 dark:text-cyan-400" },
   ];
 
   return (

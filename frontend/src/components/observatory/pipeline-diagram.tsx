@@ -74,9 +74,9 @@ export function PipelineDiagram() {
 
       <div className="grid gap-3 sm:grid-cols-3">
         {[
-          { label: "Base Model", value: "Qwen2.5-Coder-14B-Instruct", color: "text-indigo-400" },
-          { label: "Quantization", value: "4-bit QLoRA (NF4)", color: "text-purple-400" },
-          { label: "LoRA Config", value: "r=32, alpha=64", color: "text-cyan-400" },
+          { label: "Base Model", value: "Qwen2.5-Coder-14B-Instruct", color: "text-indigo-600 dark:text-indigo-400" },
+          { label: "Quantization", value: "4-bit QLoRA (NF4)", color: "text-purple-600 dark:text-purple-400" },
+          { label: "LoRA Config", value: "r=32, alpha=64", color: "text-cyan-600 dark:text-cyan-400" },
         ].map((item) => (
           <Card key={item.label}>
             <CardContent className="p-3">

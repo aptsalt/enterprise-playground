@@ -56,12 +56,12 @@ def render_dashboard(
         cache_badge = '<span class="px-1.5 py-0.5 text-[10px] bg-indigo-100 text-indigo-700 rounded">CACHE</span>' if cache else ""
         rag_badge = f'<span class="px-1.5 py-0.5 text-[10px] bg-blue-100 text-blue-700 rounded">RAG:{rag_used}</span>' if rag_used else ""
 
-        gallery_cards += f"""<div class="gallery-card bg-gray-50 rounded-lg border border-gray-200 overflow-hidden hover:border-indigo-400 transition-colors cursor-pointer group"
+        gallery_cards += f"""<div class="gallery-card bg-gray-50 rounded-lg border border-gray-200 overflow-hidden hover:border-amber-600 transition-colors cursor-pointer group"
             data-prompt="{prompt.lower()}" data-style="{style}" data-date="{date}" data-size="{size}" data-latency="{latency}" data-model="{model}" data-cache="{'1' if cache else '0'}" data-rag="{rag_used}"
             onclick="window.open('/playground/{pid}','_blank')">
             <div class="h-36 bg-gray-50 relative overflow-hidden">
                 <iframe src="/playground/{pid}" class="w-full h-full pointer-events-none" style="transform:scale(0.35);transform-origin:top left;width:286%;height:286%" loading="lazy"></iframe>
-                <div class="absolute inset-0 bg-gradient-to-t from-[#13161f]/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2">
+                <div class="absolute inset-0 bg-gradient-to-t from-[#f5f1ec]/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2">
                     <span class="text-xs text-gray-900">Open</span>
                 </div>
             </div>
@@ -93,7 +93,7 @@ def render_dashboard(
             <td class="px-3 py-2 text-sm text-gray-600 max-w-[200px] truncate">{prompt}</td>
             <td class="px-3 py-2 text-xs text-gray-500">{model}</td>
             <td class="px-3 py-2 text-xs text-gray-500">{size_str}</td>
-            <td class="px-3 py-2 text-xs">{f'<span class="text-indigo-600">{cache}</span>' if cache else '<span class="text-gray-400">GEN</span>'}</td>
+            <td class="px-3 py-2 text-xs">{f'<span class="text-amber-800">{cache}</span>' if cache else '<span class="text-gray-400">GEN</span>'}</td>
             <td class="px-3 py-2 text-xs">{rag_cell}</td>
             <td class="px-3 py-2 text-xs text-gray-600">{date}</td>
         </tr>"""
@@ -126,17 +126,17 @@ tailwind.config = {{
     extend: {{
       colors: {{
         gray: {{
-          50: '#212638',
-          100: '#1a1d2b',
-          200: '#2f3549',
-          300: '#3a4158',
-          400: '#6b7a94',
-          500: '#9ba8c0',
-          600: '#b8c3d6',
-          700: '#d1dae8',
-          800: '#e8ecf4',
-          900: '#f3f5f9',
-          950: '#fafbfd',
+          50: '#faf8f5',
+          100: '#f5f1ec',
+          200: '#e8e2d9',
+          300: '#d4ccc0',
+          400: '#a09688',
+          500: '#7a7068',
+          600: '#5c554e',
+          700: '#3d3832',
+          800: '#2a2520',
+          900: '#1a1612',
+          950: '#0d0b09',
         }}
       }}
     }}
@@ -144,104 +144,92 @@ tailwind.config = {{
 }}
 </script>
 <style>
-body {{ background: #13161f; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }}
-.stat-card {{ background: linear-gradient(135deg, #212638 0%, #262b3f 100%); }}
+body {{ background: #f5f1ec; color: #2a2520; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }}
+.stat-card {{ background: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }}
 .tab-btn {{ transition: all 0.2s; }}
-.tab-btn.active {{ color: #818cf8; border-color: #818cf8; }}
-.tab-btn:not(.active) {{ color: #64748b; border-color: transparent; }}
+.tab-btn.active {{ color: #9a5b2f; border-color: #9a5b2f; }}
+.tab-btn:not(.active) {{ color: #7a7068; border-color: transparent; }}
 .tab-panel {{ display: none; }}
 .tab-panel.active {{ display: block; }}
 #stream-output {{ font-family: 'SF Mono', 'Fira Code', monospace; font-size: 12px; }}
 .pipeline-node {{ transition: all 0.3s; }}
-.pipeline-node:hover {{ transform: translateY(-2px); box-shadow: 0 4px 20px rgba(99,102,241,0.25); }}
-.pipeline-arrow {{ color: #3a4158; }}
-.glow {{ box-shadow: 0 0 30px rgba(99,102,241,0.12); }}
-.metric-ring {{ background: conic-gradient(#818cf8 var(--pct), #2f3549 0); }}
+.pipeline-node:hover {{ transform: translateY(-2px); box-shadow: 0 4px 20px rgba(154,91,47,0.2); }}
+.pipeline-arrow {{ color: #d4ccc0; }}
+.glow {{ box-shadow: 0 0 30px rgba(154,91,47,0.08); }}
+.metric-ring {{ background: conic-gradient(#9a5b2f var(--pct), #e8e2d9 0); }}
 .obs-panel {{ display: block; }}
 .obs-panel.hidden {{ display: none; }}
-.obs-panel-btn {{ color: #64748b; cursor: pointer; transition: color 0.2s; }}
-.obs-panel-btn.active {{ color: #818cf8; }}
+.obs-panel-btn {{ color: #7a7068; cursor: pointer; transition: color 0.2s; }}
+.obs-panel-btn.active {{ color: #9a5b2f; }}
 .obs-bar {{ transition: width 0.5s ease-out; }}
 .chunk-expand {{ max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }}
 .chunk-expand.open {{ max-height: 600px; }}
 /* === Embeddings Tab === */
 .emb-panel {{ display: block; }}
 .emb-panel.hidden {{ display: none; }}
-.emb-panel-btn {{ color: #64748b; cursor: pointer; transition: color 0.2s; }}
-.emb-panel-btn.active {{ color: #818cf8; }}
+.emb-panel-btn {{ color: #7a7068; cursor: pointer; transition: color 0.2s; }}
+.emb-panel-btn.active {{ color: #9a5b2f; }}
 #emb-plotly .plotly .modebar {{ background: transparent !important; }}
-#emb-plotly .plotly .modebar-btn path {{ fill: #64748b !important; }}
-#emb-plotly .plotly .modebar-btn:hover path {{ fill: #818cf8 !important; }}
+#emb-plotly .plotly .modebar-btn path {{ fill: #7a7068 !important; }}
+#emb-plotly .plotly .modebar-btn:hover path {{ fill: #9a5b2f !important; }}
 .storage-bar-seg {{ height: 24px; transition: width 0.5s ease-out; display: inline-block; }}
 .storage-bar-seg:first-child {{ border-radius: 4px 0 0 4px; }}
 .storage-bar-seg:last-child {{ border-radius: 0 4px 4px 0; }}
 .status-dot {{ display: inline-block; width: 8px; height: 8px; border-radius: 50%; }}
-.status-dot.running {{ background: #818cf8; animation: pulse-dot 1.5s infinite; }}
-.status-dot.completed {{ background: #818cf8; }}
-.status-dot.interrupted {{ background: #f59e0b; }}
-.status-dot.idle {{ background: #64748b; }}
+.status-dot.running {{ background: #9a5b2f; animation: pulse-dot 1.5s infinite; }}
+.status-dot.completed {{ background: #9a5b2f; }}
+.status-dot.interrupted {{ background: #d97706; }}
+.status-dot.idle {{ background: #a09688; }}
 @keyframes pulse-dot {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0.4; }} }}
 /* === Pipeline Mermaid Diagram === */
-.pipeline-mermaid {{ background: #1a1d2b; border-radius: 12px; border: 1px solid rgba(255,255,255,0.09); padding: 24px; }}
-.pipeline-mermaid .node rect, .pipeline-mermaid .node polygon {{ fill: #262b3f !important; stroke: #4f46e5 !important; stroke-width: 1.5px; rx: 8; }}
-.pipeline-mermaid .node .label {{ color: #e2e8f0 !important; }}
-.pipeline-mermaid .edgePath .path {{ stroke: #4f46e5 !important; stroke-width: 1.5px; }}
-.pipeline-mermaid .edgeLabel {{ background: #212638 !important; color: #94a3b8 !important; font-size: 11px; padding: 2px 6px; border-radius: 4px; }}
-.pipeline-mermaid .cluster rect {{ fill: rgba(79,70,229,0.06) !important; stroke: rgba(99,102,241,0.2) !important; rx: 12; }}
-.pipeline-mermaid .cluster text {{ fill: #818cf8 !important; }}
-.pipeline-mermaid text {{ fill: #cbd5e1 !important; }}
-.pipeline-mermaid .marker {{ fill: #4f46e5 !important; stroke: #4f46e5 !important; }}
-.mermaid-tooltip {{ position: absolute; background: #262b3f; color: #e2e8f0; border: 1px solid #4f46e5; border-radius: 8px; padding: 10px 14px; font-size: 12px; max-width: 320px; pointer-events: none; opacity: 0; transition: opacity 0.2s; z-index: 100; box-shadow: 0 8px 24px rgba(0,0,0,0.5); }}
+.pipeline-mermaid {{ background: #ffffff; border-radius: 12px; border: 1px solid #e8e2d9; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }}
+.pipeline-mermaid .node rect, .pipeline-mermaid .node polygon {{ fill: #faf8f5 !important; stroke: #9a5b2f !important; stroke-width: 1.5px; rx: 8; }}
+.pipeline-mermaid .node .label {{ color: #2a2520 !important; }}
+.pipeline-mermaid .edgePath .path {{ stroke: #9a5b2f !important; stroke-width: 1.5px; }}
+.pipeline-mermaid .edgeLabel {{ background: #f5f1ec !important; color: #7a7068 !important; font-size: 11px; padding: 2px 6px; border-radius: 4px; }}
+.pipeline-mermaid .cluster rect {{ fill: rgba(154,91,47,0.04) !important; stroke: rgba(154,91,47,0.15) !important; rx: 12; }}
+.pipeline-mermaid .cluster text {{ fill: #9a5b2f !important; }}
+.pipeline-mermaid text {{ fill: #3d3832 !important; }}
+.pipeline-mermaid .marker {{ fill: #9a5b2f !important; stroke: #9a5b2f !important; }}
+.mermaid-tooltip {{ position: absolute; background: #ffffff; color: #2a2520; border: 1px solid #9a5b2f; border-radius: 8px; padding: 10px 14px; font-size: 12px; max-width: 320px; pointer-events: none; opacity: 0; transition: opacity 0.2s; z-index: 100; box-shadow: 0 8px 24px rgba(0,0,0,0.12); }}
 .mermaid-tooltip.visible {{ opacity: 1; }}
-.mermaid-tooltip .tt-title {{ font-weight: 600; color: #a5b4fc; margin-bottom: 4px; }}
-.mermaid-tooltip .tt-body {{ color: #94a3b8; line-height: 1.4; }}
+.mermaid-tooltip .tt-title {{ font-weight: 600; color: #9a5b2f; margin-bottom: 4px; }}
+.mermaid-tooltip .tt-body {{ color: #7a7068; line-height: 1.4; }}
 .pipeline-legend {{ display: flex; gap: 16px; flex-wrap: wrap; margin-top: 12px; }}
-.pipeline-legend span {{ display: flex; align-items: center; gap: 6px; font-size: 11px; color: #64748b; }}
+.pipeline-legend span {{ display: flex; align-items: center; gap: 6px; font-size: 11px; color: #7a7068; }}
 .pipeline-legend .dot {{ width: 8px; height: 8px; border-radius: 50%; }}
 .diagram-node {{ cursor: pointer; transition: filter 0.2s; }}
-.diagram-node:hover {{ filter: brightness(1.3); }}
+.diagram-node:hover {{ filter: brightness(0.9); }}
 /* === Premium Polish === */
-.stat-card {{ transition: all 0.3s ease; border-color: rgba(255,255,255,0.09); }}
-.stat-card:hover {{ transform: translateY(-2px); box-shadow: 0 8px 25px rgba(99,102,241,0.15); }}
+.stat-card {{ transition: all 0.3s ease; border-color: #e8e2d9; }}
+.stat-card:hover {{ transform: translateY(-2px); box-shadow: 0 8px 25px rgba(154,91,47,0.1); }}
 .tab-panel.active {{ animation: fadeUp 0.3s ease; }}
 @keyframes fadeUp {{ from {{ opacity: 0; transform: translateY(6px); }} to {{ opacity: 1; transform: translateY(0); }} }}
-.btn-primary {{ background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%); color: white; transition: all 0.2s ease; }}
-.btn-primary:hover {{ box-shadow: 0 4px 16px rgba(99,102,241,0.4); transform: translateY(-1px); }}
+.btn-primary {{ background: linear-gradient(135deg, #9a5b2f 0%, #b5713d 100%); color: white; transition: all 0.2s ease; }}
+.btn-primary:hover {{ box-shadow: 0 4px 16px rgba(154,91,47,0.35); transform: translateY(-1px); }}
 .btn-primary:active {{ transform: translateY(0); }}
 .btn-primary:disabled {{ opacity: 0.5; cursor: not-allowed; transform: none; box-shadow: none; }}
-.card {{ background: rgba(33,38,56,0.9); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.09); box-shadow: 0 1px 3px rgba(0,0,0,0.3); }}
-.badge-indigo {{ background: linear-gradient(135deg, rgba(79,70,229,0.2), rgba(99,102,241,0.15)); color: #a5b4fc; font-weight: 600; }}
-.badge-warm {{ background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.03)); color: #94a3b8; }}
-::selection {{ background: rgba(99,102,241,0.3); }}
-input, select {{ background: #1a1d2b !important; color: #e2e8f0 !important; border-color: #3a4158 !important; }}
-input::placeholder {{ color: #64748b !important; }}
-input:focus, select:focus {{ border-color: #6366f1 !important; box-shadow: 0 0 0 3px rgba(99,102,241,0.15) !important; }}
-.bg-white {{ background: #212638 !important; }}
-.pipeline-node {{ border: 1px solid rgba(255,255,255,0.09); box-shadow: 0 1px 3px rgba(0,0,0,0.3); }}
-/* Dark theme overrides */
-table {{ color: #cbd5e1; }}
-code {{ background: #2f3549 !important; color: #a5b4fc; }}
-.bg-indigo-100 {{ background: rgba(79,70,229,0.15) !important; }}
-.bg-purple-100 {{ background: rgba(168,85,247,0.15) !important; }}
-.bg-orange-100 {{ background: rgba(251,146,60,0.15) !important; }}
-.bg-yellow-100 {{ background: rgba(250,204,21,0.15) !important; }}
-.bg-blue-100 {{ background: rgba(59,130,246,0.15) !important; }}
-.bg-red-100 {{ background: rgba(239,68,68,0.15) !important; }}
-.bg-indigo-50 {{ background: rgba(79,70,229,0.1) !important; }}
-.text-indigo-700 {{ color: #a5b4fc !important; }}
-.text-blue-700 {{ color: #93c5fd !important; }}
-.bg-indigo-100.text-indigo-700, .bg-blue-100.text-blue-700 {{ background: rgba(79,70,229,0.15) !important; }}
-.bg-yellow-100.text-yellow-700 {{ background: rgba(250,204,21,0.12) !important; color: #fde047 !important; }}
-.bg-red-100.text-red-700 {{ background: rgba(239,68,68,0.12) !important; color: #fca5a5 !important; }}
+.card {{ background: #ffffff; backdrop-filter: blur(8px); border: 1px solid #e8e2d9; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }}
+.badge-indigo {{ background: linear-gradient(135deg, rgba(154,91,47,0.12), rgba(181,113,61,0.08)); color: #9a5b2f; font-weight: 600; }}
+.badge-warm {{ background: linear-gradient(135deg, rgba(0,0,0,0.03), rgba(0,0,0,0.02)); color: #7a7068; }}
+::selection {{ background: rgba(154,91,47,0.2); }}
+input, select {{ background: #ffffff !important; color: #2a2520 !important; border-color: #e8e2d9 !important; }}
+input::placeholder {{ color: #a09688 !important; }}
+input:focus, select:focus {{ border-color: #9a5b2f !important; box-shadow: 0 0 0 3px rgba(154,91,47,0.1) !important; }}
+.bg-white {{ background: #ffffff !important; }}
+.pipeline-node {{ border: 1px solid #e8e2d9; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }}
+/* Light theme — native Tailwind colors work, no overrides needed */
+table {{ color: #3d3832; }}
+code {{ background: #f5f1ec !important; color: #9a5b2f; }}
 /* === Agent Trace Timeline === */
 .trace-step {{ position: relative; padding-left: 28px; }}
-.trace-step::before {{ content: ''; position: absolute; left: 9px; top: 0; bottom: 0; width: 2px; background: #2f3549; }}
+.trace-step::before {{ content: ''; position: absolute; left: 9px; top: 0; bottom: 0; width: 2px; background: #e8e2d9; }}
 .trace-step:last-child::before {{ display: none; }}
-.trace-step-dot {{ position: absolute; left: 4px; top: 8px; width: 12px; height: 12px; border-radius: 50%; border: 2px solid #4f46e5; background: #212638; z-index: 1; }}
-.trace-step-dot.cache-hit {{ border-color: #22c55e; background: rgba(34,197,94,0.2); }}
-.trace-step-dot.cache-miss {{ border-color: #f59e0b; }}
-.trace-step-dot.generate {{ border-color: #818cf8; background: rgba(129,140,248,0.2); }}
-.trace-step-dot.rag {{ border-color: #06b6d4; }}
+.trace-step-dot {{ position: absolute; left: 4px; top: 8px; width: 12px; height: 12px; border-radius: 50%; border: 2px solid #9a5b2f; background: #ffffff; z-index: 1; }}
+.trace-step-dot.cache-hit {{ border-color: #16a34a; background: rgba(22,163,74,0.1); }}
+.trace-step-dot.cache-miss {{ border-color: #d97706; }}
+.trace-step-dot.generate {{ border-color: #9a5b2f; background: rgba(154,91,47,0.1); }}
+.trace-step-dot.rag {{ border-color: #0891b2; }}
 .trace-bar {{ height: 6px; border-radius: 3px; min-width: 2px; transition: width 0.5s ease-out; }}
 .trace-expand {{ max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }}
 .trace-expand.open {{ max-height: 400px; }}
@@ -250,19 +238,19 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
 <body class="min-h-screen">
 
 <!-- === TOP NAV === -->
-<nav class="border-b border-gray-200/60 px-6 py-3.5 flex items-center justify-between sticky top-0 z-50 backdrop-blur-xl" style="background:rgba(19,22,31,0.85);box-shadow:0 1px 4px rgba(0,0,0,0.3)">
+<nav class="border-b border-gray-200 px-6 py-3.5 flex items-center justify-between sticky top-0 z-50 backdrop-blur-xl" style="background:rgba(245,241,236,0.9);box-shadow:0 1px 3px rgba(0,0,0,0.06)">
     <div class="flex items-center gap-3">
-        <div class="w-9 h-9 rounded-xl flex items-center justify-center text-white font-bold text-sm shadow-md" style="background:linear-gradient(135deg,#4f46e5 0%,#818cf8 100%);box-shadow:0 2px 10px rgba(79,70,229,0.3)">EP</div>
+        <div class="w-9 h-9 rounded-xl flex items-center justify-center text-white font-bold text-sm shadow-md" style="background:linear-gradient(135deg,#9a5b2f 0%,#b5713d 100%);box-shadow:0 2px 10px rgba(154,91,47,0.2)">EP</div>
         <div>
             <span class="font-bold text-gray-900 tracking-tight text-[15px]">Enterprise Playground</span>
-            <span class="text-[9px] text-indigo-300 ml-2 px-2 py-0.5 rounded-full font-semibold tracking-wider uppercase" style="background:rgba(99,102,241,0.15)">Showcase</span>
+            <span class="text-[9px] ml-2 px-2 py-0.5 rounded-full font-semibold tracking-wider uppercase" style="background:rgba(154,91,47,0.1);color:#9a5b2f">Showcase</span>
         </div>
     </div>
     <div class="flex items-center gap-4">
         <div id="vram-bar" class="flex items-center gap-2">
             <span class="text-xs text-gray-500">VRAM</span>
             <div class="w-24 h-2 bg-gray-200 rounded-full overflow-hidden">
-                <div id="vram-fill" class="h-full bg-indigo-500 rounded-full transition-all" style="width:0%"></div>
+                <div id="vram-fill" class="h-full bg-amber-700 rounded-full transition-all" style="width:0%"></div>
             </div>
             <span id="vram-text" class="text-xs text-gray-500">--</span>
         </div>
@@ -275,14 +263,14 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
             <span class="text-xs text-gray-500">{router_model}</span>
         </div>
         <div class="flex items-center gap-1.5">
-            <div class="w-2 h-2 rounded-full {"bg-indigo-500" if rag_enabled else "bg-gray-600"}"></div>
+            <div class="w-2 h-2 rounded-full {"bg-amber-700" if rag_enabled else "bg-gray-600"}"></div>
             <span class="text-xs text-gray-500">RAG</span>
         </div>
     </div>
 </nav>
 
 <!-- === TAB BAR === -->
-<div class="border-b border-gray-200/60 backdrop-blur-sm sticky top-[56px] z-40" style="background:rgba(19,22,31,0.75)">
+<div class="border-b border-gray-200 backdrop-blur-sm sticky top-[56px] z-40" style="background:rgba(245,241,236,0.85)">
     <div class="max-w-7xl mx-auto px-6 flex gap-0">
         <button class="tab-btn active px-4 py-3 text-sm font-medium border-b-2" onclick="switchTab('generate')" data-tab="generate">Generate</button>
         <button class="tab-btn px-4 py-3 text-sm font-medium border-b-2" onclick="switchTab('gallery')" data-tab="gallery">Gallery <span class="text-xs text-gray-600 ml-1">{pg_count}</span></button>
@@ -305,7 +293,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
     <div class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6">
         <div class="stat-card rounded-lg p-4 border border-gray-200 glow">
             <div class="text-[10px] text-gray-500 uppercase tracking-wider">Playgrounds</div>
-            <div class="text-2xl font-bold text-indigo-600 mt-1">{pg_count}</div>
+            <div class="text-2xl font-bold text-amber-800 mt-1">{pg_count}</div>
         </div>
         <div class="stat-card rounded-lg p-4 border border-gray-200">
             <div class="text-[10px] text-gray-500 uppercase tracking-wider">Cache Hits</div>
@@ -332,7 +320,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
         <div class="flex gap-3">
             <input type="text" id="prompt" placeholder="Describe what to visualize or ask anything..."
                    class="flex-1 bg-white border border-gray-300 rounded-lg px-4 py-3 text-sm text-gray-800
-                          placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                          placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-amber-700 focus:border-amber-700"
                    onkeydown="if(event.key==='Enter')generate()">
             <select id="style" class="bg-white border border-gray-300 rounded-lg px-3 text-sm text-gray-600">
                 <option value="banking">Banking</option>
@@ -353,7 +341,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
                     <div class="flex items-center gap-2 mb-2">
                         <div id="stream-status" class="text-xs text-gray-500">Ready</div>
                         <div id="stream-spinner" class="hidden">
-                            <svg class="animate-spin h-3 w-3 text-indigo-600" viewBox="0 0 24 24">
+                            <svg class="animate-spin h-3 w-3 text-amber-800" viewBox="0 0 24 24">
                                 <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"/>
                                 <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/>
                             </svg>
@@ -403,7 +391,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
         <div class="flex items-center gap-2 flex-wrap">
             <div class="relative">
                 <input id="gallery-search" type="text" placeholder="Search prompts..." oninput="applyGalleryFilters()"
-                    class="bg-white border border-gray-300 rounded px-3 py-1 text-xs text-gray-700 w-52 pl-7 focus:outline-none focus:border-indigo-400 focus:ring-1 focus:ring-indigo-200">
+                    class="bg-white border border-gray-300 rounded px-3 py-1 text-xs text-gray-700 w-52 pl-7 focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-200">
                 <svg class="absolute left-2 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
             </div>
             <select id="gallery-filter" class="bg-white border border-gray-300 rounded px-2 py-1 text-xs text-gray-600" onchange="applyGalleryFilters()">
@@ -476,11 +464,11 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
         </div>
         <div class="bg-white rounded-xl border border-gray-200 p-4">
             <div class="flex items-center gap-2 mb-3">
-                <div class="w-8 h-8 rounded-lg bg-indigo-100 flex items-center justify-center text-indigo-600 text-sm">5</div>
+                <div class="w-8 h-8 rounded-lg bg-indigo-100 flex items-center justify-center text-amber-800 text-sm">5</div>
                 <div><div class="text-sm font-medium text-gray-800">Generate</div><div class="text-[10px] text-gray-500">14B Coder + RAG context</div></div>
             </div>
             <div class="text-xs text-gray-400">14B model generates HTML with injected RAG context. Token-optimized prompts. SSE streaming for real-time display.</div>
-            <div id="phase-generate-count" class="text-lg font-bold text-indigo-600 mt-2">--</div>
+            <div id="phase-generate-count" class="text-lg font-bold text-amber-800 mt-2">--</div>
         </div>
         <div class="bg-white rounded-xl border border-gray-200 p-4">
             <div class="flex items-center gap-2 mb-3">
@@ -517,7 +505,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
                         <div class="text-xs text-gray-500">ChromaDB (embedded mode)</div>
                     </div>
                     <div class="flex items-center gap-1.5">
-                        <div class="w-2 h-2 rounded-full {"bg-indigo-500" if rag_enabled else "bg-red-400"}"></div>
+                        <div class="w-2 h-2 rounded-full {"bg-amber-700" if rag_enabled else "bg-red-400"}"></div>
                         <span class="text-xs text-gray-400">{"Active" if rag_enabled else "Disabled"}</span>
                     </div>
                 </div>
@@ -547,8 +535,8 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
                 </div>
 
                 <!-- Pipeline Cycle Actions -->
-                <div class="mt-4 p-3 rounded-lg border border-indigo-500/20" style="background:rgba(79,70,229,0.06)">
-                    <div class="text-[10px] text-indigo-600 font-semibold uppercase tracking-wider mb-2">Full Pipeline Cycle</div>
+                <div class="mt-4 p-3 rounded-lg border border-amber-700/20" style="background:rgba(79,70,229,0.06)">
+                    <div class="text-[10px] text-amber-800 font-semibold uppercase tracking-wider mb-2">Full Pipeline Cycle</div>
                     <div class="flex gap-2">
                         <button onclick="prepareDataset()" id="prepare-btn"
                                 class="flex-1 btn-primary px-3 py-2 rounded-lg text-xs">
@@ -568,7 +556,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
                 <div class="text-sm font-medium text-gray-800 mb-3">Test RAG Retrieval</div>
                 <div class="flex gap-2 mb-3">
                     <input type="text" id="rag-query" placeholder="e.g. credit card application process"
-                           class="flex-1 bg-white border border-gray-300 rounded-lg px-3 py-2 text-xs text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                           class="flex-1 bg-white border border-gray-300 rounded-lg px-3 py-2 text-xs text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-amber-700"
                            onkeydown="if(event.key==='Enter')testRAG()">
                     <button onclick="testRAG()" class="btn-primary px-4 py-2 rounded-lg text-xs">Query</button>
                 </div>
@@ -624,7 +612,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         <div class="bg-white rounded-xl border border-gray-200 p-5">
             <div class="flex items-center gap-3 mb-4">
-                <div class="w-10 h-10 rounded-lg bg-indigo-100 flex items-center justify-center text-indigo-600 font-bold text-sm">14B</div>
+                <div class="w-10 h-10 rounded-lg bg-indigo-100 flex items-center justify-center text-amber-800 font-bold text-sm">14B</div>
                 <div>
                     <div class="text-sm font-medium text-gray-800">Generator</div>
                     <div class="text-xs text-gray-500">{generator_model}</div>
@@ -636,7 +624,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
                 <div class="flex justify-between"><span class="text-gray-500">Context</span><span class="text-gray-600">8,192 tokens</span></div>
                 <div class="flex justify-between"><span class="text-gray-500">Max Output</span><span class="text-gray-600">6,144 tokens</span></div>
                 <div class="flex justify-between"><span class="text-gray-500">Temperature</span><span class="text-gray-600">0.7</span></div>
-                <div class="flex justify-between"><span class="text-gray-500">Avg Latency</span><span class="text-indigo-600" id="gen-avg-latency">--</span></div>
+                <div class="flex justify-between"><span class="text-gray-500">Avg Latency</span><span class="text-amber-800" id="gen-avg-latency">--</span></div>
                 <div class="flex justify-between"><span class="text-gray-500">Generations</span><span class="text-gray-600" id="gen-count">--</span></div>
             </div>
         </div>
@@ -825,7 +813,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
                     <span id="obs-train-epoch">Epoch 0/0</span>
                 </div>
                 <div class="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
-                    <div id="obs-train-progress-bar" class="h-full rounded-full transition-all" style="width:0%;background:linear-gradient(90deg,#4f46e5,#818cf8)"></div>
+                    <div id="obs-train-progress-bar" class="h-full rounded-full transition-all" style="width:0%;background:linear-gradient(90deg,#9a5b2f,#b5713d)"></div>
                 </div>
             </div>
             <!-- Quick Actions -->
@@ -860,7 +848,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
                     <span class="text-xs text-gray-600">No training logs available</span>
                 </div>
                 <div class="flex items-center gap-4 mt-2 text-[10px]">
-                    <span class="flex items-center gap-1"><span class="w-3 h-0.5 bg-indigo-500 inline-block"></span> <span class="text-gray-500">Train Loss</span></span>
+                    <span class="flex items-center gap-1"><span class="w-3 h-0.5 bg-amber-700 inline-block"></span> <span class="text-gray-500">Train Loss</span></span>
                     <span class="flex items-center gap-1"><span class="w-3 h-0.5 bg-amber-400 inline-block" style="border-top:1px dashed #f59e0b"></span> <span class="text-gray-500">Eval Loss</span></span>
                 </div>
             </div>
@@ -906,10 +894,10 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
                 </div>
                 <div class="flex items-center gap-3">
                     <div class="text-xs text-gray-500">
-                        <span class="text-indigo-400 font-medium">194</span> train &middot;
-                        <span class="text-indigo-400 font-medium">22</span> val &middot;
-                        <span class="text-indigo-400 font-medium">75</span> steps &middot;
-                        <span class="text-indigo-400 font-medium">3</span> epochs
+                        <span class="text-amber-700 font-medium">194</span> train &middot;
+                        <span class="text-amber-700 font-medium">22</span> val &middot;
+                        <span class="text-amber-700 font-medium">75</span> steps &middot;
+                        <span class="text-amber-700 font-medium">3</span> epochs
                     </div>
                 </div>
             </div>
@@ -937,7 +925,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
             </div>
             <div class="stat-card rounded-lg p-3 border border-gray-200">
                 <div class="text-[10px] text-gray-500 uppercase tracking-wider">LoRA Config</div>
-                <div class="text-sm font-bold text-indigo-400 mt-1">r=16, a=32</div>
+                <div class="text-sm font-bold text-amber-700 mt-1">r=16, a=32</div>
                 <div class="text-[10px] text-gray-600">7 target modules</div>
             </div>
             <div class="stat-card rounded-lg p-3 border border-gray-200">
@@ -959,8 +947,8 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
 
         <!-- Legend -->
         <div class="pipeline-legend mt-3">
-            <span><span class="dot" style="background:#4f46e5"></span> Data Pipeline</span>
-            <span><span class="dot" style="background:#818cf8"></span> Model & LoRA</span>
+            <span><span class="dot" style="background:#9a5b2f"></span> Data Pipeline</span>
+            <span><span class="dot" style="background:#b5713d"></span> Model & LoRA</span>
             <span><span class="dot" style="background:#22c55e"></span> Training Loop</span>
             <span><span class="dot" style="background:#f59e0b"></span> Output Artifacts</span>
             <span><span class="dot" style="background:#ef4444"></span> GPU Resources</span>
@@ -976,7 +964,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
     <div class="grid grid-cols-2 md:grid-cols-6 gap-3 mb-6">
         <div class="stat-card rounded-lg p-4 border border-gray-200 glow">
             <div class="text-[10px] text-gray-500 uppercase tracking-wider">Total Traces</div>
-            <div class="text-2xl font-bold text-indigo-600 mt-1" id="ag-total-traces">--</div>
+            <div class="text-2xl font-bold text-amber-800 mt-1" id="ag-total-traces">--</div>
         </div>
         <div class="stat-card rounded-lg p-4 border border-gray-200">
             <div class="text-[10px] text-gray-500 uppercase tracking-wider">Avg Latency</div>
@@ -1100,7 +1088,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
             </div>
             <div class="stat-card rounded-lg p-4 border border-gray-200">
                 <div class="text-[10px] text-gray-500 uppercase tracking-wider">Projection</div>
-                <div class="text-lg font-bold text-indigo-400 mt-1" id="emb-projection">UMAP</div>
+                <div class="text-lg font-bold text-amber-700 mt-1" id="emb-projection">UMAP</div>
             </div>
         </div>
 
@@ -1109,12 +1097,12 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
             <div class="lg:col-span-2">
                 <div class="flex items-center gap-3 mb-3">
                     <div class="flex bg-gray-200 rounded-lg overflow-hidden">
-                        <button id="emb-btn-3d" onclick="toggleEmbDims(3)" class="px-4 py-1.5 text-xs font-medium bg-indigo-500 text-white transition-colors">3D</button>
+                        <button id="emb-btn-3d" onclick="toggleEmbDims(3)" class="px-4 py-1.5 text-xs font-medium bg-amber-700 text-white transition-colors">3D</button>
                         <button id="emb-btn-2d" onclick="toggleEmbDims(2)" class="px-4 py-1.5 text-xs font-medium text-gray-500 transition-colors">2D</button>
                     </div>
                     <span class="text-xs text-gray-500" id="emb-status">Loading UMAP projection...</span>
                 </div>
-                <div id="emb-plotly" style="width:100%;height:520px;background:#1a1d2b;border-radius:12px;border:1px solid rgba(255,255,255,0.09)"></div>
+                <div id="emb-plotly" style="width:100%;height:520px;background:#faf8f5;border-radius:12px;border:1px solid #e8e2d9"></div>
             </div>
             <div class="space-y-4">
                 <div class="bg-white rounded-xl border border-gray-200 p-5">
@@ -1184,7 +1172,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
                 <h3 class="text-sm font-medium text-gray-400 uppercase tracking-wider">Chunk Browser</h3>
                 <div class="flex items-center gap-2">
                     <input id="cdb-search" type="text" placeholder="Search chunks..." oninput="filterCdbChunks()"
-                        class="bg-white border border-gray-300 rounded px-3 py-1 text-xs text-gray-700 w-48 focus:outline-none focus:border-indigo-400">
+                        class="bg-white border border-gray-300 rounded px-3 py-1 text-xs text-gray-700 w-48 focus:outline-none focus:border-amber-600">
                     <span class="text-xs text-gray-600" id="cdb-chunk-count">--</span>
                 </div>
             </div>
@@ -1201,7 +1189,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
         <div class="stat-card rounded-lg p-5 border border-gray-200 glow mb-6 flex items-center justify-between">
             <div>
                 <div class="text-[10px] text-gray-500 uppercase tracking-wider">Total Storage Used</div>
-                <div class="text-3xl font-bold text-indigo-600 mt-1" id="stor-total">--</div>
+                <div class="text-3xl font-bold text-amber-800 mt-1" id="stor-total">--</div>
             </div>
             <button onclick="loadStorageOverview()" class="text-xs bg-gray-200 text-gray-600 px-3 py-1 rounded hover:bg-gray-300 transition-colors">Refresh</button>
         </div>
@@ -1209,7 +1197,7 @@ code {{ background: #2f3549 !important; color: #a5b4fc; }}
         <!-- Proportional bar -->
         <div class="bg-white rounded-xl border border-gray-200 p-5 mb-6">
             <div class="text-sm font-medium text-gray-800 mb-3">Storage Distribution</div>
-            <div id="stor-bar" class="w-full rounded overflow-hidden flex" style="height:24px;background:#2f3549"></div>
+            <div id="stor-bar" class="w-full rounded overflow-hidden flex" style="height:24px;background:#e8e2d9"></div>
             <div id="stor-bar-legend" class="flex gap-4 flex-wrap mt-3"></div>
         </div>
 
@@ -1319,7 +1307,7 @@ async function generate() {{
                         output.scrollTop = output.scrollHeight;
                     }} else if (data.type === 'cache_hit') {{
                         status.textContent = 'Cache hit! Loading instantly...';
-                        ragCtx.innerHTML = '<span class="text-indigo-600">Cache hit - no RAG needed</span>';
+                        ragCtx.innerHTML = '<span class="text-amber-800">Cache hit - no RAG needed</span>';
                     }} else if (data.type === 'done') {{
                         status.textContent = 'Done!';
                         spinner.classList.add('hidden');
@@ -1428,7 +1416,7 @@ async function prepareDataset() {{
     btn.disabled = true;
     btn.textContent = 'Preparing...';
     status.classList.remove('hidden');
-    status.innerHTML = '<span class="text-indigo-600">Collecting examples from generated playgrounds...</span>';
+    status.innerHTML = '<span class="text-amber-800">Collecting examples from generated playgrounds...</span>';
     try {{
         const resp = await fetch('/api/dataset/prepare', {{
             method: 'POST',
@@ -1437,7 +1425,7 @@ async function prepareDataset() {{
         }});
         const data = await resp.json();
         if (data.status === 'ok') {{
-            status.innerHTML = `<span class="text-indigo-600 font-medium">Dataset prepared!</span> ${{data.train_size}} train / ${{data.val_size}} val examples from ${{data.total_examples}} total. Quality: ${{data.quality_distribution}}`;
+            status.innerHTML = `<span class="text-amber-800 font-medium">Dataset prepared!</span> ${{data.train_size}} train / ${{data.val_size}} val examples from ${{data.total_examples}} total. Quality: ${{data.quality_distribution}}`;
             loadDataStats();
         }} else {{
             status.innerHTML = `<span class="text-amber-600">${{data.message}}</span>`;
@@ -1455,7 +1443,7 @@ function showTrainingCommand() {{
     const status = document.getElementById('prepare-status');
     status.classList.remove('hidden');
     status.innerHTML = `<div class="space-y-1">
-        <div class="text-indigo-600 font-medium">Training command:</div>
+        <div class="text-amber-800 font-medium">Training command:</div>
         <code class="block px-3 py-2 rounded text-[11px] font-mono select-all">${{cmd}}</code>
         <div class="text-gray-400 text-[10px]">Run this in your terminal. Requires torch, transformers, peft, trl, bitsandbytes.</div>
         <div class="text-gray-400 text-[10px]">For cloud training: <code class="text-gray-500">python -m fine_tuning.train_lora</code> (uses 14B model on RunPod)</div>
@@ -1532,7 +1520,7 @@ async function loadMetrics() {{
         const recent = data.recent || [];
         if (recent.length > 0) {{
             document.getElementById('metrics-log').innerHTML = recent.map(r => {{
-                const cacheTag = r.cache_hit ? '<span class="text-indigo-600 text-[10px]">CACHE</span>' : '';
+                const cacheTag = r.cache_hit ? '<span class="text-amber-800 text-[10px]">CACHE</span>' : '';
                 const ragTag = r.rag_chunks_used > 0 ? `<span class="text-cyan-500 text-[10px]">RAG:${{r.rag_chunks_used}}</span>` : '';
                 return `<div class="px-4 py-2 border-b border-gray-200 flex items-center gap-3 text-xs">
                     <span class="text-gray-600 w-32 shrink-0">${{r.timestamp.substring(5, 16)}}</span>
@@ -1595,7 +1583,7 @@ async function loadChunkAnalytics() {{
             return `<div class="flex items-center gap-2">
                 <span class="text-xs text-gray-500 w-16 text-right">${{h.label}}</span>
                 <div class="flex-1 h-5 bg-white rounded overflow-hidden">
-                    <div class="obs-bar h-full bg-indigo-500/80 rounded" style="width:${{pct}}%"></div>
+                    <div class="obs-bar h-full bg-amber-700/80 rounded" style="width:${{pct}}%"></div>
                 </div>
                 <span class="text-xs text-gray-400 w-8">${{h.count}}</span>
             </div>`;
@@ -1693,7 +1681,7 @@ async function findSimilar(chunkId, containerId) {{
         }}
         container.innerHTML = '<div class="mt-2 space-y-1">' + similar.map(s => {{
             const dist = s.distance || 0;
-            const colorClass = dist < 0.1 ? 'text-red-400' : dist < 0.3 ? 'text-amber-400' : 'text-indigo-600';
+            const colorClass = dist < 0.1 ? 'text-red-400' : dist < 0.3 ? 'text-amber-400' : 'text-amber-800';
             const label = dist < 0.1 ? 'Near-duplicate' : dist < 0.3 ? 'Similar' : 'Related';
             return `<div class="flex items-center gap-2 p-1.5 bg-gray-50 rounded text-[10px]">
                 <span class="${{colorClass}} font-medium w-24">${{label}} (${{dist.toFixed(3)}})</span>
@@ -1759,14 +1747,14 @@ async function loadTrainingLogs() {{
         for (let i = 0; i <= 4; i++) {{
             const y = pad + i * (height - pad * 2) / 4;
             const val = (maxLoss - (i / 4) * (maxLoss - minLoss)).toFixed(3);
-            gridLines += `<line x1="${{pad}}" y1="${{y}}" x2="${{width - pad}}" y2="${{y}}" stroke="#2f3549" stroke-width="1"/>`;
-            gridLines += `<text x="${{pad - 5}}" y="${{y + 3}}" text-anchor="end" fill="#94a3b8" font-size="9">${{val}}</text>`;
+            gridLines += `<line x1="${{pad}}" y1="${{y}}" x2="${{width - pad}}" y2="${{y}}" stroke="#e8e2d9" stroke-width="1"/>`;
+            gridLines += `<text x="${{pad - 5}}" y="${{y + 3}}" text-anchor="end" fill="#7a7068" font-size="9">${{val}}</text>`;
         }}
 
         // Axes
-        const axes = `<line x1="${{pad}}" y1="${{pad}}" x2="${{pad}}" y2="${{height - pad}}" stroke="#3a4158" stroke-width="1"/>
-            <line x1="${{pad}}" y1="${{height - pad}}" x2="${{width - pad}}" y2="${{height - pad}}" stroke="#3a4158" stroke-width="1"/>
-            <text x="${{width / 2}}" y="${{height - 5}}" text-anchor="middle" fill="#94a3b8" font-size="10">Steps</text>`;
+        const axes = `<line x1="${{pad}}" y1="${{pad}}" x2="${{pad}}" y2="${{height - pad}}" stroke="#d4ccc0" stroke-width="1"/>
+            <line x1="${{pad}}" y1="${{height - pad}}" x2="${{width - pad}}" y2="${{height - pad}}" stroke="#d4ccc0" stroke-width="1"/>
+            <text x="${{width / 2}}" y="${{height - 5}}" text-anchor="middle" fill="#7a7068" font-size="10">Steps</text>`;
 
         // Train loss line
         const trainPath = lossCurve.map((p, i) => `${{i === 0 ? 'M' : 'L'}}${{sx(p.step).toFixed(1)}},${{sy(p.loss).toFixed(1)}}`).join(' ');
@@ -1780,7 +1768,7 @@ async function loadTrainingLogs() {{
             <svg viewBox="0 0 ${{width}} ${{height}}" class="w-full" style="max-height:220px">
                 ${{gridLines}}
                 ${{axes}}
-                <path d="${{trainPath}}" fill="none" stroke="#6366f1" stroke-width="2"/>
+                <path d="${{trainPath}}" fill="none" stroke="#a8652f" stroke-width="2"/>
                 ${{evalPath ? `<path d="${{evalPath}}" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,3"/>` : ''}}
             </svg>`;
     }} catch (e) {{}}
@@ -2011,17 +1999,17 @@ function renderPipelineDiagram() {{
         script.onload = () => {{
             window.mermaid.initialize({{
                 startOnLoad: false,
-                theme: 'dark',
+                theme: 'base',
                 themeVariables: {{
-                    primaryColor: '#262b3f',
-                    primaryTextColor: '#e2e8f0',
-                    primaryBorderColor: '#4f46e5',
-                    lineColor: '#4f46e5',
-                    secondaryColor: '#2f3549',
-                    tertiaryColor: '#1a1d2b',
-                    edgeLabelBackground: '#212638',
-                    clusterBkg: 'rgba(79,70,229,0.06)',
-                    clusterBorder: 'rgba(99,102,241,0.2)',
+                    primaryColor: '#faf8f5',
+                    primaryTextColor: '#3d3832',
+                    primaryBorderColor: '#9a5b2f',
+                    lineColor: '#9a5b2f',
+                    secondaryColor: '#f5f1ec',
+                    tertiaryColor: '#faf8f5',
+                    edgeLabelBackground: '#f5f1ec',
+                    clusterBkg: 'rgba(154,91,47,0.04)',
+                    clusterBorder: 'rgba(154,91,47,0.15)',
                     fontFamily: '-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif',
                     fontSize: '12px',
                 }},
@@ -2153,8 +2141,8 @@ async function drawDiagram() {{
 let agentLoaded = false;
 const STEP_COLORS = {{
     'route': '#a78bfa', 'cache_check': '#60a5fa', 'rag_query': '#22d3ee',
-    'compress': '#fbbf24', 'generate': '#818cf8', 'cache_store': '#34d399',
-    'light_task': '#f472b6', 'metrics': '#94a3b8',
+    'compress': '#fbbf24', 'generate': '#b5713d', 'cache_store': '#34d399',
+    'light_task': '#f472b6', 'metrics': '#7a7068',
 }};
 const STEP_ICONS = {{
     'route': '&#x2192;', 'cache_check': '&#x1F50D;', 'rag_query': '&#x1F4DA;',
@@ -2222,7 +2210,7 @@ function renderTraceTimeline(trace) {{
 
     let html = `<div class="mb-4 p-3 rounded-lg" style="background:rgba(79,70,229,0.06);border:1px solid rgba(99,102,241,0.15)">
         <div class="flex items-center justify-between mb-1">
-            <span class="text-xs text-indigo-400 font-medium">${{trace.id}}</span>
+            <span class="text-xs text-amber-700 font-medium">${{trace.id}}</span>
             <span class="text-[10px] text-gray-500">${{(trace.started_at || '').substring(0, 19)}}</span>
         </div>
         <div class="text-xs text-gray-400 mb-2 truncate">"${{prompt}}"</div>
@@ -2239,7 +2227,7 @@ function renderTraceTimeline(trace) {{
     html += '<div class="space-y-0.5">';
     for (const step of steps) {{
         const pct = Math.max(2, (step.latency_ms / maxMs) * 100);
-        const color = STEP_COLORS[step.step_name] || '#64748b';
+        const color = STEP_COLORS[step.step_name] || '#a09688';
         const icon = STEP_ICONS[step.step_name] || '&#x25CF;';
         const meta = step.metadata || {{}};
         const stepId = `step-detail-${{trace.id}}-${{step.step_order}}`;
@@ -2269,12 +2257,12 @@ function renderTraceTimeline(trace) {{
                 <span class="text-[10px] text-gray-500 truncate flex-1">${{detail}}</span>
             </div>
             <div class="flex items-center gap-2">
-                <div class="flex-1 h-1.5 rounded-full overflow-hidden" style="background:#212638">
+                <div class="flex-1 h-1.5 rounded-full overflow-hidden" style="background:#ffffff">
                     <div class="trace-bar" style="width:${{pct}}%;background:${{color}}"></div>
                 </div>
             </div>
             <div class="trace-expand" id="${{stepId}}">
-                <div class="mt-2 p-2 rounded text-[10px] text-gray-400 font-mono" style="background:#1a1d2b">${{escapeHtml(JSON.stringify(meta, null, 2))}}</div>
+                <div class="mt-2 p-2 rounded text-[10px] text-gray-400 font-mono" style="background:#faf8f5">${{escapeHtml(JSON.stringify(meta, null, 2))}}</div>
             </div>
         </div>`;
     }}
@@ -2291,10 +2279,10 @@ function renderModelDist(dist) {{
     for (const [model, count] of Object.entries(dist).sort((a, b) => b[1] - a[1])) {{
         const pct = (count / total * 100).toFixed(1);
         const label = model.includes('14b') || model.includes('coder') ? '14B Generator' : model === 'cache' ? 'Cache' : model.includes('3b') ? '3B Router' : model.split(':').pop() || model;
-        const color = model.includes('14b') || model.includes('coder') ? '#818cf8' : model === 'cache' ? '#34d399' : '#a78bfa';
+        const color = model.includes('14b') || model.includes('coder') ? '#b5713d' : model === 'cache' ? '#34d399' : '#a78bfa';
         html += `<div>
             <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">${{label}}</span><span style="color:${{color}}" class="font-medium">${{count}} (${{pct}}%)</span></div>
-            <div class="h-2 rounded-full overflow-hidden" style="background:#212638">
+            <div class="h-2 rounded-full overflow-hidden" style="background:#ffffff">
                 <div class="obs-bar h-full rounded-full" style="width:${{pct}}%;background:${{color}}"></div>
             </div>
         </div>`;
@@ -2304,16 +2292,16 @@ function renderModelDist(dist) {{
 
 function renderRouterMethods(methods) {{
     const total = Object.values(methods).reduce((a, b) => a + b, 0) || 1;
-    const colors = {{ 'keyword': '#34d399', 'llm_3b': '#818cf8', 'forced': '#f59e0b', 'stream': '#06b6d4' }};
+    const colors = {{ 'keyword': '#34d399', 'llm_3b': '#b5713d', 'forced': '#f59e0b', 'stream': '#06b6d4' }};
     const labels = {{ 'keyword': 'Keyword (0 tokens)', 'llm_3b': 'LLM 3B (~50 tokens)', 'forced': 'Force Generate', 'stream': 'Stream Mode' }};
 
     let html = '';
     for (const [method, count] of Object.entries(methods).sort((a, b) => b[1] - a[1])) {{
         const pct = (count / total * 100).toFixed(1);
-        const color = colors[method] || '#64748b';
+        const color = colors[method] || '#a09688';
         html += `<div>
             <div class="flex justify-between text-xs mb-1"><span class="text-gray-400">${{labels[method] || method}}</span><span style="color:${{color}}" class="font-medium">${{count}} (${{pct}}%)</span></div>
-            <div class="h-2 rounded-full overflow-hidden" style="background:#212638">
+            <div class="h-2 rounded-full overflow-hidden" style="background:#ffffff">
                 <div class="obs-bar h-full rounded-full" style="width:${{pct}}%;background:${{color}}"></div>
             </div>
         </div>`;
@@ -2328,10 +2316,10 @@ function renderStepLatencies(stepData) {{
     let html = '';
     for (const [step, data] of entries) {{
         const pct = Math.max(2, (data.avg_ms / maxMs) * 100);
-        const color = STEP_COLORS[step] || '#64748b';
+        const color = STEP_COLORS[step] || '#a09688';
         html += `<div class="flex items-center gap-2">
             <span class="text-xs text-gray-400 w-24 truncate">${{step}}</span>
-            <div class="flex-1 h-5 rounded overflow-hidden" style="background:#212638">
+            <div class="flex-1 h-5 rounded overflow-hidden" style="background:#ffffff">
                 <div class="obs-bar h-full rounded flex items-center px-2" style="width:${{pct}}%;background:${{color}}40">
                     <span class="text-[10px] font-mono text-gray-300">${{data.avg_ms.toFixed(0)}}ms</span>
                 </div>
@@ -2351,15 +2339,15 @@ function renderTokenEconomy(economy, stats) {{
 
     const html = `
         <div class="grid grid-cols-3 gap-3 mb-4">
-            <div class="rounded-lg p-3 text-center" style="background:#1a1d2b">
-                <div class="text-lg font-bold text-indigo-400">${{totalInput.toLocaleString()}}</div>
+            <div class="rounded-lg p-3 text-center" style="background:#faf8f5">
+                <div class="text-lg font-bold text-amber-700">${{totalInput.toLocaleString()}}</div>
                 <div class="text-[10px] text-gray-500">Input Tokens</div>
             </div>
-            <div class="rounded-lg p-3 text-center" style="background:#1a1d2b">
+            <div class="rounded-lg p-3 text-center" style="background:#faf8f5">
                 <div class="text-lg font-bold text-amber-400">${{totalOutput.toLocaleString()}}</div>
                 <div class="text-[10px] text-gray-500">Output Tokens</div>
             </div>
-            <div class="rounded-lg p-3 text-center" style="background:#1a1d2b">
+            <div class="rounded-lg p-3 text-center" style="background:#faf8f5">
                 <div class="text-lg font-bold text-green-400">${{totalSaved.toLocaleString()}}</div>
                 <div class="text-[10px] text-gray-500">Tokens Saved</div>
             </div>
@@ -2369,7 +2357,7 @@ function renderTokenEconomy(economy, stats) {{
                 <span class="text-gray-400">Efficiency (tokens saved vs total)</span>
                 <span class="text-green-400 font-medium">${{efficiency}}%</span>
             </div>
-            <div class="h-3 rounded-full overflow-hidden" style="background:#212638">
+            <div class="h-3 rounded-full overflow-hidden" style="background:#ffffff">
                 <div class="obs-bar h-full rounded-full" style="width:${{efficiency}}%;background:linear-gradient(90deg,#22c55e,#34d399)"></div>
             </div>
         </div>
@@ -2407,7 +2395,7 @@ function renderTraceTable(traces) {{
         const taskBadge = t.task_type === 'cache_hit' ? '<span class="text-green-400">cache</span>' :
             `<span class="text-gray-400">${{t.task_type || '-'}}</span>`;
         const routerBadge = t.router_method === 'keyword' ? '<span class="text-green-400">keyword</span>' :
-            t.router_method === 'llm_3b' ? '<span class="text-indigo-400">LLM</span>' :
+            t.router_method === 'llm_3b' ? '<span class="text-amber-700">LLM</span>' :
             `<span class="text-gray-500">${{t.router_method || '-'}}</span>`;
         const model = (t.final_model || '').split(':').pop() || '-';
         const cacheBadge = t.cache_hit ? '<span class="text-green-400">HIT</span>' : '<span class="text-gray-500">miss</span>';
@@ -2447,16 +2435,16 @@ async function pollHealth() {{
         ]);
 
         document.getElementById('gen-dot').className = 'w-2 h-2 rounded-full ' +
-            (health.generator_ready ? 'bg-indigo-500' : 'bg-red-400');
+            (health.generator_ready ? 'bg-amber-700' : 'bg-red-400');
         document.getElementById('rtr-dot').className = 'w-2 h-2 rounded-full ' +
-            (health.router_ready ? 'bg-indigo-500' : 'bg-red-400');
+            (health.router_ready ? 'bg-amber-700' : 'bg-red-400');
 
         const vram = stats.vram;
         if (vram && vram.total_mb) {{
             const pct = vram.usage_pct;
             document.getElementById('vram-fill').style.width = pct + '%';
             document.getElementById('vram-fill').className = 'h-full rounded-full transition-all ' +
-                (pct > 85 ? 'bg-red-500' : pct > 60 ? 'bg-amber-500' : 'bg-indigo-500');
+                (pct > 85 ? 'bg-red-500' : pct > 60 ? 'bg-amber-500' : 'bg-amber-700');
             document.getElementById('vram-text').textContent = `${{vram.used_mb}}/${{vram.total_mb}}MB`;
 
             // Update metrics tab VRAM
@@ -2539,7 +2527,7 @@ function switchEmbPanel(panel) {{
 }}
 
 // --- Sub-panel A: Embedding Space (Plotly + UMAP) ---
-const EMB_COLORS = ['#818cf8','#f472b6','#34d399','#fbbf24','#60a5fa','#a78bfa','#fb923c','#22d3ee','#e879f9','#4ade80',
+const EMB_COLORS = ['#b5713d','#f472b6','#34d399','#fbbf24','#60a5fa','#a78bfa','#fb923c','#22d3ee','#e879f9','#4ade80',
     '#f87171','#38bdf8','#a3e635','#fb7185','#2dd4bf','#c084fc','#fdba74','#67e8f9','#d946ef','#86efac'];
 let embCurrentDims = 3;
 let embData3D = null;
@@ -2576,8 +2564,8 @@ async function loadEmbeddingCoords() {{
 
 function toggleEmbDims(dims) {{
     embCurrentDims = dims;
-    document.getElementById('emb-btn-3d').className = 'px-4 py-1.5 text-xs font-medium transition-colors ' + (dims === 3 ? 'bg-indigo-500 text-white' : 'text-gray-500');
-    document.getElementById('emb-btn-2d').className = 'px-4 py-1.5 text-xs font-medium transition-colors ' + (dims === 2 ? 'bg-indigo-500 text-white' : 'text-gray-500');
+    document.getElementById('emb-btn-3d').className = 'px-4 py-1.5 text-xs font-medium transition-colors ' + (dims === 3 ? 'bg-amber-700 text-white' : 'text-gray-500');
+    document.getElementById('emb-btn-2d').className = 'px-4 py-1.5 text-xs font-medium transition-colors ' + (dims === 2 ? 'bg-amber-700 text-white' : 'text-gray-500');
     const data = dims === 3 ? embData3D : embData2D;
     if (data) {{
         renderEmbPlotly(data, dims);
@@ -2623,7 +2611,7 @@ function renderEmbPlotly(data, dims) {{
                     size: 4,
                     color: color,
                     opacity: 0.85,
-                    line: {{ width: 0.5, color: 'rgba(255,255,255,0.15)' }},
+                    line: {{ width: 0.5, color: 'rgba(0,0,0,0.1)' }},
                 }},
             }};
         }} else {{
@@ -2640,42 +2628,42 @@ function renderEmbPlotly(data, dims) {{
                     size: 6,
                     color: color,
                     opacity: 0.85,
-                    line: {{ width: 0.5, color: 'rgba(255,255,255,0.15)' }},
+                    line: {{ width: 0.5, color: 'rgba(0,0,0,0.1)' }},
                 }},
             }};
         }}
     }});
 
-    const darkAxis = {{
-        backgroundcolor: '#1a1d2b',
-        gridcolor: 'rgba(255,255,255,0.09)',
-        zerolinecolor: 'rgba(255,255,255,0.1)',
-        tickfont: {{ color: '#64748b', size: 10 }},
-        title: {{ font: {{ color: '#94a3b8', size: 11 }} }},
+    const lightAxis = {{
+        backgroundcolor: '#faf8f5',
+        gridcolor: 'rgba(0,0,0,0.06)',
+        zerolinecolor: 'rgba(0,0,0,0.08)',
+        tickfont: {{ color: '#7a7068', size: 10 }},
+        title: {{ font: {{ color: '#5c554e', size: 11 }} }},
     }};
 
     const layout3d = {{
-        paper_bgcolor: '#1a1d2b',
-        plot_bgcolor: '#1a1d2b',
-        font: {{ color: '#94a3b8' }},
+        paper_bgcolor: '#faf8f5',
+        plot_bgcolor: '#faf8f5',
+        font: {{ color: '#5c554e' }},
         margin: {{ l: 0, r: 0, t: 30, b: 0 }},
         showlegend: false,
         scene: {{
-            xaxis: {{ ...darkAxis, title: 'UMAP-1' }},
-            yaxis: {{ ...darkAxis, title: 'UMAP-2' }},
-            zaxis: {{ ...darkAxis, title: 'UMAP-3' }},
+            xaxis: {{ ...lightAxis, title: 'UMAP-1' }},
+            yaxis: {{ ...lightAxis, title: 'UMAP-2' }},
+            zaxis: {{ ...lightAxis, title: 'UMAP-3' }},
             camera: {{ eye: {{ x: 1.5, y: 1.5, z: 1.2 }} }},
         }},
     }};
 
     const layout2d = {{
-        paper_bgcolor: '#1a1d2b',
-        plot_bgcolor: '#1a1d2b',
-        font: {{ color: '#94a3b8' }},
+        paper_bgcolor: '#faf8f5',
+        plot_bgcolor: '#faf8f5',
+        font: {{ color: '#5c554e' }},
         margin: {{ l: 50, r: 20, t: 30, b: 50 }},
         showlegend: false,
-        xaxis: {{ gridcolor: 'rgba(255,255,255,0.09)', zerolinecolor: 'rgba(255,255,255,0.1)', tickfont: {{ color: '#64748b' }}, title: {{ text: 'UMAP-1', font: {{ color: '#94a3b8' }} }} }},
-        yaxis: {{ gridcolor: 'rgba(255,255,255,0.09)', zerolinecolor: 'rgba(255,255,255,0.1)', tickfont: {{ color: '#64748b' }}, title: {{ text: 'UMAP-2', font: {{ color: '#94a3b8' }} }} }},
+        xaxis: {{ gridcolor: 'rgba(0,0,0,0.06)', zerolinecolor: 'rgba(0,0,0,0.08)', tickfont: {{ color: '#7a7068' }}, title: {{ text: 'UMAP-1', font: {{ color: '#5c554e' }} }} }},
+        yaxis: {{ gridcolor: 'rgba(0,0,0,0.06)', zerolinecolor: 'rgba(0,0,0,0.08)', tickfont: {{ color: '#7a7068' }}, title: {{ text: 'UMAP-2', font: {{ color: '#5c554e' }} }} }},
     }};
 
     const config = {{ responsive: true, displayModeBar: true, modeBarButtonsToRemove: ['lasso2d','select2d'], displaylogo: false }};
@@ -2690,7 +2678,7 @@ function renderEmbPlotly(data, dims) {{
                 const details = document.getElementById('emb-point-details');
                 details.innerHTML = `
                     <div class="mb-2"><span class="text-gray-400">ID:</span> <span class="text-gray-800 font-mono text-[11px]">${{pt.id}}</span></div>
-                    <div class="mb-2"><span class="text-gray-400">Category:</span> <span class="text-indigo-400 font-medium">${{pt.category}}</span></div>
+                    <div class="mb-2"><span class="text-gray-400">Category:</span> <span class="text-amber-700 font-medium">${{pt.category}}</span></div>
                     <div class="mb-2"><span class="text-gray-400">Type:</span> <span class="text-gray-700">${{pt.chunk_type || '--'}}</span></div>
                     <div class="mb-2"><span class="text-gray-400">Source:</span> <span class="text-gray-700">${{pt.source || '--'}}</span></div>
                     <div class="mb-2"><span class="text-gray-400">UMAP:</span> <span class="text-gray-600">(${{pt.x}}, ${{pt.y}}${{pt.z != null ? ', ' + pt.z : ''}})</span></div>
@@ -2724,7 +2712,7 @@ async function loadChromaDBInspector() {{
             `<div class="flex items-center gap-2">
                 <span class="text-xs text-gray-500 w-24 truncate">${{name}}</span>
                 <div class="flex-1 bg-gray-200 rounded-full h-4 overflow-hidden">
-                    <div class="h-full rounded-full obs-bar" style="width:${{(count/maxSrc*100).toFixed(1)}}%;background:linear-gradient(90deg,#4f46e5,#818cf8)"></div>
+                    <div class="h-full rounded-full obs-bar" style="width:${{(count/maxSrc*100).toFixed(1)}}%;background:linear-gradient(90deg,#9a5b2f,#b5713d)"></div>
                 </div>
                 <span class="text-xs text-gray-600 w-8 text-right">${{count}}</span>
             </div>`
@@ -2860,7 +2848,7 @@ function _fmtBytes(bytes) {{
     return bytes + ' B';
 }}
 
-const STOR_COLORS = ['#4f46e5','#7c3aed','#0891b2','#059669','#d97706','#e11d48'];
+const STOR_COLORS = ['#9a5b2f','#7c3aed','#0891b2','#059669','#d97706','#e11d48'];
 
 async function loadStorageOverview() {{
     try {{
@@ -2917,7 +2905,7 @@ async function loadStorageOverview() {{
         document.getElementById('stor-cache').innerHTML = `
             <div class="grid grid-cols-3 gap-3">
                 <div class="text-center">
-                    <div class="text-lg font-bold text-indigo-400">${{cache.entries || 0}}</div>
+                    <div class="text-lg font-bold text-amber-700">${{cache.entries || 0}}</div>
                     <div class="text-[10px] text-gray-500">Cache Entries</div>
                 </div>
                 <div class="text-center">

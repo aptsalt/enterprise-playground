@@ -57,14 +57,17 @@ export function RagChunkingPanel() {
             <CardTitle className="text-sm">Chunk Size Distribution</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="flex items-end gap-1" style={{ height: 120 }}>
+            <div className="flex items-end gap-2" style={{ height: 160 }}>
               {analytics.histogram.map((bin, i) => (
-                <div key={i} className="flex flex-1 flex-col items-center gap-1">
-                  <div
-                    className="w-full rounded-t bg-indigo-500/60"
-                    style={{ height: `${(bin.count / maxHistCount) * 100}%` }}
-                  />
-                  <span className="text-[9px] text-muted-foreground">{bin.count}</span>
+                <div key={i} className="flex flex-1 flex-col items-center" style={{ height: "100%" }}>
+                  <div className="flex flex-1 w-full items-end">
+                    <div
+                      className="w-full rounded-t bg-primary/60"
+                      style={{ height: `${(bin.count / maxHistCount) * 100}%`, minHeight: bin.count > 0 ? 4 : 0 }}
+                    />
+                  </div>
+                  <span className="mt-1 text-[10px] font-mono font-medium">{bin.count}</span>
+                  <span className="text-[9px] text-muted-foreground">{bin.label ?? bin.range ?? ""}</span>
                 </div>
               ))}
             </div>

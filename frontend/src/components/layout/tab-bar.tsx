@@ -4,14 +4,14 @@ import { useCallback, useRef } from "react";
 import { useDashboardStore, type TabId } from "@/lib/store/dashboard-store";
 import { cn } from "@/lib/utils";
 
-const TABS: { id: TabId; label: string; icon: string }[] = [
-  { id: "generate", label: "Generate", icon: "\u26A1" },
-  { id: "gallery", label: "Gallery", icon: "\uD83D\uDDBC" },
-  { id: "pipeline", label: "Pipeline", icon: "\uD83D\uDD04" },
-  { id: "data-rag", label: "Data & RAG", icon: "\uD83D\uDCCA" },
-  { id: "metrics", label: "ML Metrics", icon: "\uD83D\uDCC8" },
-  { id: "observatory", label: "Observatory", icon: "\uD83D\uDD2D" },
-  { id: "agent", label: "Agent", icon: "\uD83E\uDD16" },
+const TABS: { id: TabId; label: string }[] = [
+  { id: "generate", label: "Generate" },
+  { id: "gallery", label: "Gallery" },
+  { id: "pipeline", label: "Pipeline" },
+  { id: "data-rag", label: "Data & RAG" },
+  { id: "metrics", label: "ML Metrics" },
+  { id: "observatory", label: "Observatory" },
+  { id: "agent", label: "Agent" },
 ];
 
 export function TabBar() {
@@ -73,7 +73,6 @@ export function TabBar() {
               : "text-muted-foreground hover:bg-accent hover:text-accent-foreground",
           )}
         >
-          <span className="text-sm" aria-hidden="true">{tab.icon}</span>
           <span>{tab.label}</span>
         </button>
       ))}

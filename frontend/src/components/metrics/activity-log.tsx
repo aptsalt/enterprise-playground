@@ -29,8 +29,8 @@ export function ActivityLog({ activities }: { activities: Record<string, unknown
                       {formatMs(a.latency_ms)}
                     </span>
                   ) : null}
-                  {a.created ? (
-                    <span className="text-muted-foreground">{formatDate(String(a.created))}</span>
+                  {(a.created ?? a.timestamp) ? (
+                    <span className="text-muted-foreground">{formatDate(String(a.created ?? a.timestamp))}</span>
                   ) : null}
                 </div>
               </div>

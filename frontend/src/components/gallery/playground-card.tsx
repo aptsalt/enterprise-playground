@@ -8,7 +8,7 @@ import type { Playground } from "@/lib/schemas/playground";
 
 const cardVariants = {
   hidden: { opacity: 0, scale: 0.95 },
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.25, ease: "easeOut" } },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.25, ease: "easeOut" as const } },
 };
 
 export function PlaygroundCard({ playground, index = 0 }: { playground: Playground; index?: number }) {
@@ -51,10 +51,10 @@ export function PlaygroundCard({ playground, index = 0 }: { playground: Playgrou
               <Badge variant="secondary" className="text-[10px]">{formatBytes(pg.size)}</Badge>
             )}
             {pg.source === "cache" && (
-              <Badge className="bg-blue-500/20 text-blue-400 text-[10px]">CACHE</Badge>
+              <Badge className="bg-blue-500/10 text-blue-600 dark:bg-blue-500/20 dark:text-blue-400 text-[10px]">CACHE</Badge>
             )}
             {pg.rag_chunks && pg.rag_chunks > 0 && (
-              <Badge className="bg-cyan-500/20 text-cyan-400 text-[10px]">RAG:{pg.rag_chunks}</Badge>
+              <Badge className="bg-cyan-500/10 text-cyan-600 dark:bg-cyan-500/20 dark:text-cyan-400 text-[10px]">RAG:{pg.rag_chunks}</Badge>
             )}
           </div>
           {pg.created && (

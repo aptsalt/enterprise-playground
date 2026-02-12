@@ -23,7 +23,7 @@ export function RecentTable() {
     { refetchInterval: 15_000 },
   );
 
-  const recent = (playgrounds ?? []).slice(0, 15);
+  const recent = (playgrounds ?? []).slice(0, 30);
 
   return (
     <Card>
@@ -31,7 +31,7 @@ export function RecentTable() {
         <CardTitle className="text-sm">Recent Playgrounds</CardTitle>
       </CardHeader>
       <CardContent>
-        <ScrollArea className="h-72">
+        <ScrollArea className="h-[calc(100vh-420px)] min-h-72">
           <Table>
             <TableHeader>
               <TableRow>
@@ -51,7 +51,7 @@ export function RecentTable() {
                       href={`/playground/${pg.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-indigo-400"
+                      className="hover:text-indigo-600 dark:hover:text-indigo-400"
                     >
                       {pg.prompt}
                     </a>
@@ -69,7 +69,7 @@ export function RecentTable() {
                   </TableCell>
                   <TableCell className="text-xs">
                     {pg.rag_chunks ? (
-                      <Badge variant="outline" className="border-cyan-500/50 text-cyan-400 text-xs">
+                      <Badge variant="outline" className="border-cyan-500/50 text-cyan-600 dark:text-cyan-400 text-xs">
                         RAG:{pg.rag_chunks}
                       </Badge>
                     ) : (

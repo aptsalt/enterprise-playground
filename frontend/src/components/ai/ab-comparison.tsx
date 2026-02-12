@@ -122,7 +122,7 @@ export function ABComparison({ prompt }: Props) {
                     </Button>
                   )}
                   {winner === (i === 0 ? "a" : "b") && (
-                    <Badge className="mt-2 bg-green-500/20 text-green-400">Winner</Badge>
+                    <Badge className="mt-2 bg-green-500/10 text-green-600 dark:bg-green-500/20 dark:text-green-400">Winner</Badge>
                   )}
                 </CardContent>
               </Card>

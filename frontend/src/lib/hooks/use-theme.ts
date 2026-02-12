@@ -5,7 +5,7 @@ import { useCallback, useEffect, useState } from "react";
 type Theme = "dark" | "light";
 
 export function useTheme() {
-  const [theme, setThemeState] = useState<Theme>("dark");
+  const [theme, setThemeState] = useState<Theme>("light");
 
   useEffect(() => {
     const stored = localStorage.getItem("ep-theme") as Theme | null;

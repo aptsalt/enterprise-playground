@@ -15,7 +15,7 @@ export function VramGauge({ vram }: { vram?: VramInfo | null }) {
         <div
           className="relative flex h-32 w-32 items-center justify-center rounded-full"
           style={{
-            background: `conic-gradient(#4f46e5 ${pct * 3.6}deg, #1e1b4b ${pct * 3.6}deg)`,
+            background: `conic-gradient(oklch(0.55 0.16 45) ${pct * 3.6}deg, oklch(0.91 0.006 75) ${pct * 3.6}deg)`,
           }}
         >
           <div className="flex h-24 w-24 flex-col items-center justify-center rounded-full bg-card">

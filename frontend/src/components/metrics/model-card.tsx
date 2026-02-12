@@ -1,13 +1,15 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { FeatureInfoDialog } from "@/components/ui/feature-info-dialog";
 import { formatMs } from "@/lib/utils/format";
 
 interface Props {
   title: string;
   model: Record<string, unknown>;
   color: string;
+  featureId?: string;
 }
 
-export function ModelCard({ title, model, color }: Props) {
+export function ModelCard({ title, model, color, featureId }: Props) {
   const rows = [
     { label: "Role", value: model.role ?? "-" },
     { label: "VRAM", value: model.vram_gb ? `${model.vram_gb} GB` : "-" },
@@ -18,10 +20,20 @@ export function ModelCard({ title, model, color }: Props) {
     { label: "Avg Latency", value: typeof model.avg_latency_ms === "number" ? formatMs(model.avg_latency_ms) : "-" },
   ];
 
+  const titleElement = (
+    <CardTitle className={`text-sm ${color}`}>{title}</CardTitle>
+  );
+
   return (
     <Card>
       <CardHeader className="pb-2">
-        <CardTitle className={`text-sm ${color}`}>{title}</CardTitle>
+        {featureId ? (
+          <FeatureInfoDialog featureId={featureId}>
+            {titleElement}
+          </FeatureInfoDialog>
+        ) : (
+          titleElement
+        )}
       </CardHeader>
       <CardContent>
         <div className="grid grid-cols-2 gap-x-4 gap-y-1.5">

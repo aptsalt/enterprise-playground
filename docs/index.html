@@ -66,15 +66,36 @@
     }
     .cta:hover { background: #2563eb; text-decoration: none; }
 
-    .screenshot {
-      max-width: 900px;
+    .screenshot-grid {
+      max-width: 960px;
       margin: 0 auto 3rem;
-      border-radius: 12px;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+    }
+    .screenshot-grid a {
+      display: block;
+      border-radius: 8px;
       overflow: hidden;
       border: 1px solid #2f3549;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      transition: transform 0.2s, box-shadow 0.2s;
     }
-    .screenshot img { width: 100%; display: block; }
+    .screenshot-grid a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      text-decoration: none;
+    }
+    .screenshot-grid img { width: 100%; display: block; }
+    .screenshot-grid .caption {
+      background: #1a1d2b;
+      padding: 0.35rem 0.5rem;
+      font-size: 0.7rem;
+      color: #9ba8c0;
+      text-align: center;
+      font-weight: 500;
+    }
 
     .section {
       max-width: 960px;
@@ -225,6 +246,7 @@
       .hero h1 { font-size: 1.75rem; }
       .hero .subtitle { font-size: 1rem; }
       .features, .tabs-grid, .results-grid { grid-template-columns: 1fr; }
+      .screenshot-grid { grid-template-columns: repeat(2, 1fr); gap: 0.5rem; }
     }
   </style>
 </head>
@@ -251,8 +273,15 @@
   <a href="https://github.com/aptsalt/enterprise-playground" class="cta">View on GitHub</a>
 </div>
 
-<div class="screenshot">
-  <img src="screenshots/dark-generate-tab.png" alt="Enterprise Playground Dashboard">
+<div class="screenshot-grid">
+  <a href="screenshots/light-generate-tab.png"><img src="screenshots/light-generate-tab.png" alt="Generate Tab"><div class="caption">Generate</div></a>
+  <a href="screenshots/light-gallery-tab.png"><img src="screenshots/light-gallery-tab.png" alt="Gallery Tab"><div class="caption">Gallery</div></a>
+  <a href="screenshots/light-pipeline-tab.png"><img src="screenshots/light-pipeline-tab.png" alt="Pipeline Tab"><div class="caption">Pipeline</div></a>
+  <a href="screenshots/light-metrics-tab.png"><img src="screenshots/light-metrics-tab.png" alt="ML Metrics Tab"><div class="caption">ML Metrics</div></a>
+  <a href="screenshots/light-data-rag-tab.png"><img src="screenshots/light-data-rag-tab.png" alt="Data & RAG Tab"><div class="caption">Data & RAG</div></a>
+  <a href="screenshots/light-observatory-tab.png"><img src="screenshots/light-observatory-tab.png" alt="ML Observatory Tab"><div class="caption">Observatory</div></a>
+  <a href="screenshots/light-agent-tab.png"><img src="screenshots/light-agent-tab.png" alt="Agent Tab"><div class="caption">Agent</div></a>
+  <a href="screenshots/light-embeddings-tab.png"><img src="screenshots/light-embeddings-tab.png" alt="Embeddings & Storage Tab"><div class="caption">Embeddings</div></a>
 </div>
 
 <div class="section">

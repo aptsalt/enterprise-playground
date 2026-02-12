@@ -20,11 +20,21 @@ export const VramSchema = z.object({
 }).passthrough();
 export type VramInfo = z.infer<typeof VramSchema>;
 
+const CacheStatsSchema = z.object({
+  entries: z.number().optional(),
+  hits: z.number().optional(),
+  misses: z.number().optional(),
+  hit_rate: z.string().optional(),
+  total_saved_tokens: z.number().optional(),
+}).passthrough();
+
 export const StatsSchema = z.object({
   vram: VramSchema.optional(),
   models: z.record(z.string(), z.unknown()).optional(),
   workflows_count: z.number().optional(),
+  total_playgrounds: z.number().optional(),
   playgrounds_count: z.number().optional(),
+  cache: CacheStatsSchema.optional(),
   cache_entries: z.number().optional(),
 }).passthrough();
 export type Stats = z.infer<typeof StatsSchema>;
@@ -54,13 +64,15 @@ export const ModelInfoSchema = z.object({
 
 export const MetricsSchema = z.object({
   models: z.record(z.string(), ModelInfoSchema).optional(),
+  model_breakdown: z.record(z.string(), ModelInfoSchema).optional(),
   total_generations: z.number().optional(),
   cache_hit_rate: z.string().optional(),
   avg_latency_ms: z.number().optional(),
   rag_generations: z.number().optional(),
-  vram: VramSchema.optional(),
+  vram: VramSchema.nullable().optional(),
   fine_tuning: z.record(z.string(), z.unknown()).optional(),
   recent_activity: z.array(z.record(z.string(), z.unknown())).optional(),
+  recent: z.array(z.record(z.string(), z.unknown())).optional(),
 }).passthrough();
 export type Metrics = z.infer<typeof MetricsSchema>;
 

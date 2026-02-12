@@ -54,7 +54,7 @@ export function TraceTable({ traces }: { traces: Trace[] }) {
                   </TableCell>
                   <TableCell className="text-xs">
                     {t.rag_chunks ? (
-                      <Badge variant="outline" className="border-cyan-500/50 text-cyan-400 text-[10px]">
+                      <Badge variant="outline" className="border-cyan-500/50 text-cyan-600 dark:text-cyan-400 text-[10px]">
                         {t.rag_chunks}
                       </Badge>
                     ) : (
@@ -63,7 +63,7 @@ export function TraceTable({ traces }: { traces: Trace[] }) {
                   </TableCell>
                   <TableCell>
                     {t.cache_hit ? (
-                      <Badge className="bg-blue-500/20 text-blue-400 text-[10px]">HIT</Badge>
+                      <Badge className="bg-blue-500/10 text-blue-600 dark:bg-blue-500/20 dark:text-blue-400 text-[10px]">HIT</Badge>
                     ) : (
                       <span className="text-xs text-muted-foreground">-</span>
                     )}

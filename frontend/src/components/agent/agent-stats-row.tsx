@@ -4,12 +4,12 @@ import type { AgentStats } from "@/lib/schemas/agent";
 
 export function AgentStatsRow({ stats }: { stats?: AgentStats | null }) {
   const cards = [
-    { label: "Total Traces", value: formatNumber(stats?.total_traces ?? 0), color: "text-indigo-400" },
-    { label: "Avg Latency", value: formatMs(stats?.avg_latency_ms ?? 0), color: "text-yellow-400" },
-    { label: "Cache Hit Rate", value: stats?.cache_hit_rate ?? "0%", color: "text-blue-400" },
-    { label: "Avg Confidence", value: (stats?.avg_confidence ?? 0).toFixed(2), color: "text-green-400" },
-    { label: "Tokens Saved", value: formatNumber(stats?.token_economy?.total_saved ?? 0), color: "text-cyan-400" },
-    { label: "Last 24h", value: formatNumber(stats?.last_24h_traces ?? 0), color: "text-purple-400" },
+    { label: "Total Traces", value: formatNumber(stats?.total_traces ?? 0), color: "text-indigo-600 dark:text-indigo-400" },
+    { label: "Avg Latency", value: formatMs(stats?.avg_latency_ms ?? 0), color: "text-amber-600 dark:text-yellow-400" },
+    { label: "Cache Hit Rate", value: stats?.cache_hit_rate ?? "0%", color: "text-blue-600 dark:text-blue-400" },
+    { label: "Avg Confidence", value: (stats?.avg_confidence ?? 0).toFixed(2), color: "text-green-600 dark:text-green-400" },
+    { label: "Tokens Saved", value: formatNumber(stats?.token_economy?.total_saved ?? 0), color: "text-cyan-600 dark:text-cyan-400" },
+    { label: "Last 24h", value: formatNumber(stats?.last_24h_traces ?? 0), color: "text-purple-600 dark:text-purple-400" },
   ];
 
   return (

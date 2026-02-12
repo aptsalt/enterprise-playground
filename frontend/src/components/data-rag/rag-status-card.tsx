@@ -33,7 +33,7 @@ export function RagStatusCard() {
       <CardHeader className="pb-2">
         <CardTitle className="flex items-center justify-between text-sm">
           RAG Pipeline
-          <Badge variant="outline" className="border-cyan-500/50 text-cyan-400">
+          <Badge variant="outline" className="border-cyan-500/50 text-cyan-600 dark:text-cyan-400">
             ChromaDB
           </Badge>
         </CardTitle>
