@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enterprise Playground</title>
-  <meta name="description" content="Dual-model AI playground generator — scrape banking UIs, generate interactive HTML with local LLMs, fine-tune on your own data. All on one RTX 4090.">
+  <title>Enterprise Playground — Low-Cost Vibe Coding for Enterprise UI</title>
+  <meta name="description" content="Train local LLMs on real enterprise UIs, then let product managers vibe-code production interfaces. Zero API costs. One GPU. Future-proof for AI agents.">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -32,7 +32,7 @@
     .hero .subtitle {
       font-size: 1.15rem;
       color: #9ba8c0;
-      max-width: 640px;
+      max-width: 680px;
       margin: 0 auto 2rem;
     }
     .tags {
@@ -111,6 +111,131 @@
       border-bottom: 1px solid #2f3549;
     }
 
+    /* Vision Section */
+    .vision-steps {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    .vision-card {
+      background: #1a1d2b;
+      border: 1px solid #2f3549;
+      border-radius: 12px;
+      padding: 1.5rem;
+      position: relative;
+    }
+    .vision-card .step-num {
+      position: absolute;
+      top: -10px;
+      left: 16px;
+      background: #3b82f6;
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 10px;
+      border-radius: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .vision-card h3 {
+      color: #e8ecf4;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      margin-top: 0.25rem;
+    }
+    .vision-card p {
+      color: #9ba8c0;
+      font-size: 0.85rem;
+      line-height: 1.6;
+    }
+    .vision-card .highlight {
+      color: #60a5fa;
+      font-weight: 600;
+    }
+
+    .vision-compare {
+      background: #1a1d2b;
+      border: 1px solid #2f3549;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .vision-compare table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .vision-compare th {
+      padding: 0.75rem 1rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+      border-bottom: 1px solid #2f3549;
+    }
+    .vision-compare th:first-child {
+      color: #ef4444;
+      text-align: left;
+    }
+    .vision-compare th:last-child {
+      color: #22c55e;
+      text-align: left;
+    }
+    .vision-compare td {
+      padding: 0.5rem 1rem;
+      font-size: 0.82rem;
+      border-bottom: 1px solid #1e2233;
+    }
+    .vision-compare td:first-child { color: #9ba8c0; }
+    .vision-compare td:last-child { color: #d1dae8; }
+
+    .future-banner {
+      margin-top: 1.5rem;
+      background: linear-gradient(135deg, #1e2a4a 0%, #1a1d2b 100%);
+      border: 1px solid #3b82f6;
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+    }
+    .future-banner h3 {
+      color: #60a5fa;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .future-timeline {
+      display: flex;
+      gap: 0;
+      align-items: stretch;
+    }
+    .future-step {
+      flex: 1;
+      padding: 0.5rem 0.75rem;
+      position: relative;
+    }
+    .future-step:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 25%;
+      height: 50%;
+      width: 1px;
+      background: #2f3549;
+    }
+    .future-step .label {
+      font-size: 0.7rem;
+      color: #3b82f6;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.2rem;
+    }
+    .future-step .desc {
+      font-size: 0.8rem;
+      color: #9ba8c0;
+      line-height: 1.4;
+    }
+
+    /* Features */
     .features {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -121,17 +246,151 @@
       border: 1px solid #2f3549;
       border-radius: 10px;
       padding: 1.25rem;
+      cursor: pointer;
+      transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+    }
+    .feature-card:hover {
+      border-color: #3b82f6;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15);
+    }
+    .feature-card .icon-row {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.5rem;
+    }
+    .feature-card .icon {
+      width: 32px;
+      height: 32px;
+      background: #212638;
+      border: 1px solid #2f3549;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .feature-card .icon svg {
+      width: 18px;
+      height: 18px;
+      color: #60a5fa;
     }
     .feature-card h3 {
       color: #e8ecf4;
       font-size: 0.95rem;
       font-weight: 600;
-      margin-bottom: 0.4rem;
     }
     .feature-card p {
       color: #9ba8c0;
       font-size: 0.85rem;
       line-height: 1.5;
+    }
+    .feature-card .click-hint {
+      font-size: 0.7rem;
+      color: #4b5c7a;
+      margin-top: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    .feature-card:hover .click-hint { color: #60a5fa; }
+
+    /* Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.75);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      backdrop-filter: blur(4px);
+    }
+    .modal-overlay.active { display: flex; }
+    .modal {
+      background: #1a1d2b;
+      border: 1px solid #2f3549;
+      border-radius: 14px;
+      max-width: 720px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.5);
+    }
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid #2f3549;
+    }
+    .modal-header .title-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .modal-header .modal-icon {
+      width: 36px;
+      height: 36px;
+      background: #212638;
+      border: 1px solid #3b82f6;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-header .modal-icon svg {
+      width: 20px;
+      height: 20px;
+      color: #60a5fa;
+    }
+    .modal-header h3 {
+      color: #f3f5f9;
+      font-size: 1.15rem;
+      font-weight: 600;
+    }
+    .modal-close {
+      background: #212638;
+      border: 1px solid #2f3549;
+      border-radius: 8px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: #9ba8c0;
+      font-size: 1.1rem;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .modal-close:hover { background: #2f3549; border-color: #60a5fa; color: #f3f5f9; }
+    .modal-body { padding: 1.5rem; }
+    .modal-body .explanation {
+      color: #d1dae8;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      margin-bottom: 1.25rem;
+    }
+    .modal-body .explanation strong { color: #f3f5f9; }
+    .modal-body .app-example-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #60a5fa;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .modal-body .app-screenshot {
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #2f3549;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    }
+    .modal-body .app-screenshot img {
+      width: 100%;
+      display: block;
     }
 
     .arch {
@@ -245,8 +504,12 @@
     @media (max-width: 640px) {
       .hero h1 { font-size: 1.75rem; }
       .hero .subtitle { font-size: 1rem; }
+      .vision-steps { grid-template-columns: 1fr; }
+      .future-timeline { flex-direction: column; }
+      .future-step:not(:last-child)::after { display: none; }
       .features, .tabs-grid, .results-grid { grid-template-columns: 1fr; }
       .screenshot-grid { grid-template-columns: repeat(2, 1fr); gap: 0.5rem; }
+      .modal { margin: 1rem; max-height: 95vh; }
     }
   </style>
 </head>
@@ -254,7 +517,7 @@
 
 <div class="hero">
   <h1>Enterprise Playground</h1>
-  <p class="subtitle">Dual-model AI playground generator &mdash; scrape banking UIs, generate interactive HTML with local LLMs, fine-tune on your own data. All on one RTX 4090.</p>
+  <p class="subtitle">Train local LLMs on real enterprise UIs, then let product managers vibe-code production interfaces. Zero API costs. One GPU. Future-proof for AI agents.</p>
 
   <div class="tags">
     <span class="tag">Python</span>
@@ -284,44 +547,172 @@
   <a href="screenshots/light-embeddings-tab.png"><img src="screenshots/light-embeddings-tab.png" alt="Embeddings & Storage Tab"><div class="caption">Embeddings</div></a>
 </div>
 
+<!-- VISION SECTION -->
+<div class="section">
+  <h2>The Vision</h2>
+  <div class="vision-steps">
+    <div class="vision-card">
+      <span class="step-num">Step 1</span>
+      <h3>Scrape &rarr; Train &rarr; Own</h3>
+      <p>Capture real enterprise UIs &mdash; banking dashboards, workflow forms, transaction screens &mdash; with Playwright. Feed them into a local 14B model and fine-tune with QLoRA. Now your team has <span class="highlight">an AI assistant that understands your design system</span> and it never leaves your network.</p>
+    </div>
+    <div class="vision-card">
+      <span class="step-num">Step 2</span>
+      <h3>10x the Output, Same Team</h3>
+      <p>Instead of one mockup per review cycle, generate <span class="highlight">20 UI variations in the time it takes to write one ticket</span>. PMs describe what they need &mdash; <em>&ldquo;a transaction history table with filters and export&rdquo;</em> &mdash; and explore options instantly. Designers focus on the hard UX problems, not pixel-pushing.</p>
+    </div>
+    <div class="vision-card">
+      <span class="step-num">Step 3</span>
+      <h3>Collapse the Feedback Loop</h3>
+      <p>The idea-to-visual gap goes from <span class="highlight">days to seconds</span>. Stakeholders see working HTML prototypes instead of static mockups. Iterate in real-time during the meeting, not after. The team spends less time waiting and more time <span class="highlight">making decisions that matter</span>.</p>
+    </div>
+    <div class="vision-card">
+      <span class="step-num">Step 4</span>
+      <h3>Free Humans for Evolved Work</h3>
+      <p>When AI handles the repetitive UI scaffolding, your designers focus on <span class="highlight">UX strategy, accessibility, and complex interactions</span>. Your developers build business logic, not boilerplate. The goal isn&rsquo;t fewer people &mdash; it&rsquo;s <span class="highlight">higher-leverage work from the same team</span>.</p>
+    </div>
+  </div>
+
+  <div class="future-banner">
+    <h3>Where This Is Heading</h3>
+    <div class="future-timeline">
+      <div class="future-step">
+        <div class="label">Today</div>
+        <div class="desc">PMs generate UI drafts in seconds, iterate with the team in real-time</div>
+      </div>
+      <div class="future-step">
+        <div class="label">Next</div>
+        <div class="desc">Agents propose variations from the roadmap &mdash; humans pick the best direction</div>
+      </div>
+      <div class="future-step">
+        <div class="label">Soon</div>
+        <div class="desc">Agents handle scaffolding end-to-end &mdash; humans focus on strategy and polish</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="vision-compare" style="margin-top: 1.5rem;">
+    <table>
+      <thead>
+        <tr><th>Without</th><th>With Enterprise Playground</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1 mockup per review cycle</td><td>20+ variations before the meeting ends</td></tr>
+        <tr><td>Idea &rarr; visual: days of handoff</td><td>Idea &rarr; working HTML: seconds</td></tr>
+        <tr><td>Designers pixel-push boilerplate</td><td>Designers focus on UX strategy &amp; hard problems</td></tr>
+        <tr><td>Developers write UI scaffolding</td><td>Developers build business logic &amp; integrations</td></tr>
+        <tr><td>Per-token cloud API fees</td><td>Unlimited local inference at $0/token</td></tr>
+        <tr><td>Feedback loops span multiple sprints</td><td>Iterate live, ship the same day</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- FEATURES SECTION WITH CLICKABLE MODALS -->
 <div class="section">
   <h2>Features</h2>
   <div class="features">
-    <div class="feature-card">
-      <h3>Dual-Model Inference</h3>
+
+    <div class="feature-card" onclick="openModal('dual-model')">
+      <div class="icon-row">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="8" height="8" rx="1.5"/><rect x="14" y="13" width="8" height="8" rx="1.5"/><path d="M10 7h4M14 17H10"/><path d="M12 7v10"/></svg></div>
+        <h3>Dual-Model Inference</h3>
+      </div>
       <p>14B code generator + 3B router running simultaneously on one GPU (10.5 GB VRAM)</p>
+      <div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Click to see in action</div>
     </div>
-    <div class="feature-card">
-      <h3>SSE Streaming</h3>
+
+    <div class="feature-card" onclick="openModal('sse')">
+      <div class="icon-row">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <h3>SSE Streaming</h3>
+      </div>
       <p>Real-time HTML generation streamed token-by-token to the browser</p>
+      <div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Click to see in action</div>
     </div>
-    <div class="feature-card">
-      <h3>RAG Pipeline</h3>
+
+    <div class="feature-card" onclick="openModal('rag')">
+      <div class="icon-row">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/><path d="M8 7h8M8 11h6"/></svg></div>
+        <h3>RAG Pipeline</h3>
+      </div>
       <p>ChromaDB + nomic-embed-text embeddings (CPU-only, zero VRAM) enrich prompts with domain context</p>
+      <div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Click to see in action</div>
     </div>
-    <div class="feature-card">
-      <h3>Semantic Caching</h3>
+
+    <div class="feature-card" onclick="openModal('cache')">
+      <div class="icon-row">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+        <h3>Semantic Caching</h3>
+      </div>
       <p>SequenceMatcher-based dedup &mdash; identical prompts return instantly, saving 100% of tokens</p>
+      <div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Click to see in action</div>
     </div>
-    <div class="feature-card">
-      <h3>Smart Routing</h3>
+
+    <div class="feature-card" onclick="openModal('router')">
+      <div class="icon-row">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></div>
+        <h3>Smart Routing</h3>
+      </div>
       <p>Keyword + LLM classifier routes requests to the optimal model (3B for text, 14B for code)</p>
+      <div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Click to see in action</div>
     </div>
-    <div class="feature-card">
-      <h3>Embedding Visualizer</h3>
+
+    <div class="feature-card" onclick="openModal('embeddings')">
+      <div class="icon-row">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7.5" cy="7.5" r="2.5"/><circle cx="17" cy="6" r="2"/><circle cx="12" cy="16" r="3"/><circle cx="5" cy="17" r="1.5"/><circle cx="19" cy="15" r="1.5"/></svg></div>
+        <h3>Embedding Visualizer</h3>
+      </div>
       <p>Interactive 2D/3D UMAP projections of RAG embeddings via Plotly.js with click-to-inspect</p>
+      <div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Click to see in action</div>
     </div>
-    <div class="feature-card">
-      <h3>ChromaDB Inspector</h3>
+
+    <div class="feature-card" onclick="openModal('chromadb')">
+      <div class="icon-row">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+        <h3>ChromaDB Inspector</h3>
+      </div>
       <p>Chunk browser, type distributions, per-workflow analytics, similarity search</p>
+      <div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Click to see in action</div>
     </div>
-    <div class="feature-card">
-      <h3>QLoRA Fine-Tuning</h3>
+
+    <div class="feature-card" onclick="openModal('qlora')">
+      <div class="icon-row">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/><path d="M2 20h20"/></svg></div>
+        <h3>QLoRA Fine-Tuning</h3>
+      </div>
       <p>LoRA r=32 training pipeline with dataset preparation, training, and Ollama deployment</p>
+      <div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Click to see in action</div>
     </div>
-    <div class="feature-card">
-      <h3>Web Scraper</h3>
+
+    <div class="feature-card" onclick="openModal('scraper')">
+      <div class="icon-row">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/><circle cx="6" cy="6" r="0.5" fill="currentColor"/><circle cx="8.5" cy="6" r="0.5" fill="currentColor"/></svg></div>
+        <h3>Web Scraper</h3>
+      </div>
       <p>Playwright-based capture of banking workflow UIs with full-page screenshots</p>
+      <div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Click to see in action</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="featureModal" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="title-row">
+        <div class="modal-icon" id="modalIcon"></div>
+        <h3 id="modalTitle"></h3>
+      </div>
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="explanation" id="modalExplanation"></div>
+      <div class="app-example-label">In the app</div>
+      <div class="app-screenshot">
+        <img id="modalScreenshot" src="" alt="">
+      </div>
     </div>
   </div>
 </div>
@@ -410,15 +801,15 @@ HIT| MISS
 <div class="section">
   <h2>Tech Stack</h2>
   <div class="features">
-    <div class="feature-card">
+    <div class="feature-card" style="cursor:default;" onmouseover="" onclick="">
       <h3>Backend</h3>
       <p>Python 3.11+ / FastAPI / Ollama / ChromaDB / UMAP / Plotly.js / Playwright / PyTorch + PEFT / SQLite</p>
     </div>
-    <div class="feature-card">
+    <div class="feature-card" style="cursor:default;" onmouseover="" onclick="">
       <h3>Frontend</h3>
       <p>Next.js 15 / TypeScript strict / Tailwind CSS + shadcn/ui / Zustand / TanStack Query / Zod</p>
     </div>
-    <div class="feature-card">
+    <div class="feature-card" style="cursor:default;" onmouseover="" onclick="">
       <h3>Testing</h3>
       <p>Vitest for unit tests / Playwright for E2E / Storybook for component development</p>
     </div>
@@ -428,6 +819,87 @@ HIT| MISS
 <footer>
   <p>MIT License &middot; <a href="https://github.com/aptsalt/enterprise-playground">GitHub</a></p>
 </footer>
+
+<script>
+const featureData = {
+  'dual-model': {
+    title: 'Dual-Model Inference',
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="8" height="8" rx="1.5"/><rect x="14" y="13" width="8" height="8" rx="1.5"/><path d="M10 7h4M14 17H10"/><path d="M12 7v10"/></svg>',
+    explanation: '<strong>Two models, one GPU, zero compromise.</strong> The 14B parameter qwen2.5-coder handles the heavy lifting — generating full HTML/CSS/JS playgrounds from prompts. Meanwhile, the 3B qwen2.5 runs as a lightweight router and compressor, classifying requests and trimming context before it hits the big model. Both run simultaneously on a single RTX 4090 using just 10.5 GB of 16 GB available VRAM. This is the core of the low-cost thesis: enterprise-grade code generation without cloud API bills.',
+    screenshot: 'screenshots/light-generate-tab.png'
+  },
+  'sse': {
+    title: 'SSE Streaming',
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>',
+    explanation: '<strong>Watch UIs materialize in real-time.</strong> When a product manager types a prompt, they don\'t wait for the full response — they see HTML being generated token-by-token via Server-Sent Events. The streaming Generate tab shows live progress, so users can interrupt early if the direction is wrong, saving GPU cycles. This instant feedback loop is what makes vibe coding feel interactive rather than batch-mode.',
+    screenshot: 'screenshots/light-generate-tab.png'
+  },
+  'rag': {
+    title: 'RAG Pipeline',
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/><path d="M8 7h8M8 11h6"/></svg>',
+    explanation: '<strong>Your design system, injected into every prompt.</strong> ChromaDB stores vector embeddings of your scraped enterprise UIs using nomic-embed-text (runs entirely on CPU — zero VRAM cost). When a user requests a new UI, the RAG pipeline retrieves the 3 most relevant existing patterns and injects them as context. This is how the model "knows" your company\'s design language without being fine-tuned on millions of examples. The Data & RAG tab lets you ingest, query, and inspect the entire knowledge base.',
+    screenshot: 'screenshots/light-data-rag-tab.png'
+  },
+  'cache': {
+    title: 'Semantic Caching',
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>',
+    explanation: '<strong>Ask the same thing twice, get it instantly.</strong> The caching layer uses SequenceMatcher to detect semantically similar prompts. If someone already generated "a login form with email and password," a near-identical request returns the cached result in milliseconds — zero tokens consumed, zero GPU time. At ~35% hit rate in production use, this effectively makes a third of all generations free. Cached items show a CACHE badge in the Gallery for transparency.',
+    screenshot: 'screenshots/light-gallery-tab.png'
+  },
+  'router': {
+    title: 'Smart Routing',
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>',
+    explanation: '<strong>Right model for the right job, automatically.</strong> Not every request needs the full 14B model. The smart router uses keyword detection and a 3B LLM classifier (95.8% accuracy) to decide: code generation requests go to the 14B model with full RAG context, while simple text/chat queries get handled directly by the lightweight 3B. This preserves GPU resources for the work that actually needs them. The Agent tab shows router decisions, model distribution, and token economy in real-time.',
+    screenshot: 'screenshots/light-agent-tab.png'
+  },
+  'embeddings': {
+    title: 'Embedding Visualizer',
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7.5" cy="7.5" r="2.5"/><circle cx="17" cy="6" r="2"/><circle cx="12" cy="16" r="3"/><circle cx="5" cy="17" r="1.5"/><circle cx="19" cy="15" r="1.5"/></svg>',
+    explanation: '<strong>See how your model understands your UI patterns.</strong> UMAP reduces the high-dimensional embedding space into interactive 2D and 3D scatter plots rendered with Plotly.js. Click any point to inspect the underlying chunk — its source workflow, text content, and similarity neighbors. This isn\'t just a visualization — it\'s how you debug RAG quality, spot clustering gaps, and understand whether your training data covers the UI patterns you need.',
+    screenshot: 'screenshots/light-embeddings-tab.png'
+  },
+  'chromadb': {
+    title: 'ChromaDB Inspector',
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>',
+    explanation: '<strong>Full visibility into your vector database.</strong> Browse every chunk stored in ChromaDB — see chunk types (HTML structure, CSS patterns, JS interactions), size distributions, and per-workflow analytics. Run similarity searches to test retrieval quality before it hits production prompts. This is the operational dashboard for your RAG pipeline, ensuring the knowledge base that feeds your model is clean, complete, and relevant.',
+    screenshot: 'screenshots/light-data-rag-tab.png'
+  },
+  'qlora': {
+    title: 'QLoRA Fine-Tuning',
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/><path d="M2 20h20"/></svg>',
+    explanation: '<strong>Make the model yours.</strong> The built-in QLoRA pipeline (LoRA rank=32) lets you fine-tune the 14B model on your own enterprise UI data. The workflow: prepare training datasets from scraped UIs with automatic quality scoring, train LoRA adapters (works on an A100 at $1-2/hr on RunPod), then merge and deploy directly to Ollama. The Observatory tab tracks the full training lifecycle — loss curves, adapter registry, and deployment status. This is how the model goes from generic code generation to understanding <em>your</em> specific design system.',
+    screenshot: 'screenshots/light-observatory-tab.png'
+  },
+  'scraper': {
+    title: 'Web Scraper',
+    icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/><circle cx="6" cy="6" r="0.5" fill="currentColor"/><circle cx="8.5" cy="6" r="0.5" fill="currentColor"/></svg>',
+    explanation: '<strong>The starting point of the entire pipeline.</strong> Playwright navigates real banking workflow UIs, captures full-page screenshots, and extracts structured HTML/CSS. BeautifulSoup4 parses the raw HTML into structured JSON workflows — forms, tables, navigation patterns, interactive elements. These become the training data and RAG knowledge base that teach the model what enterprise UIs actually look like. The Pipeline tab shows the full 7-phase journey: Scrape > Map > Store > Route > Generate > Cache > Train.',
+    screenshot: 'screenshots/light-pipeline-tab.png'
+  }
+};
+
+function openModal(featureId) {
+  const data = featureData[featureId];
+  if (!data) return;
+  document.getElementById('modalIcon').innerHTML = data.icon;
+  document.getElementById('modalTitle').textContent = data.title;
+  document.getElementById('modalExplanation').innerHTML = data.explanation;
+  const img = document.getElementById('modalScreenshot');
+  img.src = data.screenshot;
+  img.alt = data.title + ' in the app';
+  document.getElementById('featureModal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('featureModal').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeModal();
+});
+</script>
 
 </body>
 </html>
