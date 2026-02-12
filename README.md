@@ -1,6 +1,6 @@
 # Enterprise Playground
 
-**Dual-model AI playground generator — scrape/gfeed UIs(ex- Td bank website), generate interactive HTML with local LLMs, fine-tune on your own data. All on one RTX 4090.**
+**Dual-model AI playground generator — scrape/feed UIs(ex- Td bank website), generate interactive HTML with local LLMs, fine-tune on your own data. All on one RTX 4090.**
 
 ![Dashboard](docs/screenshots/dark-generate-tab.png)
 
