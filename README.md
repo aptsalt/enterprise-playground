@@ -6,7 +6,7 @@
 
 ## Demo Video
 
-https://github.com/user-attachments/assets/demo.mp4
+https://github.com/aptsalt/enterprise-playground/raw/master/docs/demo.mp4
 
 > 2-minute walkthrough: generating banking UIs, smart routing, RAG context injection, semantic caching, and MLOps observability. All running locally on an RTX 4090 at zero API cost.
 
