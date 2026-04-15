@@ -2,7 +2,27 @@
 
 **Low-cost vibe coding for enterprise UI — train local LLMs on real banking interfaces, then let product managers generate production-quality UIs by describing what they want. Zero API costs. One GPU.**
 
-![Dashboard](docs/screenshots/dark-generate-tab.png)
+![Dashboard](docs/screenshots/01-showcase-gallery.png)
+
+## Demo Video
+
+https://github.com/user-attachments/assets/demo.mp4
+
+> 2-minute walkthrough: generating banking UIs, smart routing, RAG context injection, semantic caching, and MLOps observability. All running locally on an RTX 4090 at zero API cost.
+
+## Screenshots
+
+| Generate | Gallery |
+|----------|---------|
+| ![Generate](docs/screenshots/02-generate-tab.png) | ![Gallery](docs/screenshots/06-playground-open.png) |
+
+| ML Metrics | Data & RAG |
+|------------|------------|
+| ![Metrics](docs/screenshots/03-metrics-tab.png) | ![RAG](docs/screenshots/04-data-rag-tab.png) |
+
+| Pipeline | Playground Customization |
+|----------|--------------------------|
+| ![Pipeline](docs/screenshots/05-pipeline-tab.png) | ![Playground](docs/screenshots/06-playground-open.png) |
 
 ---
 
