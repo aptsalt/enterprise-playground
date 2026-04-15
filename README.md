@@ -2,10 +2,6 @@
 
 **Low-cost vibe coding for enterprise UI — train local LLMs on real banking interfaces, then let product managers generate production-quality UIs by describing what they want. Zero API costs. One GPU.**
 
-![Dashboard](docs/screenshots/01-showcase-gallery.png)
-
-## Screenshots
-
 | Generate | Gallery |
 |----------|---------|
 | ![Generate](docs/screenshots/02-generate-tab.png) | ![Gallery](docs/screenshots/06-playground-open.png) |
